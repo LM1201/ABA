@@ -1,0 +1,1 @@
+{"htmltotxt": true, "class": true, "method": true}

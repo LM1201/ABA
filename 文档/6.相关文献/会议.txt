@@ -1,0 +1,3 @@
+CISPA ： the Center for IT-Security, Privacy and Accountability
+ACM：Association of Computing Machinery 计算机协会
+ASIACCS：Asia Conference on Computer and Communications Security (ASIACCS)

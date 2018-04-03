@@ -1,0 +1,13 @@
+*.pyc
+data
+data2
+data3
+data4
+data5
+abadata.rar
+GetToken/jdk_docs_html.jar
+GetToken/sdk_docs_html.jar
+.git
+.idea
+.rar
+.zip

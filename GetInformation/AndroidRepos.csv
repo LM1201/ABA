@@ -1,0 +1,903 @@
+full_name,language,size,description,homepage,url,forks,watchers,open_issue
+bumptech/glide,Java,55625,An image loading and caching library for Android focused on smooth scrolling,https://bumptech.github.io/glide/,https://github.com/bumptech/glide,4073,20732,121
+airbnb/lottie-android,Java,127672,"Render After Effects animations natively on Android and iOS, Web, and React Native",http://airbnb.io/lottie/,https://github.com/airbnb/lottie-android,2924,19524,27
+Blankj/AndroidUtilCode,Java,8974,:fire: Android developers should collect the following utils(updating).,https://blankj.com/2016/07/31/android-utils-code/,https://github.com/Blankj/AndroidUtilCode,5426,16737,12
+afollestad/material-dialogs,Java,154046,"A beautiful, fluid, and customizable dialogs API.",https://aidanfollestad.com,https://github.com/afollestad/material-dialogs,2355,12752,35
+CymChad/BaseRecyclerViewAdapterHelper,Java,61858,BRVAH:Powerful and flexible RecyclerAdapter,http://www.recyclerview.org/,https://github.com/CymChad/BaseRecyclerViewAdapterHelper,2745,12591,34
+Tencent/tinker,Java,4029,"Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.",None,https://github.com/Tencent/tinker,2394,11427,37
+android10/Android-CleanArchitecture,Java,5183,This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.,,https://github.com/android10/Android-CleanArchitecture,2728,11237,126
+scwang90/SmartRefreshLayout,Java,237993,🔥下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。,https://segmentfault.com/a/1190000010066071,https://github.com/scwang90/SmartRefreshLayout,2113,10535,8
+google/ExoPlayer,Java,59278,An extensible media player for Android,,https://github.com/google/ExoPlayer,3061,9429,266
+hdodenhof/CircleImageView,Java,965,A circular ImageView for Android,,https://github.com/hdodenhof/CircleImageView,2326,9301,26
+realm/realm-java,Java,55683,Realm is a mobile database: a replacement for SQLite & ORMs,http://realm.io,https://github.com/realm/realm-java,1461,9279,379
+daimajia/AndroidViewAnimations,Java,288,Cute view animation collection.,,https://github.com/daimajia/AndroidViewAnimations,2018,9152,40
+mikepenz/MaterialDrawer,Java,20489,"The flexible, easy to use, all in one drawer library for your Android project.",http://mikepenz.github.io/MaterialDrawer,https://github.com/mikepenz/MaterialDrawer,1818,9011,5
+orhanobut/logger,Java,1848,"✔️ Simple, pretty and powerful logger for android",,https://github.com/orhanobut/logger,1475,8653,35
+roughike/BottomBar,Java,40798,(Deprecated) A custom view component that mimics the new Material Design Bottom Navigation pattern.,,https://github.com/roughike/BottomBar,1427,7671,294
+wasabeef/recyclerview-animators,Java,67494,An Android Animation library which easily add itemanimator to RecyclerView items.,,https://github.com/wasabeef/recyclerview-animators,1575,7659,85
+alibaba/vlayout,Java,828,"Project vlayout is a powerfull LayoutManager extension for RecyclerView, it provides a group of layouts for RecyclerView. Make it able to handle a complicate situation when grid, list and other layouts in the same recyclerview. ",http://tangram.pingguohe.net/,https://github.com/alibaba/vlayout,1349,7569,60
+florent37/MaterialViewPager,Java,19554,A Material Design ViewPager easy to use library,,https://github.com/florent37/MaterialViewPager,1388,7150,176
+Curzibn/Luban,Java,223,Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法,,https://github.com/Curzibn/Luban,1332,7091,58
+81813780/AVLoadingIndicatorView,Java,14396,Nice loading animations for Android,None,https://github.com/81813780/AVLoadingIndicatorView,1437,7065,54
+google/agera,Java,967,Reactive Programming for Android,,https://github.com/google/agera,653,7027,3
+permissions-dispatcher/PermissionsDispatcher,Java,2466,Simple annotation-based API to handle runtime permissions.,https://permissions-dispatcher.github.io/PermissionsDispatcher/,https://github.com/permissions-dispatcher/PermissionsDispatcher,1014,6878,20
+Yalantis/uCrop,Java,63706,Image Cropping Library for Android,https://yalantis.com/blog/introducing-ucrop-our-own-image-cropping-library-for-android/,https://github.com/Yalantis/uCrop,1249,6775,127
+zhihu/Matisse,Java,1836,:fireworks: A well-designed local image and video selector for Android,,https://github.com/zhihu/Matisse,945,6555,182
+Bearded-Hen/Android-Bootstrap,Java,11507,"Bootstrap style widgets for Android, with Glyph Icons",,https://github.com/Bearded-Hen/Android-Bootstrap,1444,6535,22
+cymcsg/UltimateRecyclerView,Java,7092,"A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.",,https://github.com/cymcsg/UltimateRecyclerView,1431,6431,178
+lipangit/JiaoZiVideoPlayer,Java,143062,Android VideoPlayer MediaPlayer VideoView MediaView Float View And Fullscreen,,https://github.com/lipangit/JiaoZiVideoPlayer,1617,6336,166
+lingochamp/FileDownloader,Java,40631,Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process,,https://github.com/lingochamp/FileDownloader,1365,6275,98
+geeeeeeeeek/WeChatLuckyMoney,Java,636,:money_with_wings: WeChat's lucky money helper (微信抢红包插件) by Zhongyi Tong. An Android app that helps you snatch red packets in WeChat groups. ,,https://github.com/geeeeeeeeek/WeChatLuckyMoney,1988,5895,24
+koral--/android-gif-drawable,Java,5415,Views and Drawable for displaying animated GIFs on Android,,https://github.com/koral--/android-gif-drawable,1368,5876,25
+alibaba/atlas,Java,83169,A powerful Android Dynamic Component Framework.,,https://github.com/alibaba/atlas,1111,5854,43
+tbruyelle/RxPermissions,Java,547,Android runtime permissions powered by RxJava2,,https://github.com/tbruyelle/RxPermissions,715,5789,39
+wasabeef/glide-transformations,Java,26287,An Android transformation library providing a variety of image transformations for Glide.,,https://github.com/wasabeef/glide-transformations,924,5772,2
+rey5137/material,Java,3842,A library to bring fully animated Material Design components to pre-Lolipop Android. ,http://rey5137.com/material/,https://github.com/rey5137/material,1304,5380,207
+googlesamples/easypermissions,Java,441,Simplify Android M system permissions,https://firebaseopensource.com/projects/googlesamples/easypermissions/,https://github.com/googlesamples/easypermissions,884,5271,3
+CarGuo/GSYVideoPlayer,Java,251173,"视频播放器（IJKplayer），HTTPS支持，支持弹幕，支持滤镜、水印、gif截图，片头广告、中间广告，多个同时播放，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频本身自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，直接添加控件为封面，列表全屏动画，视频加载速度，列表小窗口支持拖动，5.0的过场效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，其他一些小动画效果，rtsp、concat、mpeg。简书:",http://www.jianshu.com/p/9fe377dd9750,https://github.com/CarGuo/GSYVideoPlayer,1240,5251,22
+laobie/StatusBarUtil,Java,8889,A util for setting status bar style on Android App.,http://t.cn/Rq746Kb,https://github.com/laobie/StatusBarUtil,987,5024,45
+alibaba/ARouter,Java,22129,An android router middleware that help app navigating to activities and custom services.,,https://github.com/alibaba/ARouter,798,4963,31
+daniulive/SmarterStreaming,Java,2346544,大牛直播SDK，跨平台(windows/android/iOS)推送(rtmp)、直播播放器(rtmp/rtsp)，支持录像、导播、转发、动态视频合成、实时快照、水印、音频混音、互动等，国内外为数不多不依赖开源框架，业界真正靠谱的超低延迟(通常1秒左右，低延迟模式下200~400ms)。,http://www.daniulive.com,https://github.com/daniulive/SmarterStreaming,1340,4877,4
+daimajia/NumberProgressBar,Java,158,"A beautiful, slim Android ProgressBar.",,https://github.com/daimajia/NumberProgressBar,1285,4770,16
+google/android-classyshark,Java,24812,"Executables (apk, multi-dex, jar) browser for Android, Java and Kotlin",http://classyshark.com/,https://github.com/google/android-classyshark,600,4675,15
+Devlight/InfiniteCycleViewPager,Java,275,Infinite cycle ViewPager with two-way orientation and interactive effect.,None,https://github.com/Devlight/InfiniteCycleViewPager,689,4643,39
+crazycodeboy/TakePhoto,Java,11387,一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库,http://www.devio.org/tags/#TakePhoto,https://github.com/crazycodeboy/TakePhoto,1035,4561,252
+QMUI/QMUI_Android,Java,14227,提高 Android UI 开发效率的 UI 库,http://qmuiteam.com/android,https://github.com/QMUI/QMUI_Android,764,4525,81
+Yalantis/Side-Menu.Android,Java,1037,Side menu with some categories to choose.,https://yalantis.com,https://github.com/Yalantis/Side-Menu.Android,1474,4502,19
+kickstarter/android-oss,Java,18880,"Kickstarter for Android. Bring new ideas to life, anywhere.",https://www.kickstarter.com/mobile,https://github.com/kickstarter/android-oss,712,4423,7
+commonsguy/cw-omnibus,Java,74562,Source code to omnibus edition of _The Busy Coder's Guide to Android Development_,http://commonsware.com/Android,https://github.com/commonsguy/cw-omnibus,3544,4414,1
+naman14/Timber,Java,17372,Material Design Music Player,,https://github.com/naman14/Timber,1353,4413,130
+izzyleung/ZhihuDailyPurify,Java,31150,Purified version of Zhihu Daily - 更纯净的知乎日报,,https://github.com/izzyleung/ZhihuDailyPurify,1001,4390,0
+sockeqwe/mosby,Java,26433,A Model-View-Presenter / Model-View-Intent library for modern Android apps,http://hannesdorfmann.com/mosby/,https://github.com/sockeqwe/mosby,655,4371,17
+JessYanCoding/MVPArms,Java,4856,"A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. ",,https://github.com/JessYanCoding/MVPArms,1123,4358,3
+evernote/android-job,Java,1470,Android library to handle jobs in the background.,http://evernote.github.io/android-job/,https://github.com/evernote/android-job,356,4112,5
+JustWayward/BookReader,Java,31882,":closed_book:  ""任阅"" 网络小说阅读器，追书推荐收藏、书籍/标签检索、模拟翻书的翻页效果、缓存书籍、日夜间模式、书签、txt/pdf/epub书籍阅读、Wifi传书~",https://github.com/smuyyh,https://github.com/JustWayward/BookReader,1258,4009,19
+GrenderG/Toasty,Java,890,"The usual Toast, but with steroids 💪",,https://github.com/GrenderG/Toasty,489,4009,3
+prolificinteractive/material-calendarview,Java,4546,A Material design back port of Android's CalendarView,https://prolificinteractive.github.io/material-calendarview/,https://github.com/prolificinteractive/material-calendarview,918,4004,267
+wequick/Small,Java,6739,A small framework to split app into small parts,http://code.wequick.net/Small,https://github.com/wequick/Small,971,3990,232
+Clans/FloatingActionButton,Java,3389,Android Floating Action Button based on Material Design specification,,https://github.com/Clans/FloatingActionButton,942,3980,207
+markzhai/AndroidPerformanceMonitor,Java,1077,A transparent ui-block detection library for Android. (known as BlockCanary),,https://github.com/markzhai/AndroidPerformanceMonitor,664,3920,28
+h6ah4i/android-advancedrecyclerview,Java,7504,"RecyclerView extension library which provides advanced features. (ex. Google's Inbox app like swiping, Play Music app like drag and drop sorting)",https://advancedrecyclerview.h6ah4i.com/,https://github.com/h6ah4i/android-advancedrecyclerview,758,3905,144
+davemorrissey/subsampling-scale-image-view,Java,57805,"Android library (AAR). Highly configurable, easily extendable deep zoom view for displaying huge images without loss of detail. Perfect for photo galleries, maps, building plans etc.",,https://github.com/davemorrissey/subsampling-scale-image-view,652,3889,6
+robolectric/robolectric,Java,37938,Android Unit Testing Framework,http://robolectric.org,https://github.com/robolectric/robolectric,1098,3856,655
+amitshekhariitbhu/Android-Debug-Database,Java,1396,A library for debugging android databases and shared preferences - Make Debugging Great Again,https://mindorks.com/open-source-projects,https://github.com/amitshekhariitbhu/Android-Debug-Database,409,3843,42
+Devlight/NavigationTabBar,Java,366,Navigation tab bar with colorful interactions.,None,https://github.com/Devlight/NavigationTabBar,659,3810,34
+hanks-zyh/HTextView,Java,9774,"Animation effects to text, not really textview",,https://github.com/hanks-zyh/HTextView,641,3776,18
+Yalantis/Phoenix,Java,656,Phoenix Pull-to-Refresh,https://yalantis.com/,https://github.com/Yalantis/Phoenix,964,3742,12
+asLody/VirtualApp,Java,33615,An open source Virtual Engine for Android,,https://github.com/asLody/VirtualApp,1186,3737,95
+k9mail/k-9,Java,56744,K-9 Mail – Advanced Email for Android 📧,https://k9mail.github.io,https://github.com/k9mail/k-9,1906,3713,710
+diogobernardino/WilliamChart,Java,31759,Android library to create charts.,None,https://github.com/diogobernardino/WilliamChart,732,3693,15
+DreaminginCodeZH/Douya,Java,23836,开源的 Material Design 豆瓣客户端（A Material Design app for douban.com）,,https://github.com/DreaminginCodeZH/Douya,1041,3673,9
+Ramotion/folding-cell-android,Java,26307,:octocat: 📃  FoldingCell is a material design expanding content cell inspired by folding paper material made by @Ramotion,https://dev.ramotion.com,https://github.com/Ramotion/folding-cell-android,643,3672,15
+wasabeef/richeditor-android,Java,2677,RichEditor for Android is a beautiful Rich Text WYSIWYG Editor for Android.,,https://github.com/wasabeef/richeditor-android,770,3653,112
+mikepenz/Android-Iconics,Java,8592,"Android-Iconics - Use any icon font, or vector (.svg) as drawable in your application.",http://mikepenz.github.io/Android-Iconics,https://github.com/mikepenz/Android-Iconics,467,3588,4
+KeepSafe/TapTargetView,Java,4319,An implementation of tap targets from the Material Design guidelines for feature discovery,None,https://github.com/KeepSafe/TapTargetView,331,3556,7
+Tapadoo/Alerter,Java,23651,An Android Alerting Library,,https://github.com/Tapadoo/Alerter,374,3524,11
+yarolegovich/DiscreteScrollView,Java,33350,A scrollable list of items that centers the current element and provides easy-to-use APIs for cool item animations.,,https://github.com/yarolegovich/DiscreteScrollView,405,3419,8
+LuckSiege/PictureSelector,Java,12049,Picture Selector Library for Android  or 多图片选择器,,https://github.com/LuckSiege/PictureSelector,623,3412,110
+firebase/quickstart-android,Java,6364,Firebase Quickstart Samples for Android,https://firebase.google.com,https://github.com/firebase/quickstart-android,3524,3398,13
+alibaba/UltraViewPager,Java,8865,UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.,None,https://github.com/alibaba/UltraViewPager,480,3384,42
+HotBitmapGG/bilibili-android-client,Java,113163,An unofficial bilibili client for android  http://www.jianshu.com/p/f69a55b94c05,,https://github.com/HotBitmapGG/bilibili-android-client,1022,3367,4
+gzu-liyujiang/AndroidPicker,Java,13500," 安卓选择器类库，包括日期选择器、时间选择器、单项选择器、双项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器等，可自定义顶部及底部界面，可自定义窗口动画……Picker for android, include date&time/option/number/address/city/color/file&directory. ",,https://github.com/gzu-liyujiang/AndroidPicker,973,3345,68
+Yalantis/Context-Menu.Android,Java,3407,You can easily add awesome animated context menu to your app.,https://yalantis.com,https://github.com/Yalantis/Context-Menu.Android,967,3275,14
+wdullaer/MaterialDateTimePicker,Java,1653,Pick a date or time on Android in style,None,https://github.com/wdullaer/MaterialDateTimePicker,717,3262,41
+johncarl81/parceler,Java,1523,:package: Android Parcelables made easy through code generation.,http://parceler.org,https://github.com/johncarl81/parceler,249,3245,12
+ArthurHub/Android-Image-Cropper,Java,25958,"Image Cropping Library for Android, optimized for Camera / Gallery.",,https://github.com/ArthurHub/Android-Image-Cropper,670,3217,85
+zetbaitsu/Compressor,Java,840,An android image compression library.,,https://github.com/zetbaitsu/Compressor,496,3185,43
+wasabeef/Blurry,Java,2127,Blurry is an easy blur library for Android,,https://github.com/wasabeef/Blurry,420,3184,51
+google/cameraview,Java,248,Easily integrate Camera features into your Android app,,https://github.com/google/cameraview,671,3155,151
+CellularPrivacy/Android-IMSI-Catcher-Detector,Java,10678,"AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!",https://cellularprivacy.github.io/Android-IMSI-Catcher-Detector/,https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector,644,3125,143
+Karumi/Dexter,Java,2866,Android library that simplifies the process of requesting permissions at runtime.,http://karumi.com,https://github.com/Karumi/Dexter,380,3084,27
+TeamNewPipe/NewPipe,Java,20448,A lightweight Youtube frontend for Android.,None,https://github.com/TeamNewPipe/NewPipe,472,3078,314
+amitshekhariitbhu/RxJava2-Android-Samples,Java,375,RxJava 2 Android Examples - Migration From RxJava 1 to RxJava 2 - How to use RxJava 2 in Android,https://mindorks.com/open-source-projects,https://github.com/amitshekhariitbhu/RxJava2-Android-Samples,618,3065,6
+amitshekhariitbhu/Fast-Android-Networking,Java,2773,🚀 A Complete Fast Android Networking Library that also supports HTTP/2 🚀,http://amitshekhariitbhu.github.io/Fast-Android-Networking,https://github.com/amitshekhariitbhu/Fast-Android-Networking,509,3057,51
+hugeterry/CoordinatorTabLayout,Java,11528,Combination of TabLayout and CoordinatorLayout./TabLayout和CoordinatorLayout相结合的折叠控件,,https://github.com/hugeterry/CoordinatorTabLayout,436,3039,12
+gyf-dev/ImmersionBar,Java,172348,android 4.4以上沉浸式状态栏和沉浸式导航栏管理，包括状态栏字体颜色，一句代码轻松实现，以及对bar的其他设置，详见README，http://www.jianshu.com/p/2a884e211a62,,https://github.com/gyf-dev/ImmersionBar,502,3018,54
+uber/RIBs,Java,4359,Uber's cross-platform mobile architecture framework.,,https://github.com/uber/RIBs,216,2998,25
+robinhood/ticker,Java,1632,An Android text view with scrolling text change animation,https://medium.com/robinhood-engineering/hello-ticker-20eaf6e51689,https://github.com/robinhood/ticker,330,2953,12
+Ashok-Varma/BottomNavigation,Java,3902,This Library helps users to use Bottom Navigation Bar (A new pattern from google) with ease and allows ton of customizations,,https://github.com/Ashok-Varma/BottomNavigation,528,2936,30
+andremion/Music-Player,Java,24407,From UI Proposal to Code :notes::arrow_forward:,https://medium.com/@andremion/music-player-3a85864d6df7#.iklz50r6n,https://github.com/andremion/Music-Player,574,2866,1
+Meituan-Dianping/walle,Java,2064,Android Signature V2 Scheme签名下的新一代渠道包打包神器,None,https://github.com/Meituan-Dianping/walle,415,2835,4
+alamkanak/Android-Week-View,Java,820,Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.,,https://github.com/alamkanak/Android-Week-View,929,2817,129
+siacs/Conversations,Java,24246,Conversations is an open source XMPP/Jabber client for the Android platform,https://conversations.im,https://github.com/siacs/Conversations,933,2790,310
+airbnb/DeepLinkDispatch,Java,1730,"A simple, annotation-based library for making deep link handling better on Android",http://nerds.airbnb.com/deeplinkdispatch/,https://github.com/airbnb/DeepLinkDispatch,272,2789,34
+ragunathjawahar/android-saripaar,Java,3307,UI form validation library for Android,,https://github.com/ragunathjawahar/android-saripaar,411,2724,51
+arimorty/floatingsearchview,Java,7915,A search view that implements a floating search bar also known as persistent search,https://github.com/arimorty/floatingsearchview/blob/master/README.md,https://github.com/arimorty/floatingsearchview,536,2709,60
+material-components/material-components-android,Java,3300,Modular and customizable Material Design UI components for Android,,https://github.com/material-components/material-components-android,247,2707,40
+romandanylyk/PageIndicatorView,Java,33927,An page indicator for Android ViewPager,,https://github.com/romandanylyk/PageIndicatorView,337,2695,16
+youlookwhat/CloudReader,Java,70459,云阅：一款基于网易云音乐UI，使用Gank.Io及豆瓣api开发的符合Google Material Design的Android客户端。项目采取的是MVVM-DataBinding架构开发，现主要包括：干货区、电影区和书籍区三个子模块。DIY网易云音乐原来是如此Cool~,https://github.com/youlookwhat/CloudReader,https://github.com/youlookwhat/CloudReader,827,2682,4
+orhanobut/hawk,Java,953,"✔️ Secure, simple key-value storage for Android",,https://github.com/orhanobut/hawk,270,2663,86
+pushtorefresh/storio,Java,4362,Reactive API for SQLiteDatabase and ContentResolver.,,https://github.com/pushtorefresh/storio,175,2614,39
+afollestad/material-camera,Java,7081,"One of the most difficult APIs on Android, made easy in a small library.",https://aidanfollestad.com,https://github.com/afollestad/material-camera,513,2609,79
+ximsfei/Android-skin-support,Java,44373,"Android-skin-support is an easy to use dynamic skin framework for Android, Only one line of code to integrate it.一款用心去做的Android 换肤框架, 极低的学习成本, 极好的用户体验. 一行代码就可以实现换肤, 你值得拥有!!!",,https://github.com/ximsfei/Android-skin-support,457,2582,18
+firebase/FirebaseUI-Android,Java,19488,Optimized UI components for Firebase,https://firebaseopensource.com/projects/firebase/firebaseui-android/,https://github.com/firebase/FirebaseUI-Android,1055,2578,45
+willowtreeapps/spruce-android,Java,8049,Spruce Animation Library,None,https://github.com/willowtreeapps/spruce-android,261,2567,0
+Meituan-Dianping/Robust,Java,26177,Robust is an Android HotFix solution with high compatibility and high stability. Robust can fix bugs immediately without a reboot.,,https://github.com/Meituan-Dianping/Robust,403,2564,23
+Yalantis/GuillotineMenu-Android,Java,3923,"Neat library, that provides a simple way to implement guillotine-styled animation",https://yalantis.com/,https://github.com/Yalantis/GuillotineMenu-Android,505,2534,8
+davideas/FlexibleAdapter,Java,10399,Fast and versatile Adapter for RecyclerView which regroups several features into one library to considerably improve the user experience :-),,https://github.com/davideas/FlexibleAdapter,402,2488,13
+requery/requery,Java,2711,requery - modern SQL based query & persistence for Java / Kotlin / Android,,https://github.com/requery/requery,194,2406,80
+florent37/ExpectAnim,Java,3451,Describe your animation and run !,,https://github.com/florent37/ExpectAnim,207,2405,8
+iammert/ScalingLayout,Java,8364,With Scaling Layout scale your layout on user interaction.,None,https://github.com/iammert/ScalingLayout,212,2382,5
+Bilibili/boxing,Java,1598,Android multi-media selector based on MVP mode.,None,https://github.com/Bilibili/boxing,281,2356,26
+geftimov/android-pathview,Java,1483,Android view with both path from constructed path or from svg.,None,https://github.com/geftimov/android-pathview,450,2297,7
+HoraApps/LeafPic,Java,10179,"LeafPic is an ad-free, open-source and material-designed android gallery alternative",,https://github.com/HoraApps/LeafPic,856,2288,74
+ozodrukh/CircularReveal,Java,1334,Lollipop ViewAnimationUtils.createCircularReveal for everyone 4.0+,,https://github.com/ozodrukh/CircularReveal,389,2285,15
+wonderkiln/BlurKit-Android,Java,6140,The missing Android blurring library. Fast blur-behind layout that parallels iOS.,,https://github.com/wonderkiln/BlurKit-Android,205,2285,16
+TangoAgency/material-intro-screen,Java,27780,Inspired by Heinrich Reimer Material Intro and developed with love from scratch ,,https://github.com/TangoAgency/material-intro-screen,310,2266,57
+florent37/DiagonalLayout,Java,25082,With Diagonal Layout explore new styles and approaches on material design,,https://github.com/florent37/DiagonalLayout,299,2227,9
+harjot-oberai/MusicDNA,Java,37859,A Music Player for android that renders beautiful DNA(Visualization) of the currently playing music.,,https://github.com/harjot-oberai/MusicDNA,447,2226,12
+nisrulz/sensey,Java,1263,:zap: [Android Library] Play with sensor events & detect gestures in a breeze.,http://nisrulz.github.io/sensey,https://github.com/nisrulz/sensey,210,2215,17
+BelooS/ChipsLayoutManager,Java,29436,"ANDROID. ChipsLayoutManager (SpanLayoutManager, FlowLayoutManager). A custom layout manager for RecyclerView which mimicric TextView span behaviour, flow layouts behaviour with support of amazing recyclerView features",,https://github.com/BelooS/ChipsLayoutManager,230,2206,26
+danikula/AndroidVideoCache,Java,116051,Cache support for any video player with help of single line,,https://github.com/danikula/AndroidVideoCache,554,2191,67
+xinghongfei/LookLook,Java,31129,A amazing reading app,,https://github.com/xinghongfei/LookLook,752,2190,25
+pchmn/MaterialChipsInput,Java,49128,Implementation of Material Design Chips component for Android,None,https://github.com/pchmn/MaterialChipsInput,277,2159,78
+termux/termux-app,Java,1211,Android terminal and Linux environment - app repository.,https://termux.com,https://github.com/termux/termux-app,258,2157,202
+yarolegovich/SlidingRootNav,Java,10849,"DrawerLayout-like ViewGroup, where a ""drawer"" is hidden under the content view, which can be shifted to make the drawer visible.",None,https://github.com/yarolegovich/SlidingRootNav,302,2155,12
+flavioarfaria/KenBurnsView,Java,13498,Android ImageViews animated by Ken Burns Effect,,https://github.com/flavioarfaria/KenBurnsView,373,2152,9
+mikepenz/FastAdapter,Java,18026,"The bullet proof, fast and easy to use adapter library, which minimizes developing time to a fraction...",http://mikepenz.github.io/FastAdapter,https://github.com/mikepenz/FastAdapter,299,2105,3
+Yalantis/Euclid,Java,590,User Profile Interface Animation,https://yalantis.com,https://github.com/Yalantis/Euclid,562,2093,0
+zzhoujay/RichText,Java,2460,Android平台下的富文本解析器，支持Html和Markdown,,https://github.com/zzhoujay/RichText,341,2041,40
+mikepenz/AboutLibraries,Java,6700,AboutLibraries is a library to offer some information of libraries.,http://mikepenz.github.io/AboutLibraries,https://github.com/mikepenz/AboutLibraries,258,2037,4
+luojilab/DDComponentForAndroid,Java,1068,一套完整有效的android组件化方案，支持组件的组件完全隔离、单独调试、集成调试、组件交互、UI跳转、动态加载卸载等功能,,https://github.com/luojilab/DDComponentForAndroid,344,2029,4
+cymcsg/UltimateAndroid,Java,108648,UltimateAndroid is a rapid development framework for developing your apps,http://cymcsg.github.io/UltimateAndroid,https://github.com/cymcsg/UltimateAndroid,738,2023,14
+JackyAndroid/AndroidChromium,Java,92753,chrome browser of android version from chromium open project,,https://github.com/JackyAndroid/AndroidChromium,489,2000,12
+MagicMashRoom/SuperCalendar,Java,2154,android 自定义日历控件  支持左右无限滑动 周月切换 标记日期显示 自定义显示效果跳转到指定日期,,https://github.com/MagicMashRoom/SuperCalendar,369,1981,41
+aritraroy/PatternLockView,Java,1451,"An easy-to-use, customizable and Material Design ready Pattern Lock view for Android",,https://github.com/aritraroy/PatternLockView,295,1972,4
+ZieIony/Carbon,Java,8569,"Material Design implementation for Android 4.0+. Shadows, ripples, vectors, fonts, animations, widgets, rounded corners and more.",https://androidreclib.wordpress.com/,https://github.com/ZieIony/Carbon,303,1947,9
+rovo89/XposedInstaller,Java,18977,None,,https://github.com/rovo89/XposedInstaller,917,1909,122
+Dimezis/BlurView,Java,13326,Dynamic iOS-like blur of underlying Views for Android,,https://github.com/Dimezis/BlurView,175,1892,13
+zagum/Android-SwitchIcon,Java,461,Google launcher-style implementation of switch (enable/disable) icon,None,https://github.com/zagum/Android-SwitchIcon,175,1889,1
+florent37/ViewAnimator,Java,7457,A fluent Android animation library,,https://github.com/florent37/ViewAnimator,335,1889,14
+grandcentrix/tray,Java,679,a SharedPreferences replacement for Android with multiprocess support,,https://github.com/grandcentrix/tray,223,1882,25
+r0adkll/Slidr,Java,15569,Easily add slide to dismiss functionality to an Activity ,,https://github.com/r0adkll/Slidr,300,1845,13
+esoxjem/MovieGuide,Java,324,"Movie discovery app showcasing MVP, RxJava, Dagger 2 and Clean Architecture",,https://github.com/esoxjem/MovieGuide,540,1843,5
+zjw-swun/AppMethodOrder,Java,1763,一个能让你了解所有函数调用顺序以及函数耗时的Android库（无需侵入式代码）,,https://github.com/zjw-swun/AppMethodOrder,221,1842,3
+Jasonchenlijian/FastBle,Java,29208,"Android Bluetooth Low Energy (BLE) Fast Development Framework. It uses simple ways to filter, scan, connect, read ,write, notify, readRssi, setMTU, and multiConnection.",,https://github.com/Jasonchenlijian/FastBle,494,1840,38
+vipulasri/Timeline-View,Java,20166,"Android Timeline View  is used to display views like Tracking of shipment/order, steppers etc. ",,https://github.com/vipulasri/Timeline-View,356,1831,8
+LawnchairLauncher/Lawnchair,Java,131044,No clever tagline needed - Pixel style launcher,https://lawnchair.info,https://github.com/LawnchairLauncher/Lawnchair,353,1829,253
+novoda/android-demos,Java,30468,Examples of Android applications,www.novoda.com/blog,https://github.com/novoda/android-demos,654,1822,0
+FinalTeam/RxGalleryFinal,Java,21655,Android图片单选/多选、拍照、裁剪、压缩。视频选择和录制。,https://github.com/FinalTeam/RxGalleryFinal,https://github.com/FinalTeam/RxGalleryFinal,345,1822,98
+moezbhatti/qksms,Java,9142,The most beautiful SMS messenger app for Android,https://play.google.com/store/apps/details?id=com.moez.QKSMS,https://github.com/moezbhatti/qksms,552,1801,141
+steelkiwi/cropiwa,Java,8071,📐 Configurable Custom Crop widget for Android,http://steelkiwi.com/,https://github.com/steelkiwi/cropiwa,225,1801,21
+elevenetc/TextSurface,Java,2341,A little animation framework which could help you to show message in a nice looking way,,https://github.com/elevenetc/TextSurface,218,1801,7
+AriaLyy/Aria,Java,13981,下载可以很简单,,https://github.com/AriaLyy/Aria,254,1783,17
+Yalantis/FlipViewPager.Draco,Java,1252,This project aims to provide a working page flip implementation for usage in ListView.,https://yalantis.com/,https://github.com/Yalantis/FlipViewPager.Draco,359,1778,5
+matrixxun/ProductTour,Java,33462,"ProductTour is android sample project implementing a parallax effect welcome page using ViewPager and PageTransformer, similar to the one found in Google's app like Sheet, Drive, Docs...",,https://github.com/matrixxun/ProductTour,309,1771,1
+florent37/CameraFragment,Java,35448,A simple easy-to-integrate Camera Fragment for Android,,https://github.com/florent37/CameraFragment,315,1760,73
+XunMengWinter/CircularAnim,Java,198,"Android ripple animation helper, easy to create Circular Reveal. | Android水波动画帮助类，轻松实现View show/hide/startActivity()特效。(0.3.3)",,https://github.com/XunMengWinter/CircularAnim,290,1745,8
+lyft/scissors,Java,4518,✂ Android image cropping library,https://eng.lyft.com/scissors-an-image-cropping-library-for-android-a56369154a19,https://github.com/lyft/scissors,207,1744,14
+uber/NullAway,Java,565,A tool to help eliminate NullPointerExceptions (NPEs) in your Java code with low build-time overhead,,https://github.com/uber/NullAway,111,1741,23
+stfalcon-studio/ChatKit,Java,5910,"Android library. Flexible components for chat UI implementation with flexible possibilities for styling, customizing and data management",http://stfalcon.com,https://github.com/stfalcon-studio/ChatKit,371,1740,69
+Yalantis/Horizon,Java,4499,Horizon - Simple visual equaliser for Android,https://play.google.com/store/apps/details?id=com.yalantis.horizon,https://github.com/Yalantis/Horizon,256,1740,16
+seven332/EhViewer,Java,108792,An Unofficial E-Hentai Application for Android,http://www.ehviewer.com/,https://github.com/seven332/EhViewer,265,1740,117
+hussien89aa/AndroidTutorialForBeginners,Java,683,Step by step to build android apps with Android Studio. Code files for YouTube tutorial,https://www.udemy.com/android-tutorial-for-beginners/,https://github.com/hussien89aa/AndroidTutorialForBeginners,2888,1740,5
+pwittchen/ReactiveNetwork,Java,1021, Android library listening network connection state and Internet connectivity with RxJava Observables,http://pwittchen.github.io/ReactiveNetwork/docs/RxJava2.x/,https://github.com/pwittchen/ReactiveNetwork,183,1739,17
+yadav-rahul/TastyToast,Java,903,:bread: Make your native android Toasts Tasty,,https://github.com/yadav-rahul/TastyToast,298,1739,12
+rmtheis/android-ocr,Java,17127,Experimental optical character recognition app,,https://github.com/rmtheis/android-ocr,804,1731,0
+Yalantis/StarWars.Android,Java,18281,This component implements transition animation to crumble view into tiny pieces.,https://yalantis.com/blog/star-wars-the-force-awakens-or-how-to-crumble-view-into-tiny-pieces-on-android/,https://github.com/Yalantis/StarWars.Android,292,1727,2
+Ramotion/paper-onboarding-android,Java,13286,:octocat: PaperOnboarding is a material design slider made by @Ramotion,https://dev.ramotion.com,https://github.com/Ramotion/paper-onboarding-android,282,1723,10
+Devlight/NavigationTabStrip,Java,205,Navigation tab strip with smooth interaction.,None,https://github.com/Devlight/NavigationTabStrip,251,1712,22
+WritingMinds/ffmpeg-android-java,Java,90083,Android java library for FFmpeg binary compiled using https://github.com/writingminds/ffmpeg-android,http://writingminds.github.io/ffmpeg-android-java,https://github.com/WritingMinds/ffmpeg-android-java,517,1704,192
+seiginonakama/BlockCanaryEx,Java,1681,make performance bottleneck detection easily when app blocked,,https://github.com/seiginonakama/BlockCanaryEx,168,1700,15
+iSoron/uhabits,Java,24449,"Loop Habit Tracker, an Android app for creating and maintaining good habits",,https://github.com/iSoron/uhabits,387,1693,114
+wordpress-mobile/WordPress-Android,Java,191988,WordPress for Android,http://android.wordpress.org,https://github.com/wordpress-mobile/WordPress-Android,901,1688,384
+mthli/Knife,Java,1151,Knife is a rich text editor component for writing documents in Android.,None,https://github.com/mthli/Knife,203,1681,16
+crazycodeboy/react-native-splash-screen,Java,1924,"A splash screen for react-native, hide when application loaded ,it works on iOS and Android.",,https://github.com/crazycodeboy/react-native-splash-screen,295,1676,113
+woxingxiao/BubbleSeekBar,Java,43958,"A beautiful Android custom seekbar, which has a bubble view with progress appearing upon when seeking. 自定义SeekBar，进度变化更以可视化气泡样式呈现",,https://github.com/woxingxiao/BubbleSeekBar,291,1672,12
+kabouzeid/Phonograph,Java,17073,A material designed music player for Android,,https://github.com/kabouzeid/Phonograph,378,1671,154
+klinker24/Talon-for-Twitter,Java,45495,100% open source version of my popular Talon for Twitter app on Android.,None,https://github.com/klinker24/Talon-for-Twitter,364,1665,4
+pilgr/Paper,Java,348,Paper is a fast NoSQL-like storage for Java/Kotlin objects on Android with automatic schema migration support.,,https://github.com/pilgr/Paper,145,1640,9
+henrytao-me/smooth-app-bar-layout,Java,1154,Smooth version of Google Support Design AppBarLayout,,https://github.com/henrytao-me/smooth-app-bar-layout,233,1636,39
+yingLanNull/ShadowImageView,Java,8389,"🔥可以根据图片内容变阴影颜色，更加细腻的阴影效果  It can change color according to the picture, more delicate shadow effect",,https://github.com/yingLanNull/ShadowImageView,198,1630,7
+gotev/android-upload-service,Java,15621,Easily upload files (FTP / Multipart / Binary) in the background with progress indication notification,http://gotev.github.io/android-upload-service/,https://github.com/gotev/android-upload-service,466,1629,12
+athkalia/Just-Another-Android-App,Java,2232,An Android base app with loads of cool libraries/configuration,None,https://github.com/athkalia/Just-Another-Android-App,184,1608,3
+tumblr/Backboard,Java,738,A motion-driven animation framework for Android.,,https://github.com/tumblr/Backboard,180,1607,4
+l123456789jy/Lazy,Java,1271,The android tools           自己整理的常用的工具类   ,,https://github.com/l123456789jy/Lazy,640,1604,0
+BaronZ88/MinimalistWeather,Java,2697,Android 平台开源天气 App，采用 MVP、RxJava、Retrofit2、OKHttp3、Dagger2、RetroLambda 等开源库来实现。,https://zhuanlan.zhihu.com/baron,https://github.com/BaronZ88/MinimalistWeather,422,1603,8
+EverythingMe/overscroll-decor,Java,3330,Android: iOS-like over-scrolling effect applicable over almost all scrollable Android views.,None,https://github.com/EverythingMe/overscroll-decor,245,1593,23
+alexvasilkov/GestureViews,Java,20376,ImageView and FrameLayout with gestures control and position animation,,https://github.com/alexvasilkov/GestureViews,285,1592,9
+timusus/Shuttle,Java,7499,Shuttle Music Player,None,https://github.com/timusus/Shuttle,279,1580,86
+Yalantis/Taurus,Java,9533,A little more fun for the pull-to-refresh interaction. ,https://yalantis.com/,https://github.com/Yalantis/Taurus,395,1577,4
+gongwen/MarqueeViewLibrary,Java,3603,一个帮您快速实现跑马灯效果的library,,https://github.com/gongwen/MarqueeViewLibrary,242,1566,5
+jaredrummler/AnimatedSvgView,Java,599,Animated SVG Drawing for Android,None,https://github.com/jaredrummler/AnimatedSvgView,211,1565,1
+afollestad/aesthetic,Java,12010,"[BETA] A fast and easy to use plug-and-play dynamic theme engine. Powered by Rx, for Android apps.",https://aidanfollestad.com,https://github.com/afollestad/aesthetic,169,1562,21
+alexvasilkov/FoldableLayout,Java,2129,Android widgets to implement folding animation,None,https://github.com/alexvasilkov/FoldableLayout,352,1555,1
+Muddz/StyleableToast,Java,10590,A powerful Android library that takes the standard toast to the next level with many styling options,,https://github.com/Muddz/StyleableToast,198,1545,0
+airbnb/AirMapView,Java,8458,A view abstraction to provide a map user interface with various underlying map providers,http://airbnb.github.io/AirMapView/,https://github.com/airbnb/AirMapView,178,1538,18
+redsolution/xabber-android,Java,27400,Open-source XMPP client for Android,http://xabber.com,https://github.com/redsolution/xabber-android,811,1532,286
+MatthiasRobbers/shortbread,Java,404,Android library that generates app shortcuts from Shortcut annotations,,https://github.com/MatthiasRobbers/shortbread,123,1530,2
+hidroh/materialistic,Java,45930,A material-design Hacker News Android reader,https://play.google.com/store/apps/details?id=io.github.hidroh.materialistic,https://github.com/hidroh/materialistic,353,1527,127
+Ramotion/expanding-collection-android,Java,9010,:octocat: ExpandingCollection is a material design card peek/pop controller. Android UI Library made by @Ramotion,https://dev.ramotion.com,https://github.com/Ramotion/expanding-collection-android,198,1516,7
+DreaminginCodeZH/MaterialProgressBar,Java,4051,Material Design ProgressBar with consistent appearance,,https://github.com/DreaminginCodeZH/MaterialProgressBar,216,1512,5
+HeZaiJin/SlantedTextView,Java,760,Android slanted TextView .,None,https://github.com/HeZaiJin/SlantedTextView,252,1512,4
+byoutline/kickmaterial,Java,39645,Crowdfunding app concept for Android. Created to showcase new trends in Android development with strong focus on Material Design.,,https://github.com/byoutline/kickmaterial,259,1501,2
+huangyanbin/smartTable,Java,63838,一款android自动生成表格框架---An Android automatically generated table framework,https://juejin.im/post/5a5dce7651882573256bd043,https://github.com/huangyanbin/smartTable,206,1498,0
+mancj/SlideUp-Android,Java,50431,SlideUp is a small library that allows you to add sweet slide effect to any view.,,https://github.com/mancj/SlideUp-Android,196,1492,5
+harjot-oberai/MaterialShadows,Java,738,A library for supporting convex material shadows,,https://github.com/harjot-oberai/MaterialShadows,138,1483,0
+card-io/card.io-Android-SDK,Java,131111,"card.io provides fast, easy credit card scanning in mobile apps",None,https://github.com/card-io/card.io-Android-SDK,412,1482,62
+yydcdut/PhotoNoter,Java,81588,:notebook:Material Design风格的开源照片笔记。(MVP+Dagger2+RxJava+AspectJ+Dex处理)      ,,https://github.com/yydcdut/PhotoNoter,316,1481,0
+JustKiddingBaby/FragmentRigger,Java,5749,:boom:A powerful library powered by aop to manage Fragments.（一个基于AOP设计的Fragment管理框架）,,https://github.com/JustKiddingBaby/FragmentRigger,161,1459,3
+DroidNinja/Android-FilePicker,Java,366,Photopicker and document picker for android,https://arunsharma.me/blog/integrate-android-file-picker-photopicker-document-picker-android/,https://github.com/DroidNinja/Android-FilePicker,280,1447,18
+medyo/android-about-page,Java,932,Create an awesome About Page for your Android App in 2 minutes,None,https://github.com/medyo/android-about-page,187,1446,11
+Hitomis/transferee,Java,72216,一个帮助您完成从缩略图到原图无缝过渡转变的神奇组件,,https://github.com/Hitomis/transferee,220,1445,5
+friendlyrobotnyc/TinyDancer,Java,9758,An android library for displaying fps from the choreographer and percentage of time with two or more frames dropped,None,https://github.com/friendlyrobotnyc/TinyDancer,120,1444,5
+Ramotion/cardslider-android,Java,12582,:octocat: 🃏 Cardslider is a material design UI controller that allows you to swipe through cards with pictures and accompanying descriptions.,https://dev.ramotion.com,https://github.com/Ramotion/cardslider-android,201,1436,8
+elvishew/xLog,Java,1135,"Android logger, simple and pretty, powerful and flexible, all you need is here (updating)",,https://github.com/elvishew/xLog,212,1436,8
+arcadefire/nice-spinner,Java,234,A nice spinner for Android,,https://github.com/arcadefire/nice-spinner,262,1421,32
+TakuSemba/MultiSnapRecyclerView,Java,48580,Android library for multiple snapping of RecyclerView,,https://github.com/TakuSemba/MultiSnapRecyclerView,161,1415,0
+Cutta/GifView,Java,16728,Library for playing gifs on Android,,https://github.com/Cutta/GifView,273,1409,12
+czy1121/update,Java,330,清晰灵活简单易用的应用更新库,None,https://github.com/czy1121/update,249,1393,30
+terrakok/Cicerone,Java,1369,🚦 Cicerone is a lightweight library that makes the navigation in an Android app easy.,,https://github.com/terrakok/Cicerone,118,1391,1
+qdrzwd/VideoRecorder,Java,18055,android视频录制，模仿微视，支持按下录制、抬起暂停。进度条断点显示。,,https://github.com/qdrzwd/VideoRecorder,509,1390,56
+android10/frodo,Java,228,Android Library for Logging RxJava Observables and Subscribers.,,https://github.com/android10/frodo,96,1386,14
+liuguangqiang/SwipeBack,Java,7023,SwipeBack is an android library that can finish a activity by using gesture.,,https://github.com/liuguangqiang/SwipeBack,283,1379,33
+MindorksOpenSource/PRDownloader,Java,386,PRDownloader - A file downloader library for Android with pause and resume support,https://mindorks.com/open-source-projects,https://github.com/MindorksOpenSource/PRDownloader,193,1377,15
+SplashCodes/JAViewer,Java,811,更优雅的驾车体验,https://t.me/javiewer,https://github.com/SplashCodes/JAViewer,233,1376,26
+tarek360/RichPath,Java,2900,💪 Rich Android Path. 🤡 Draw as you want. 🎉 Animate much as you can.,https://twitter.com/a_tarek360,https://github.com/tarek360/RichPath,136,1367,4
+heinrichreimer/material-intro,Java,24265,A simple material design app intro with cool animations and a fluent API.,https://heinrichreimer.com/,https://github.com/heinrichreimer/material-intro,247,1367,34
+Ramotion/garland-view-android,Java,16465,:octocat: ≡ GarlandView seamlessly transitions between multiple lists of content. Made by @Ramotion,https://dev.ramotion.com,https://github.com/Ramotion/garland-view-android,197,1366,4
+janishar/PlaceHolderView,Java,68772,This library provides advance views for lists and stacks. Some of the views are build on top of RecyclerView and others are written in their own. Annotations are compiled by annotation processor to generate bind classes. DOCS -->,http://janishar.com/PlaceHolderView,https://github.com/janishar/PlaceHolderView,245,1364,30
+nisrulz/easydeviceinfo,Java,2337,:iphone: [Android Library] Get device information in a super easy way.,http://nisrulz.github.io/easydeviceinfo,https://github.com/nisrulz/easydeviceinfo,164,1360,0
+huxq17/XRefreshView,Java,24581,"一个万能的android下拉上拉刷新的框架,完美支持recyclerview",,https://github.com/huxq17/XRefreshView,470,1355,48
+evrencoskun/TableView,Java,49507,"TableView is a powerful Android library for displaying complex data structures and rendering tabular data composed of rows, columns and cells.",,https://github.com/evrencoskun/TableView,131,1351,13
+huanghaibin-dev/CalendarView,Java,6644,"Android上一个优雅、万能自定义UI、支持周视图、性能高效的日历控件，支持热插拔实现的UI定制！支持标记、自定义颜色、农历、自定义月视图各种显示模式等。Canvas绘制，速度快、占用内存低，你真的想不到日历居然还可以如此优雅！An elegant, highly customized and high-performance Calendar Widget on Android.",,https://github.com/huanghaibin-dev/CalendarView,204,1349,19
+Yalantis/pull-to-make-soup,Java,714,Custom animated pull-to-refresh that can be easily added to RecyclerView,https://yalantis.com/,https://github.com/Yalantis/pull-to-make-soup,229,1349,0
+federicoiosue/Omni-Notes,Java,46732,Open source note-taking application for Android,http://federicoiosue.github.io/Omni-Notes,https://github.com/federicoiosue/Omni-Notes,556,1348,112
+wasabeef/picasso-transformations,Java,34966,An Android transformation library providing a variety of image transformations for Picasso,,https://github.com/wasabeef/picasso-transformations,196,1344,12
+brianwernick/ExoMedia,Java,2220,An Android ExoPlayer wrapper to simplify Audio and Video implementations,None,https://github.com/brianwernick/ExoMedia,271,1330,19
+TommyLemon/APIJSON,Java,47238,⚡后端接口和文档自动化，前端(客户端) 定制返回JSON的数据和结构！,http://apijson.cn,https://github.com/TommyLemon/APIJSON,245,1330,5
+mapbox/react-native-mapbox-gl,Java,15880,A Mapbox GL react native module for creating custom maps,,https://github.com/mapbox/react-native-mapbox-gl,395,1328,77
+jaredrummler/AndroidProcesses,Java,534,DEPRECATED,,https://github.com/jaredrummler/AndroidProcesses,287,1328,3
+DmitryMalkovich/material-design-dimens,Java,137,Default colors and dimens per Material Design guidelines and Android Design guidelines inside one library.,,https://github.com/DmitryMalkovich/material-design-dimens,104,1326,2
+JZXiang/TimePickerDialog,Java,7624,An Android time picker library.,,https://github.com/JZXiang/TimePickerDialog,286,1325,30
+500px/greedo-layout-for-android,Java,1597,Full aspect ratio grid LayoutManager for Android's RecyclerView,,https://github.com/500px/greedo-layout-for-android,147,1323,15
+TakuSemba/Spotlight,Java,1731,Android Library that lights items for tutorials or walk-throughs etc...,None,https://github.com/TakuSemba/Spotlight,113,1322,2
+PrivacyApps/html-textview,Java,285,TextView to display simple HTML content,,https://github.com/PrivacyApps/html-textview,289,1318,31
+boycy815/PinchImageView,Java,41123,体验非常好的Android图片手势控件。,,https://github.com/boycy815/PinchImageView,324,1317,23
+DaxiaK/MyDiary,Java,13941,"In the Movie ""-your name.-"" (君の名は。, 你的名字) , ""My Diary"" of android version.",,https://github.com/DaxiaK/MyDiary,216,1313,6
+mancj/MaterialSearchBar,Java,2308,Material Design Search Bar for Android,None,https://github.com/mancj/MaterialSearchBar,187,1310,17
+florent37/GlidePalette,Java,2712,Android Lollipop Palette is now easy to use with Glide,None,https://github.com/florent37/GlidePalette,210,1309,4
+avjinder/Minimal-Todo,Java,17637,Material To-Do App,None,https://github.com/avjinder/Minimal-Todo,516,1308,37
+Yalantis/ToDoList,Java,3416,Micro-Transitions for Smooth Android To-Do List Animations,https://yalantis.com,https://github.com/Yalantis/ToDoList,197,1304,7
+team-supercharge/ShimmerLayout,Java,635,Memory efficient shimmering effect for Android applications by Supercharge.,,https://github.com/team-supercharge/ShimmerLayout,145,1289,0
+UweTrottmann/SeriesGuide,Java,105709,Keep track of your favorite TV shows and movies on your Android devices.,https://seriesgui.de,https://github.com/UweTrottmann/SeriesGuide,370,1268,17
+Ramotion/circle-menu-android,Java,884,":octocat: ⭕️ CircleMenu is a simple, elegant UI menu with a circular layout and material design animations. Android UI library made by @Ramotion",https://dev.ramotion.com,https://github.com/Ramotion/circle-menu-android,150,1263,3
+eschao/android-PageFlip,Java,17088,3D Style Page Flip on Android,,https://github.com/eschao/android-PageFlip,176,1259,6
+android-notes/Cockroach,Java,6478,降低Android非必要crash,,https://github.com/android-notes/Cockroach,184,1255,0
+dlazaro66/QRCodeReaderView,Java,3659,Modification of ZXING Barcode Scanner project for easy Android QR-Code detection and AR purposes,,https://github.com/dlazaro66/QRCodeReaderView,351,1253,33
+BakerJQ/Android-InfiniteCards,Java,14012,"An infinite card switching UI for Android, support custom animation    可自定义动效的卡片切换视图",,https://github.com/BakerJQ/Android-InfiniteCards,147,1253,0
+alibaba/Tangram-Android,Java,1282,"Tangram is a modular UI solution for building native page dynamically including Tangram for Android, Tangram for iOS and even backend CMS. This project provides the sdk on Android.",http://tangram.pingguohe.net/,https://github.com/alibaba/Tangram-Android,197,1243,7
+Arello-Mobile/Moxy,Java,921,Moxy is MVP library for Android,https://github.com/Arello-Mobile/Moxy/wiki,https://github.com/Arello-Mobile/Moxy,162,1241,28
+delight-im/Android-AdvancedWebView,Java,421,Enhanced WebView component for Android that works as intended out of the box,,https://github.com/delight-im/Android-AdvancedWebView,314,1236,18
+florent37/MaterialTextField,Java,4566,A different beautiful Floating Edit Text,,https://github.com/florent37/MaterialTextField,218,1234,18
+microg/android_packages_apps_GmsCore,Java,3222,Implementation of Play Services Core package,,https://github.com/microg/android_packages_apps_GmsCore,135,1230,213
+FolioReader/FolioReader-Android,Java,102534,A Java ePub reader and parser framework for Android.,,https://github.com/FolioReader/FolioReader-Android,286,1229,82
+rosenpin/FadingTextView,Java,638,A textview that changes its content automatically every few seconds,None,https://github.com/rosenpin/FadingTextView,155,1229,0
+wingjay/BlurImageView,Java,31057,"BlurImageView, you can load your image progressively like Medium does.First show user a blurry image, At the same time, load the real image, once loaded, replace the blurry one automatically",,https://github.com/wingjay/BlurImageView,235,1217,3
+nntuyen/mkloader,Java,1185,Beautiful and smooth custom loading views,None,https://github.com/nntuyen/mkloader,129,1217,5
+limpoxe/Android-Plugin-Framework,Java,228500,Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件,,https://github.com/limpoxe/Android-Plugin-Framework,385,1217,9
+eleme/Amigo,Java,743,"A hotfix library for Android platform, and not just this...",None,https://github.com/eleme/Amigo,193,1214,5
+KeepSafe/ReLinker,Java,234,A robust native library loader for Android.,,https://github.com/KeepSafe/ReLinker,140,1213,1
+moagrius/TileView,Java,148390,"TileView is a subclass of android.view.ViewGroup that asynchronously displays tile-based images, with pan and zoom functionality, and support for features like markers, hotspots, paths, multiple levels of detail, and arbitrary coordinate systems.",http://moagrius.github.io/TileView/,https://github.com/moagrius/TileView,304,1211,12
+blipinsk/RecyclerViewHeader,Java,299,Super fast and easy way to create header for Android RecyclerView,,https://github.com/blipinsk/RecyclerViewHeader,265,1209,13
+SundeepK/CompactCalendarView,Java,8235,An android library which provides a compact calendar view much like the one used in google calenders.,,https://github.com/SundeepK/CompactCalendarView,310,1202,95
+Hitomis/FunGameRefresh,Java,8703,好玩的下拉刷新控件，让我们一起来回味童年,,https://github.com/Hitomis/FunGameRefresh,179,1201,2
+google/santa-tracker-android,Java,138613,Ho Ho Ho,,https://github.com/google/santa-tracker-android,265,1200,3
+wangjiegulu/WheelView,Java,825,Android滚动选择控件,None,https://github.com/wangjiegulu/WheelView,507,1191,22
+harjot-oberai/VectorMaster,Java,2920,Dynamic control over vector drawables!,,https://github.com/harjot-oberai/VectorMaster,115,1187,2
+mixi-inc/AndroidTraining,Java,50312,Training course repository for android app development,None,https://github.com/mixi-inc/AndroidTraining,357,1186,33
+bignerdranch/expandable-recycler-view,Java,30548,[DEPRECATED],,https://github.com/bignerdranch/expandable-recycler-view,261,1185,65
+jberkel/sms-backup-plus,Java,11463,"Backup Android SMS, MMS and call log to Gmail / Gcal / IMAP",https://play.google.com/store/apps/details?id=com.zegoggles.smssync,https://github.com/jberkel/sms-backup-plus,403,1180,154
+jrvansuita/MaterialAbout,Java,5131,It's a material-design about screen to use on your Android apps. A developer profile and application information easy to integrate. 🔖,,https://github.com/jrvansuita/MaterialAbout,148,1174,6
+uber/okbuck,Java,16568,OkBuck is a gradle plugin that lets developers utilize the Buck build system on a gradle project.,,https://github.com/uber/okbuck,117,1171,19
+mrmans0n/smart-location-lib,Java,788,Android library project that lets you manage the location updates to be as painless as possible,,https://github.com/mrmans0n/smart-location-lib,239,1169,81
+survivingwithandroid/Surviving-with-android,Java,44711,Source code related to the posts in the blog,https://www.survivingwithandroid.com,https://github.com/survivingwithandroid/Surviving-with-android,2747,1168,12
+bravoborja/ReadMoreTextView,Java,642,A Custom TextView with trim text,,https://github.com/bravoborja/ReadMoreTextView,144,1165,11
+DreaminginCodeZH/MaterialRatingBar,Java,993,Material Design RatingBar with better appearance,,https://github.com/DreaminginCodeZH/MaterialRatingBar,136,1164,6
+crossbario/autobahn-java,Java,4972,WebSocket & WAMP in Java for Android and Java 8,http://crossbar.io/autobahn,https://github.com/crossbario/autobahn-java,392,1157,23
+6thsolution/EasyMVP,Java,1606,A full-featured framework that allows building android applications following the principles of Clean Architecture.,http://6thsolution.github.io/EasyMVP,https://github.com/6thsolution/EasyMVP,110,1155,10
+sdsmdg/RotatingText,Java,4252,A periodic text updating library,None,https://github.com/sdsmdg/RotatingText,109,1145,8
+ankidroid/Anki-Android,Java,107010,AnkiDroid: Anki on Android,,https://github.com/ankidroid/Anki-Android,601,1143,404
+TakWolf/CNode-Material-Design,Java,18148,CNode 社区第三方 Android 客户端，原生 App，Material Design 风格，支持夜间模式。,https://cnodejs.org,https://github.com/TakWolf/CNode-Material-Design,336,1142,10
+hoang8f/android-flat-button,Java,2537,FButton - a flat button library for Android,,https://github.com/hoang8f/android-flat-button,276,1140,30
+afollestad/easy-video-player,Java,8408,"Video playback on Android, made easy, wrapping around the stock MediaPlayer API.",https://aidanfollestad.com,https://github.com/afollestad/easy-video-player,306,1132,67
+f2prateek/dart,Java,3705,Extras binding and intent builders for Android apps.,,https://github.com/f2prateek/dart,76,1129,38
+florent37/ArcLayout,Java,20630,With Arc Layout explore new styles and approaches on material design,,https://github.com/florent37/ArcLayout,178,1129,2
+matrixxun/MaterialBadgeTextView,Java,2244,"As the name describes, this is an Android library that you can use to show new messages badge and new features badge.",,https://github.com/matrixxun/MaterialBadgeTextView,173,1124,7
+GeekGhost/Ghost,Java,13381,微影，一款纯粹的在线视频App，基于Material Design + MVP + RxJava + Retrofit + Realm + Glide  ,,https://github.com/GeekGhost/Ghost,355,1109,4
+xiaoyanger0825/NiceVieoPlayer,Java,17817,IjkPlayer/MediaPlayer+TextureView，支持列表，完美切换全屏、小窗口的Android视频播放器 ,http://www.jianshu.com/p/420f7b14d6f6,https://github.com/xiaoyanger0825/NiceVieoPlayer,252,1106,55
+Zhaoss/WeiXinRecordedDemo,Java,31030,"仿微信视频拍摄UI, 基于ffmpeg的视频录制编辑",,https://github.com/Zhaoss/WeiXinRecordedDemo,250,1096,44
+sephiroth74/Material-BottomNavigation,Java,51537,Bottom Navigation widget component inspired by the Google Material Design Guidelines at https://www.google.com/design/spec/components/bottom-navigation.html,,https://github.com/sephiroth74/Material-BottomNavigation,176,1095,46
+laobie/NineGridImageView,Java,200,"A custom widget for Android, which uesd for showing grid pictures.",http://t.cn/RGH3uNF,https://github.com/laobie/NineGridImageView,208,1089,17
+jonfinerty/Once,Java,203,A small Android library to manage one-off operations.,,https://github.com/jonfinerty/Once,71,1077,4
+WVector/AppUpdate,Java,35290,🚀   Android 版本更新 🚀   a  library for android version update  🚀 ,,https://github.com/WVector/AppUpdate,197,1076,21
+ukanth/afwall,Java,24458,AFWall+ (Android Firewall +) - iptables based firewall for Android,,https://github.com/ukanth/afwall,256,1071,190
+Devlight/ArcProgressStackView,Java,218,Present your progress bars in arc mode with information and total control.,None,https://github.com/Devlight/ArcProgressStackView,187,1066,10
+mayubao/KuaiChuan,Java,7552,仿茄子快传的一款文件传输应用,http://www.jianshu.com/p/1b0b337829f5,https://github.com/mayubao/KuaiChuan,350,1066,4
+Tencent/VasDolly,Java,2469,Android V1 and V2 Signature Channel Package Plugin,,https://github.com/Tencent/VasDolly,101,1060,1
+noties/Scrollable,Java,5323,Android scrollable tabs,,https://github.com/noties/Scrollable,225,1052,1
+tumblr/Graywater,Java,140,An Android library for decomposing RecyclerView layouts to improve scroll performance.,None,https://github.com/tumblr/Graywater,65,1051,0
+venshine/BezierMaker,Java,19615,通过de Casteljau算法绘制贝塞尔曲线，并计算它的切线，实现1-7阶贝塞尔曲线的形成动画。,http://blog.csdn.net/venshine/article/details/51758841,https://github.com/venshine/BezierMaker,197,1050,1
+CJT2325/CameraView,Java,22430,仿微信拍照Android控件（轻触拍照，长按摄像）,,https://github.com/CJT2325/CameraView,262,1049,66
+cn-ljb/rxjava_for_android,Java,14387,Android platform on the use of Demo RxJava,,https://github.com/cn-ljb/rxjava_for_android,276,1040,2
+GcsSloop/rclayout,Java,538,Android通用圆角布局。,None,https://github.com/GcsSloop/rclayout,129,1039,4
+aritraroy/PinLockView,Java,358,"A clean, minimal, highly customizable pin lock view for Android",,https://github.com/aritraroy/PinLockView,155,1034,22
+florent37/ExpansionPanel,Java,898,Android - Expansion panels contain creation flows and allow lightweight editing of an element.,https://material.io/guidelines/components/expansion-panels.html,https://github.com/florent37/ExpansionPanel,110,1029,3
+jiang111/RxJavaApp,Java,11380,"学习RxJava操作符的APP,新增RxJava2.x介绍",https://github.com/jiang111/RxDocs,https://github.com/jiang111/RxJavaApp,221,1025,0
+faruktoptas/FancyShowCaseView,Java,4011,An easy-to-use customisable show case view with circular reveal animation.,,https://github.com/faruktoptas/FancyShowCaseView,153,1022,10
+Tamicer/Novate,Java,4161,"A  safety client by Https for android,  (Android网络框架，基于Retrofit和RxJava打造的链式网络库, 支持okhttp的调用风格，又兼容Retrofit API，并支持rxJava链式操作）",,https://github.com/Tamicer/Novate,211,1015,11
+AlexLiuSheng/CheckVersionLib,Java,21255,版本检测升级（更新）库。an auto check version library（app update） on Android,https://github.com/AlexLiuSheng/CheckVersionLib,https://github.com/AlexLiuSheng/CheckVersionLib,194,1013,34
+pengyuantao/OnePush,Java,8359,消息推送用OnePush，就够了！,,https://github.com/pengyuantao/OnePush,129,1013,9
+dongjunkun/GanK,Java,9170,干货集中营,None,https://github.com/dongjunkun/GanK,305,1011,6
+hyb1996/Auto.js,Java,120506,"A UiAutomator on android, does not need root access",,https://github.com/hyb1996/Auto.js,162,1008,22
+kaelaela/VerticalViewPager,Java,1681,Vertically ViewPager and vertically transformer for Android.,,https://github.com/kaelaela/VerticalViewPager,181,1004,18
+Yasic/ParticleTextView,Java,48025,一个用粒子动画显示文字的 Android 自定义 View,,https://github.com/Yasic/ParticleTextView,143,1001,8
+connectbot/connectbot,Java,6592,ConnectBot is the first SSH client for Android.,https://connectbot.org/,https://github.com/connectbot/connectbot,405,997,185
+typ0520/fastdex,Java,8127,🚀 加快 apk 的编译速度 🚀,,https://github.com/typ0520/fastdex,142,994,21
+open-keychain/open-keychain,Java,76471,OpenKeychain is an OpenPGP implementation for Android.,https://www.openkeychain.org,https://github.com/open-keychain/open-keychain,345,987,213
+linglongxin24/DylanStepCount,Java,3154,Android精准计步器,http://blog.csdn.net/linglongxin24/article/details/52868803,https://github.com/linglongxin24/DylanStepCount,255,985,8
+michael-rapp/ChromeLikeTabSwitcher,Java,16120,"Provides a tab switcher similar to the one, which is used in Google Chrome on Android",,https://github.com/michael-rapp/ChromeLikeTabSwitcher,113,982,1
+venshine/GoodView,Java,124,Android点赞+1效果，支持文本和图像,,https://github.com/venshine/GoodView,211,974,1
+sahildave/Search-View-Layout,Java,1232,Search View Layout like Lollipop Dialer,,https://github.com/sahildave/Search-View-Layout,143,967,5
+eneim/toro,Java,148788,"Video list auto playback made simple, specially built for RecyclerView",,https://github.com/eneim/toro,173,967,74
+uber/AutoDispose,Java,895,Automatic binding+disposal of RxJava 2 streams.,https://uber.github.io/AutoDispose/,https://github.com/uber/AutoDispose,44,964,7
+chenenyu/Router,Java,3664,🍭灵活的组件化路由框架.,,https://github.com/chenenyu/Router,147,962,2
+niniloveyou/StateButton,Java,3526,"一个可以用代码设置selector背景（按下去背景颜色更改，样式变化等等）的button, 再也不用写selector了",,https://github.com/niniloveyou/StateButton,180,962,14
+saulmm/CoordinatorExamples,Java,57606,"Different CoordinatorLayout usages, tips & examples",http://saulmm.github.io/mastering-coordinator,https://github.com/saulmm/CoordinatorExamples,251,959,5
+CycloneAxe/phphub-android,Java,3210,PHPHub for Android,https://phphub.org/,https://github.com/CycloneAxe/phphub-android,302,955,6
+Hitomis/ActivitySwitcher,Java,3952,"ActivitySwitcher is based on the Activity view operation management library, you can achieve any jump between Activity, close any Activity and end applications and other functions.",,https://github.com/Hitomis/ActivitySwitcher,131,955,4
+felipecsl/GifImageView,Java,4451,Android ImageView that handles animated GIF images,,https://github.com/felipecsl/GifImageView,236,954,11
+Slyce-Inc/SlyceMessaging,Java,1634,A messaging library for Android,None,https://github.com/Slyce-Inc/SlyceMessaging,174,952,29
+philliphsu/BottomSheetPickers,Java,3616,Third-party date and time pickers for Android.,,https://github.com/philliphsu/BottomSheetPickers,111,952,14
+bravoborja/FocusResize,Java,19752,A custom animation with scroll listener to recycler views,,https://github.com/bravoborja/FocusResize,119,949,3
+JoaquimLey/faboptions,Java,485,A multi-functional FAB component with customizable options,http://joaquimley.com/,https://github.com/JoaquimLey/faboptions,134,948,1
+panpf/sketch,Java,250739,"Sketch 是 Android 上一个强大且全面的图片加载器，支持 GIF，手势缩放以及分块显示超大图片。Sketch is a powerful and comprehensive image loader on Android, with support for GIF, gesture zooming, block display super large image",,https://github.com/panpf/sketch,224,947,15
+OCNYang/QBox,Java,52666,":unicorn:  RxJava+Retrofit+Okhttp+Glide + A life tool App, contains modules: news; jokes; constellation fortune; LED; weather; calendar; two-dimensional code, and more ...  小秋魔盒是一个生活工具  App，主要功能有：新闻资讯；微信精选美文；笑话趣图；星座运势；LED字幕；天气；日历；二维码；手电筒；老黄历。在开发中尽可能多的用了目前比较流行的框架和库。",https://juejin.im/post/5a320ffb51882561a20a7d5d,https://github.com/OCNYang/QBox,222,940,2
+mohak1712/UberUX,Java,886,Project that demonstrates the entire animation stack present in the Uber app (android),,https://github.com/mohak1712/UberUX,168,940,3
+bufferapp/BufferTextInputLayout,Java,252,A simple customised version of the TextInputLayout from the Android Design Support Library ⌨️,,https://github.com/bufferapp/BufferTextInputLayout,90,938,1
+FabianTerhorst/Isometric,Java,706,Isometric drawing library for Android,None,https://github.com/FabianTerhorst/Isometric,96,938,0
+grandcentrix/ThirtyInch,Java,1191,a MVP library for Android favoring a stateful Presenter,,https://github.com/grandcentrix/ThirtyInch,96,937,28
+sjwall/MaterialTapTargetPrompt,Java,1635,Material Design tap target for Android. https://sjwall.github.io/MaterialTapTargetPrompt/,,https://github.com/sjwall/MaterialTapTargetPrompt,132,932,10
+vlonjatg/progress-activity,Java,154,"Easily add loading, empty and error states in your app.",,https://github.com/vlonjatg/progress-activity,153,930,15
+Freelander/Elephant,Java,4617,"Elephant is PHPHub Community Android unofficial client, base on Material Design + MVP+RxJava+Retrofit .",,https://github.com/Freelander/Elephant,185,923,7
+xingda920813/HelloDaemon,Java,664,Android 服务保活/常驻 (Android service daemon using JobScheduler),,https://github.com/xingda920813/HelloDaemon,181,920,2
+andremion/Floating-Navigation-View,Java,294,A simple Floating Action Button that shows an anchored Navigation View,None,https://github.com/andremion/Floating-Navigation-View,145,911,1
+jaychang0917/SimpleRecyclerView,Java,163255,A RecyclerView extension for building list more easily.,,https://github.com/jaychang0917/SimpleRecyclerView,102,911,3
+iammert/ExpandableLayout,Java,228,Expandable LinearLayout,None,https://github.com/iammert/ExpandableLayout,103,910,6
+julian-klode/dns66,Java,675,DNS-based Host Blocker (and lightweight ad blocker) for Android,https://jak-linux.org/projects/dns66/,https://github.com/julian-klode/dns66,94,904,75
+openproject/LessCode,Java,665,"less code, more efficient for android",None,https://github.com/openproject/LessCode,168,899,0
+MasayukiSuda/EasingInterpolator,Java,594,Twenty-eight different easing animation interpolators for Android.,,https://github.com/MasayukiSuda/EasingInterpolator,87,898,2
+jinatonic/confetti,Java,2453,An Android particle system library for displaying confetti!,https://medium.com/@jinatonic/its-parfetti-time-f40634472608,https://github.com/jinatonic/confetti,110,898,4
+daniel-stoneuk/material-about-library,Java,24805,Makes it easy to create beautiful about screens for your apps,,https://github.com/daniel-stoneuk/material-about-library,112,894,2
+adrielcafe/AndroidAudioRecorder,Java,444,A fancy audio recorder lib for Android. Supports WAV format at 48kHz.,,https://github.com/adrielcafe/AndroidAudioRecorder,221,889,32
+slapperwan/gh4a,Java,18901,Github client for Android,,https://github.com/slapperwan/gh4a,157,887,118
+qinci/MarkdownEditors,Java,28157,Android Markdown编辑器,None,https://github.com/qinci/MarkdownEditors,202,886,10
+palaima/DebugDrawer,Java,3388,Android Debug Drawer for faster development,,https://github.com/palaima/DebugDrawer,107,883,14
+westnordost/StreetComplete,Java,77963,Surveyor app for Android,,https://github.com/westnordost/StreetComplete,80,881,119
+thyrlian/AwesomeValidation,Java,1440,Android validation library which helps developer boil down the tedious work to three easy steps.,,https://github.com/thyrlian/AwesomeValidation,138,880,2
+nisrulz/android-examples,Java,90305,":shipit: [Examples] Simple basic isolated apps, for budding android devs.",,https://github.com/nisrulz/android-examples,280,878,2
+matrixxun/PullToZoomInListView,Java,15521,An Android custom ListView with pull to zoom-in and parallax effect header like Path App.,,https://github.com/matrixxun/PullToZoomInListView,290,875,1
+ISchwarz23/SortableTableView,Java,3272,An Android library containing a simple TableView and an advanced SortableTableView providing a lot of customisation possibilities to fit all needs.,,https://github.com/ISchwarz23/SortableTableView,214,875,19
+ccrama/Slide,Java,124319,"Slide is an open sourced, ad free Reddit browser for Android",https://reddit.com/r/slideforreddit,https://github.com/ccrama/Slide,209,872,165
+xuuhaoo/OkSocket,Java,1962,An blocking socket client for Android applications.,,https://github.com/xuuhaoo/OkSocket,121,871,3
+fabioCollini/DaggerMock,Java,424,A JUnit rule to easily override Dagger 2 objects,,https://github.com/fabioCollini/DaggerMock,74,869,9
+luizgrp/SectionedRecyclerViewAdapter,Java,1121,An Adapter that allows a RecyclerView to be split into Sections with headers and/or footers. Each Section can have its state controlled individually.,,https://github.com/luizgrp/SectionedRecyclerViewAdapter,223,866,9
+patrickfav/Dali,Java,15300,"Dali is an image blur library for Android. It contains several modules for static blurring, live blurring and animations.",,https://github.com/patrickfav/Dali,92,865,7
+yjfnypeu/UpdatePlugin,Java,6949,可任意定制的app更新组件。,https://juejin.im/post/5a32485851882504a35f007a,https://github.com/yjfnypeu/UpdatePlugin,177,865,20
+weidongjian/androidWheelView,Java,2513,仿照iOS的滚轮控件，从请吃饭apk反编译出来的,None,https://github.com/weidongjian/androidWheelView,194,858,23
+GcsSloop/diycode,Java,1517,diycode android app,,https://github.com/GcsSloop/diycode,205,857,12
+syncthing/syncthing-android,Java,9072,Wrapper of syncthing for Android.,https://syncthing.net/,https://github.com/syncthing/syncthing-android,152,853,91
+florent37/FiftyShadesOf,Java,1027,An elegant context-care loading placeholder for Android,,https://github.com/florent37/FiftyShadesOf,119,849,4
+ikarus23/MifareClassicTool,Java,4111,"An Android NFC-App for reading, writing, analysing, etc. MIFARE Classic RFID-Tags.",http://publications.icaria.de/mct/,https://github.com/ikarus23/MifareClassicTool,309,849,31
+serso/android-checkout,Java,2074,Library for Android In-App Billing (Version 3+),,https://github.com/serso/android-checkout,132,847,9
+MEiDIK/SlimAdapter,Java,5090,A slim & clean & typeable Adapter without# VIEWHOLDER,https://raw.githubusercontent.com/MEiDIK/SlimAdapter/master/SlimAdapter.jpg,https://github.com/MEiDIK/SlimAdapter,96,845,10
+mendhak/gpslogger,Java,20513,":satellite: Lightweight GPS Logging Application For Android. Available on the Android Market as ""GPSLogger for Android""",http://code.mendhak.com/gpslogger/,https://github.com/mendhak/gpslogger,394,839,56
+scola/Qart,Java,3402,"Qart merge picture and QR code, based on https://github.com/chinuno-usami/CuteR",,https://github.com/scola/Qart,97,838,6
+hypertrack/smart-scheduler-android,Java,146,A utility library for scheduling periodic and non-periodic jobs efficiently.,,https://github.com/hypertrack/smart-scheduler-android,73,829,11
+apollographql/apollo-android,Java,137686,":pager: A strongly-typed, caching GraphQL client for Android, written in Java",,https://github.com/apollographql/apollo-android,121,829,47
+Krupen/AutoplayVideos,Java,13386,Android library to auto-play/pause videos from url in recyclerview.,,https://github.com/Krupen/AutoplayVideos,106,826,11
+natario1/CameraView,Java,22579,"A well documented, high-level Android interface that makes capturing pictures and videos easy, addressing all of the common issues and needs.",,https://github.com/natario1/CameraView,137,824,32
+karonl/InDoorSurfaceView,Java,2451,Android InDoorView dependent on Canvas,,https://github.com/karonl/InDoorSurfaceView,114,821,5
+robinhood/spark,Java,231,A simple Android sparkline chart view.,,https://github.com/robinhood/spark,107,817,5
+Hitomis/CircleMenu,Java,526,"Delicate, chic and supports customizable circle menu",,https://github.com/Hitomis/CircleMenu,117,814,9
+qyxxjd/MultipleStatusView,Java,3877,"一个支持多种状态的自定义View,可以方便的切换到：加载中视图、错误视图、空数据视图、网络异常视图、内容视图。",,https://github.com/qyxxjd/MultipleStatusView,134,813,2
+wasabeef/fresco-processors,Java,3431,An Android image processor library providing a variety of image transformations for Fresco.,,https://github.com/wasabeef/fresco-processors,121,812,10
+sujithkanna/SmileyRating,Java,2490,SmileyRating is a simple rating bar for android. It displays animated smileys as rating icon.,,https://github.com/sujithkanna/SmileyRating,120,807,13
+yarolegovich/LovelyDialog,Java,2115,This library is a set of simple wrapper classes that are aimed to help you easily create fancy material dialogs.,None,https://github.com/yarolegovich/LovelyDialog,144,807,9
+Mauker1/MaterialSearchView,Java,306,Android Search View based on Material design guidelines.,,https://github.com/Mauker1/MaterialSearchView,121,807,30
+QuantumBadger/RedReader,Java,4284,An unofficial open source Reddit client for Android.,None,https://github.com/QuantumBadger/RedReader,357,806,176
+smuyyh/ImageSelector,Java,1883,:foggy: Android 图片选择器。充分自由定制，极大程度简化使用，支持图库多选/图片预览/单选/照片裁剪/拍照/自定义图片加载方式/自定义色调/沉浸式状态栏,http://blog.csdn.net/yyh352091626/article/details/52154583,https://github.com/smuyyh/ImageSelector,169,806,28
+flipkart-incubator/proteus,Java,3144,Proteus : A JSON based LayoutInflater for Android,,https://github.com/flipkart-incubator/proteus,119,805,3
+inloop/AndroidViewModel,Java,974,Separating data and state handling from Fragments or Activities without lots of boilerplate-code.,,https://github.com/inloop/AndroidViewModel,109,805,12
+javiersantos/MLManager,Java,5836,"A modern, easy and customizable app manager for Android with Material Design",https://javiersantos.github.io/mlmanager,https://github.com/javiersantos/MLManager,281,803,5
+zagum/Android-ExpandIcon,Java,265,Nice and simple customizable implementation of Google style up/down expand arrow.,,https://github.com/zagum/Android-ExpandIcon,84,803,0
+adonixis/android-animated-menu-items,Java,1436,The example Android project of animated menu items in toolbar,,https://github.com/adonixis/android-animated-menu-items,116,801,0
+johnkil/Android-RobotoTextView,Java,11963,"Implementation of a TextView and all its direct/indirect subclasses with native support for the Roboto fonts, includes the brand new Roboto Slab fonts.",http://johnkil.github.io/Android-RobotoTextView,https://github.com/johnkil/Android-RobotoTextView,121,791,2
+android-notes/SwissArmyKnife,Java,2559,android ui调试工具,,https://github.com/android-notes/SwissArmyKnife,126,790,0
+martin90s/ImagePicker,Java,160,"Super Image Picker is a powerful image selector. Support for huge image preview (such as 10000 * 5000px), support for image cropping, configurable avatar mode and normal mode, support for  a variety of image load library",,https://github.com/martin90s/ImagePicker,140,788,16
+Mulham-Raee/Horizontal-Calendar,Java,1433,A material horizontal calendar view for Android based on RecyclerView,,https://github.com/Mulham-Raee/Horizontal-Calendar,127,788,19
+drozdzynski/Steppers,Java,172,"Steppers view library for Android, based on Google Material design guidelines",,https://github.com/drozdzynski/Steppers,107,785,8
+yshrsmz/KeyboardVisibilityEvent,Java,170,Android Library to handle soft keyboard visibility change event.,None,https://github.com/yshrsmz/KeyboardVisibilityEvent,96,785,2
+ihsanbal/LoggingInterceptor,Java,17800,An OkHttp interceptor which pretty logs request and response data.,None,https://github.com/ihsanbal/LoggingInterceptor,49,785,5
+zyyoona7/EasyPopup,Java,803,PopupWindow Wrapper. 对 PopupWindow 的封装。可指定相对于 anchor view 各个方位弹出，设置背景变暗，指定 ViewGroup 背景变暗等特性。,,https://github.com/zyyoona7/EasyPopup,110,784,5
+h4de5ing/AndroidCommon,Java,377,基于Android系统Api封装常用工具类,https://19code.com,https://github.com/h4de5ing/AndroidCommon,222,782,0
+linkedin/test-butler,Java,161,"Reliable Android Testing, at your service",,https://github.com/linkedin/test-butler,75,781,10
+ImangazalievM/CircleMenu,Java,2806,"CircleMenu is a simple, elegant menu with a circular layout.",None,https://github.com/ImangazalievM/CircleMenu,122,778,0
+JasonQS/Anti-recall,Java,18738,Android 免root 防撤回神器 !,http://qsboy.com/MessageCaptor,https://github.com/JasonQS/Anti-recall,130,771,7
+JayFang1993/DropDownMenu,Java,1973,"DropDownMenu for Android,Filter the list based on multiple condition.",https://fangjie.me,https://github.com/JayFang1993/DropDownMenu,169,767,3
+material-foundation/material-remixer-android,Java,950,Remixer for Android. Live adjustment of app variables.,,https://github.com/material-foundation/material-remixer-android,52,765,19
+nekocode/Badge,Java,984,:octocat: Badge drawable for android.,,https://github.com/nekocode/Badge,90,765,4
+wajahatkarim3/EasyFlipView,Java,5838,"A quick and easy flip view through which you can create views with two sides like credit cards, poker cards etc.",,https://github.com/wajahatkarim3/EasyFlipView,113,763,3
+whataa/SuitLines,Java,99,一个小巧且高效的线性图表组件。,None,https://github.com/whataa/SuitLines,109,756,18
+sacot41/SCViewPager,Java,2969,None,None,https://github.com/sacot41/SCViewPager,133,751,0
+gongwen/SwipeBackLayout,Java,9386,SwipeBack is an android library that can finish a activity by using gesture.,,https://github.com/gongwen/SwipeBackLayout,75,750,6
+pengwei1024/LogUtils,Java,3108,More convenient and easy to use android Log manager,None,https://github.com/pengwei1024/LogUtils,178,747,19
+bufferapp/AdaptableBottomNavigation,Java,14185,A simpler way for implementing the Bottom Navigation View on Android,None,https://github.com/bufferapp/AdaptableBottomNavigation,78,743,8
+codinguser/gnucash-android,Java,20476,Gnucash for Android mobile companion application. ,,https://github.com/codinguser/gnucash-android,384,738,87
+meili/Aceso,Java,341,A hotfix library for Android,None,https://github.com/meili/Aceso,114,736,1
+gturedi/StatefulLayout,Java,1031,"Android layout to show template for loading, empty, error etc. states",None,https://github.com/gturedi/StatefulLayout,58,736,1
+mcxiaoke/Android-Next,Java,2314,Android Next 公共组件库,http://mcxiaoke.github.io/Android-Next,https://github.com/mcxiaoke/Android-Next,208,735,0
+vmihalachi/turbo-editor,Java,2720,Simple and powerful File Editor for Android. All is licensed under the GPLv3 license.,http://vmihalachi.github.io/turbo-editor/,https://github.com/vmihalachi/turbo-editor,238,734,64
+IanDarwin/Android-Cookbook-Examples,Java,55331,Collected code examples from the O'Reilly Android Cookbook. See README below!,http://androidcookbook.com/,https://github.com/IanDarwin/Android-Cookbook-Examples,784,732,0
+stkent/PolygonDrawingUtil,Java,1706,A compact Android utility for drawing regular polygons on a Canvas.,,https://github.com/stkent/PolygonDrawingUtil,71,731,1
+anastr/SpeedView,Java,10001,"Dynamic Speedometer and Gauge for Android. amazing, powerful, and multi shape :zap:",,https://github.com/anastr/SpeedView,172,730,12
+Hitomis/SpinMenu,Java,10651,轮盘样式的 Fragment 选择菜单，可转动轮盘切换 Fragment,,https://github.com/Hitomis/SpinMenu,106,730,1
+campusappcn/AndRouter,Java,378,A android router framework used to map url to activities or actions.,,https://github.com/campusappcn/AndRouter,121,723,6
+vanniktech/Emoji,Java,44800,A simple library to add Emoji support to your Android Application,,https://github.com/vanniktech/Emoji,183,721,5
+androiddevelop/AlignTextView,Java,1503,字体对齐的textview,None,https://github.com/androiddevelop/AlignTextView,143,720,7
+wasabeef/Takt,Java,13345,Takt is Android library for measuring the FPS using Choreographer.,,https://github.com/wasabeef/Takt,62,720,4
+vipulasri/TicketView,Java,8749,"An Android library to implement TicketView in android with normal, rounded and scallop corners",,https://github.com/vipulasri/TicketView,97,717,4
+Hamadakram/Sneaker,Java,1168,A lightweight Android library for customizable alerts,None,https://github.com/Hamadakram/Sneaker,80,715,10
+maoruibin/GankDaily,Java,1880,"A application used to  show technical information in every working days, use MVP pattern.",http://www.coolapk.com/apk/com.gudong.gankio,https://github.com/maoruibin/GankDaily,170,714,1
+yeriomin/YalpStore,Java,2782,Download apks from Google Play Store,None,https://github.com/yeriomin/YalpStore,64,714,17
+florent37/ShapeOfView,Java,8563,Give a custom shape to any android view,,https://github.com/florent37/ShapeOfView,86,709,0
+quran/quran_android,Java,8962,a quran reading application for android,http://android.quran.com,https://github.com/quran/quran_android,494,707,144
+florent37/AwesomeBar,Java,2885,Just beautiful,,https://github.com/florent37/AwesomeBar,116,707,3
+voghDev/PdfViewPager,Java,15471,"Android widget that can render PDF documents stored on SD card, linked as assets, or downloaded from a remote URL.",None,https://github.com/voghDev/PdfViewPager,154,706,20
+polyak01/IconSwitch,Java,1142,🍭 Custom Android Switch widget,,https://github.com/polyak01/IconSwitch,86,706,4
+QuadFlask/colorpicker,Java,953,color picker for android,None,https://github.com/QuadFlask/colorpicker,144,705,31
+commonsguy/cwac-cam2,Java,966,"Android Camera API, Made Better. Again.",None,https://github.com/commonsguy/cwac-cam2,197,703,56
+cctanfujun/ProgressRoundButton,Java,13814,A DownloadProgressButton with Animation for Android,,https://github.com/cctanfujun/ProgressRoundButton,160,700,2
+yongjhih/android-proguards,Java,2623,AAR proguards,,https://github.com/yongjhih/android-proguards,65,699,2
+bugsnag/bugsnag-android,Java,1730,Bugsnag crash reporting for Android apps,https://www.bugsnag.com/platforms/android/,https://github.com/bugsnag/bugsnag-android,135,698,9
+ufo22940268/android-justifiedtextview,Java,2651,android justified textview,,https://github.com/ufo22940268/android-justifiedtextview,207,697,21
+adrielcafe/AndroidAudioConverter,Java,9314,"Convert audio files inside your Android app easily. Supported formats: AAC, MP3, M4A, WMA, WAV and FLAC.",,https://github.com/adrielcafe/AndroidAudioConverter,124,696,14
+michelelacorte/SwipeableCard,Java,4821,A simple implementation of swipe card like StreetView,None,https://github.com/michelelacorte/SwipeableCard,124,693,2
+aliab/circular-music-progressbar,Java,618,Beautiful Circular Progress Bar with album art for android,,https://github.com/aliab/circular-music-progressbar,104,690,1
+JetradarMobile/desertplaceholder,Java,11871,Animated placeholder in desert style.,,https://github.com/JetradarMobile/desertplaceholder,62,689,2
+codemybrainsout/ahoy-onboarding,Java,6621,Android onboarding library.,None,https://github.com/codemybrainsout/ahoy-onboarding,121,688,8
+cdflynn/turn-layout-manager,Java,1430,A carousel layout manager for RecyclerView,None,https://github.com/cdflynn/turn-layout-manager,60,687,0
+imablanco/Zoomy,Java,17356,Zoomy is an easy to use pinch-to-zoom Android library,None,https://github.com/imablanco/Zoomy,58,685,6
+stephanenicolas/toothpick,Java,1467,A scope tree based Dependency Injection (DI) library for Java,,https://github.com/stephanenicolas/toothpick,86,684,24
+orgzly/orgzly-android,Java,28488,Outliner for taking notes and managing to-do lists,http://www.orgzly.com,https://github.com/orgzly/orgzly-android,93,684,132
+blipinsk/FlippableStackView,Java,5707,An Android library introducing a stack of Views with the first item being flippable.,,https://github.com/blipinsk/FlippableStackView,152,683,5
+Andy671/Dachshund-Tab-Layout,Java,157,Extended Android Tab Layout with animated indicators that have continuous feedback.,,https://github.com/Andy671/Dachshund-Tab-Layout,61,682,1
+G-Joker/WeaponApp,Java,20309,一个尽量做到极致的集大成App，努力做到最好(开发阶段)——MVVM+Retrofit+RxJava+Small 插件化+单元测试+MD,,https://github.com/G-Joker/WeaponApp,130,675,0
+GhostFlying/LocationReportEnabler,Java,8866,"A simple android app to enable Google Location Report, Google Now and related functions in China mainland or somewhere like.",,https://github.com/GhostFlying/LocationReportEnabler,80,673,18
+googlesamples/android-instant-apps,Java,549,Samples for Android Instant Apps,https://d.android.com/topic/instant-apps,https://github.com/googlesamples/android-instant-apps,178,671,5
+florent37/ViewTooltip,Java,1495,A fluent tooltip for Android,,https://github.com/florent37/ViewTooltip,57,670,2
+florent37/Depth,Java,11303,Add some Depth to your fragments,,https://github.com/florent37/Depth,78,666,1
+yale8848/CacheWebView,Java,363,"Custom implement Android WebView cache, offline website, let cahe config more simple and  flexible ",,https://github.com/yale8848/CacheWebView,88,665,0
+Fotoapparat/FaceDetector,Java,42956,Face detection for your Android app,,https://github.com/Fotoapparat/FaceDetector,95,663,6
+iammert/StatusView,Java,591,Custom status view for Android.,None,https://github.com/iammert/StatusView,70,663,3
+Yalantis/CameraModule,Java,266,Simple camera module for android applications,https://yalantis.com/,https://github.com/Yalantis/CameraModule,196,662,12
+nextcloud/android,Java,95300,📱 Nextcloud Android app,https://play.google.com/store/apps/details?id=com.nextcloud.client,https://github.com/nextcloud/android,367,661,546
+PSD-Company/duo-navigation-drawer,Java,22113,"A flexible, easy to use, unique drawer library for your Android project.",http://psdcompany.nl/,https://github.com/PSD-Company/duo-navigation-drawer,95,661,5
+mozilla-mobile/focus-android,Java,159524,Firefox Focus: The privacy browser - Browse like no one’s watching.,,https://github.com/mozilla-mobile/focus-android,243,659,436
+afollestad/photo-affix,Java,43066,[BETA] Stitch your photos together vertically or horizontally easily!,https://aidanfollestad.com,https://github.com/afollestad/photo-affix,227,655,8
+turing-tech/MaterialScrollBar,Java,972,An Android library that brings the Material Design 5.1 sidebar to pre-5.1 devices.,None,https://github.com/turing-tech/MaterialScrollBar,104,653,20
+hujiaweibujidao/FabDialogMorph,Java,970,:tropical_fish: Fab and Dialog Morphing Animation on Android,,https://github.com/hujiaweibujidao/FabDialogMorph,95,651,3
+ome450901/SimpleRatingBar,Java,2346,A simple RatingBar that you can easier customized image and animations,,https://github.com/ome450901/SimpleRatingBar,86,651,2
+MasayukiSuda/BubbleLayout,Java,244,Bubble View for Android.,,https://github.com/MasayukiSuda/BubbleLayout,94,650,5
+jaredrummler/MaterialSpinner,Java,690,A spinner view for Android,,https://github.com/jaredrummler/MaterialSpinner,134,642,19
+Bilibili/drawee-text-view,Java,1272,Simple drawee spannable text view based on Fresco,None,https://github.com/Bilibili/drawee-text-view,97,640,1
+venshine/WheelView,Java,5147,Android滚轮控件，基于ListView实现，可以自定义样式。,,https://github.com/venshine/WheelView,161,640,31
+alexjlockwood/adp-delightful-details,Java,285,This sample app accompanies a blog post I wrote on icon animations,https://www.androiddesignpatterns.com/2016/11/introduction-to-icon-animation-techniques.html,https://github.com/alexjlockwood/adp-delightful-details,88,638,5
+anupcowkur/Reservoir,Java,691,Android library to easily serialize and cache your objects to disk using key/value pairs.,,https://github.com/anupcowkur/Reservoir,72,637,3
+AntonioRedondo/AnotherMonitor,Java,255,Monitors and records the CPU and memory usage of Android devices,https://play.google.com/store/apps/details?id=org.anothermonitor,https://github.com/AntonioRedondo/AnotherMonitor,198,633,1
+woxingxiao/GracefulMovies,Java,2856,简影讯，简约精彩影讯。基于Retrofit+RxJava+MVP+Colorful多彩主题框架开发的高颜值影讯app。简约，优雅，精彩，即看即走，现已正式发布上线。,,https://github.com/woxingxiao/GracefulMovies,127,631,0
+jaredrummler/AndroidDeviceNames,Java,10129,A small Android library to get the market name of an Android device.,None,https://github.com/jaredrummler/AndroidDeviceNames,80,629,1
+MasayukiSuda/FPSAnimator,Java,3293,FPSAnimator is very easy animation library for Android TextureView and SurfaceView.,,https://github.com/MasayukiSuda/FPSAnimator,102,629,0
+Karumi/KataSuperHeroesAndroid,Java,5856,Super Heroes Kata for Android Developers. The main goal is to practice UI Testing.,,https://github.com/Karumi/KataSuperHeroesAndroid,224,627,0
+instacart/truetime-android,Java,288,Android NTP time library. Get the true current time impervious to device clock time changes,https://tech.instacart.com/truetime/,https://github.com/instacart/truetime-android,65,626,13
+wangjiegulu/ShadowViewHelper,Java,241,"Shadow layout, shadow view for android.",None,https://github.com/wangjiegulu/ShadowViewHelper,136,625,6
+jiangzehui/polygonsview,Java,1698,模仿掌上英雄联盟能力分析效果,http://blog.csdn.net/as7210636/article/details/52692102,https://github.com/jiangzehui/polygonsview,111,625,0
+florent37/MyLittleCanvas,Java,485,"You find canvas hard to use ? try MyLittleCanvas :) Don't work with canvas methods, use objects instead !",,https://github.com/florent37/MyLittleCanvas,65,623,0
+BoD/android-contentprovider-generator,Java,961,A tool to generate Android ContentProviders.,,https://github.com/BoD/android-contentprovider-generator,158,622,15
+harjot-oberai/Long-Shadows,Java,1877,Long Shadows for android!,None,https://github.com/harjot-oberai/Long-Shadows,42,620,0
+pires/android-obd-reader,Java,1914,Android OBD-II Reader application that uses pure OBD-II PID's Java API.,,https://github.com/pires/android-obd-reader,411,616,10
+opacapp/multiline-collapsingtoolbar,Java,4533,A modified CollapsingToolbarLayout that can deal with multiline titles,None,https://github.com/opacapp/multiline-collapsingtoolbar,98,615,15
+iTXTech/Daedalus,Java,981,No root required Android DNS modifier and Hosts/DNSMasq resolver.,https://itxtech.org,https://github.com/iTXTech/Daedalus,91,615,7
+byteam/SuperAdapter,Java,309,"🚀 Adapter(BaseAdapter, RecyclerView.Adapter) wrapper for Android.  一个Adapter同时适用RecyclerView、ListView、GridView等。",,https://github.com/byteam/SuperAdapter,117,613,0
+dynamitechetan/Flowing-Gradient,Java,225,"Android Library to make a flowing gradient effect, similar to that used in Instagram Android login screen",,https://github.com/dynamitechetan/Flowing-Gradient,77,612,1
+DreaminginCodeZH/PatternLock,Java,1415,Material Design Pattern Lock with auth flow implementation,,https://github.com/DreaminginCodeZH/PatternLock,150,607,2
+alibaba/Virtualview-Android,Java,771,A light way to build UI in custom XML.,http://tangram.pingguohe.net/,https://github.com/alibaba/Virtualview-Android,49,606,4
+dynamitechetan/FogView_Library,Java,1820,FogView is a android library that can show fog on any layout and the fog removes when user rubs it.,None,https://github.com/dynamitechetan/FogView_Library,78,606,1
+HurTeng/StormPlane,Java,24224,✈️《沙漠风暴》是一款基于Android开发的纵版飞行射击游戏，以雷电(Shooting Game)为原型，参考微信打飞机大战，通过自定义的SurfaceView来实现游戏，游戏画面、音乐、战斗特效都不错（附带apk安装包，可直接运行）,,https://github.com/HurTeng/StormPlane,117,603,1
+nomanr/WeekCalendar,Java,5338,A simple weekly calendar.,,https://github.com/nomanr/WeekCalendar,107,601,28
+iammert/AndroidArchitecture,Java,1375,Recommended architecture by Android,None,https://github.com/iammert/AndroidArchitecture,124,600,7
+Shashank02051997/FancyToast-Android,Java,312,Make your native android Toasts Fancy. A library that takes the standard Android toast to the next level with a variety of styling options. Style your toast from code.,,https://github.com/Shashank02051997/FancyToast-Android,100,596,3
+MindorksOpenSource/android-mvvm-architecture,Java,743,"This repository contains a detailed sample app that implements MVVM architecture using Dagger2,  Room, RxJava2, FastAndroidNetworking and PlaceholderView",https://mindorks.com/open-source-projects,https://github.com/MindorksOpenSource/android-mvvm-architecture,173,595,4
+chat-sdk/chat-sdk-android,Java,58375,Chat SDK Android - Open Source Mobile Messenger,http://chatsdk.co,https://github.com/chat-sdk/chat-sdk-android,231,592,32
+LightSun/android-drag-FlowLayout,Java,4432,this is a draggable flow layout lib.,None,https://github.com/LightSun/android-drag-FlowLayout,84,586,1
+commonsguy/cwac-merge,Java,88,CommonsWare Android Components: MergeAdapter,http://commonsware.com/cwac,https://github.com/commonsguy/cwac-merge,128,584,2
+snatik/android-storage,Java,993,"Create, read, delete, append, encrypt files and more, on internal or external disk spaces with a really simple API",None,https://github.com/snatik/android-storage,129,583,8
+GcsSloop/encrypt,Java,151,:paw_prints: Android 加密解密工具包。,,https://github.com/GcsSloop/encrypt,95,581,3
+Trumeet/MiPushFramework,Java,3349,在任何非 MIUI 设备上体验小米系统级推送。,None,https://github.com/Trumeet/MiPushFramework,40,578,41
+bboylin/UniversalToast,Java,1791,"简洁优雅可点击的toast控件，无BadTokenException风险，关闭通知权限依然正常显示。An elegant and flexible toast which can handle click event , avoid BadTokenException and run fine without notification permission",,https://github.com/bboylin/UniversalToast,71,576,0
+amitshekhariitbhu/FlatBuffer,Java,1680,FlatBuffer : Android Sample Application,https://mindorks.com/open-source-projects,https://github.com/amitshekhariitbhu/FlatBuffer,132,575,1
+sendtion/XRichText,Java,154, 一个Android富文本类库，支持图文混排，支持编辑和预览，支持插入和删除图片。,,https://github.com/sendtion/XRichText,118,575,11
+klinker24/Android-DragDismissActivity,Java,10906,"A smooth, easy-to-implement, drag to dismiss Android Activity.",https://blog.klinkerapps.com/android-drag-dismiss/,https://github.com/klinker24/Android-DragDismissActivity,41,573,2
+nisrulz/recyclerviewhelper,Java,2825,:page_with_curl: [Android Library] Giving powers to RecyclerView ,http://nisrulz.github.io/recyclerviewhelper,https://github.com/nisrulz/recyclerviewhelper,56,573,6
+awslabs/aws-sdk-android-samples,Java,6311,"This repository has samples that demonstrate various aspects of the AWS Mobile SDK for Android, you can get the SDK source on Github",https://github.com/aws/aws-sdk-android/,https://github.com/awslabs/aws-sdk-android-samples,671,573,34
+mixpanel/mixpanel-android,Java,28530,Official Mixpanel tracking library for Android,http://mixpanel.com/,https://github.com/mixpanel/mixpanel-android,267,569,46
+twitter/twitter-kit-android,Java,4692,Twitter Kit for Android,https://dev.twitter.com/twitterkit/android/overview,https://github.com/twitter/twitter-kit-android,179,565,26
+vickychijwani/quill,Java,12540,:ghost: [MOVED TO https://github.com/TryGhost/Ghost-Android] The beautiful Android app for your Ghost blog.,,https://github.com/vickychijwani/quill,86,565,29
+heinrichreimer/material-drawer,Java,17416,Custom drawer implementation for Material design apps.,https://heinrichreimer.com/,https://github.com/heinrichreimer/material-drawer,142,565,8
+Meituan-Dianping/Shield,Java,286,"A declarative, efficient, and flexible Native framework for building user interfaces. ",,https://github.com/Meituan-Dianping/Shield,60,563,4
+tarek360/Instacapture,Java,1075,Android library to capture screenshot from your app,None,https://github.com/tarek360/Instacapture,80,562,3
+gitskarios/Gitskarios,Java,29787,GitHub Android application,http://gitskarios.com/,https://github.com/gitskarios/Gitskarios,98,557,58
+Jawnnypoo/PhysicsLayout,Java,1380,Android layout that simulates physics using JBox2D,None,https://github.com/Jawnnypoo/PhysicsLayout,77,555,6
+JumeiRdGroup/Router,Java,10795,一款单品、组件化、插件化全支持的Andoid端路由框架。,https://juejin.im/post/5a37771f6fb9a0450e7636e0,https://github.com/JumeiRdGroup/Router,73,555,0
+MAXDeliveryNG/slideview,Java,1895,An awesome sliding button library for Android.,,https://github.com/MAXDeliveryNG/slideview,70,551,0
+zhengken/LyricViewDemo,Java,28291,LyricView is a powerful and flexible custom view to display lyrics within music player under Android,,https://github.com/zhengken/LyricViewDemo,91,549,2
+yangchaojiang/ZoomPreviewPicture,Java,64493,"拓展性极高类似微信图片浏览,常见应用场景如微信朋友圈照片九宫格和微信聊天图片预览",,https://github.com/yangchaojiang/ZoomPreviewPicture,72,548,5
+smuyyh/SprintNBA,Java,58553,:basketball: NBA第三方客户端，含NBA头条新闻、视频集锦/赛场花絮、比赛直播（目前支持视频直播、比赛前瞻、文字直播、球队及球员技术统计）、球队战绩排行、球员数据排名、虎扑论坛专区（已实现发帖与回复功能）、球队及球员的详细资料,http://blog.csdn.net/yyh352091626/article/details/52093351,https://github.com/smuyyh/SprintNBA,227,547,4
+Wrdlbrnft/Searchable-RecyclerView-Demo,Java,301,An example app using a SearchView to filter items in a RecyclerView while taking full advantage of item animations!,,https://github.com/Wrdlbrnft/Searchable-RecyclerView-Demo,170,547,0
+donglua/JZAndroidChart,Java,3999,Android 股票图表库,,https://github.com/donglua/JZAndroidChart,67,546,0
+cdflynn/bubble-scroll,Java,6697,An animating scroll bar,,https://github.com/cdflynn/bubble-scroll,69,545,0
+owntracks/android,Java,108198,OwnTracks Android App,http://owntracks.org,https://github.com/owntracks/android,313,544,4
+rumboalla/apkupdater,Java,799,APKUpdater is a tool that simplifies the process of finding updates for your installed apps.,,https://github.com/rumboalla/apkupdater,51,544,24
+rom4ek/ArcNavigationView,Java,7571,Another approach to create NavigationDrawer with Material concepts,,https://github.com/rom4ek/ArcNavigationView,101,543,3
+onlylemi/MapView,Java,152,A MapView on Android platform.,,https://github.com/onlylemi/MapView,132,541,11
+xiprox/ErrorView,Java,2483,"A custom view that displays an image, a title, and a subtitle. Use it for errors, empty states, or just messages with images!",,https://github.com/xiprox/ErrorView,91,539,1
+stfalcon-studio/SmsVerifyCatcher,Java,102,Android library for phone number verification feature in your app. Automatically copies verification code from SMS right into the app.,https://stfalcon.com,https://github.com/stfalcon-studio/SmsVerifyCatcher,99,538,4
+fookwood/Launcher3,Java,4208,更改官方的Launcher3使得可以在Android Studio编译,http://www.fookwood.com/android,https://github.com/fookwood/Launcher3,250,537,2
+CodelightStudios/Android-Smart-Login,Java,4444,A smart way to add Login functionality to your Android app.,http://codelightstudios.github.io/Android-Smart-Login/,https://github.com/CodelightStudios/Android-Smart-Login,183,536,2
+andremion/CounterFab,Java,2218,A FloatingActionButton subclass that shows a counter badge on right top corner,https://play.google.com/store/apps/details?id=com.andremion.counterfab.sample,https://github.com/andremion/CounterFab,81,536,2
+lubeast/PullToRefresh,Java,4273,A PullToRefresh widget.,https://lubeast.github.io/PullToRefresh/,https://github.com/lubeast/PullToRefresh,76,535,1
+mthli/Slice,Java,158,Android drawable that allows you custom round rect position.,None,https://github.com/mthli/Slice,59,535,2
+andremion/Louvre,Java,79461,A small customizable library useful to handle an gallery image pick action built-in your app. :sunrise_over_mountains::stars:,https://play.google.com/store/apps/details?id=com.andremion.louvre.sample,https://github.com/andremion/Louvre,72,534,5
+elevenetc/DraggableView,Java,45131,Draggable views with rotation and skew/scale effects,,https://github.com/elevenetc/DraggableView,73,531,0
+Cuieney/kotlin-life,Java,103400,App界的一股清流 音视频vr应有尽有 完全按照Material design规范设计的App （written with java and Kotlin）,,https://github.com/Cuieney/kotlin-life,129,529,5
+lidong1665/AndroidRapidLibrary,Java,38467,Android 快速开发库，主要想实现一条属于自己的开发框架。包括网络访问，数据，UI等等,None,https://github.com/lidong1665/AndroidRapidLibrary,208,524,7
+yuqirong/CardSwipeLayout,Java,10015,"Use RecyclerView to achieve card swipe layout , like Tantan . (模仿探探卡片滑动效果的布局)",,https://github.com/yuqirong/CardSwipeLayout,103,524,6
+yydcdut/RxMarkdown,Java,19335,":fax:Markdown for Android, supports TextView && EditText (Live Preview), supports code high light.",,https://github.com/yydcdut/RxMarkdown,67,523,17
+bookdash/bookdash-android-app,Java,46386,Book Dash is an Android App for the NPO where you can download books in different languages for free.,,https://github.com/bookdash/bookdash-android-app,170,520,4
+saulmm/From-design-to-Android-part1,Java,1304,First part of 'from design to android' series,http://saulmm.github.io/from-design-to-android-part1,https://github.com/saulmm/From-design-to-Android-part1,112,518,4
+canelmas/let,Java,2807,Annotation based simple API flavored with AOP to handle new Android runtime permission model,,https://github.com/canelmas/let,36,518,17
+xinghongfei/Hello-RxJava,Java,4029,可能是学习Rxjava最好的教程之一，另一个是《给Android开发者RxJava的详解》，这个毫无疑问。,,https://github.com/xinghongfei/Hello-RxJava,101,517,3
+TellH/GitClub,Java,72495,An elegent Android Client for Github. 不仅仅是Github客户端，而且是一个发现优秀Github开源项目的app,,https://github.com/TellH/GitClub,97,517,7
+adonixis/android-submit-credit-card-flow,Java,139,💳 implementation of credit card form in material design,None,https://github.com/adonixis/android-submit-credit-card-flow,81,513,1
+proninyaroslav/libretorrent,Java,1832,Free as in Freedom torrent client for Android,,https://github.com/proninyaroslav/libretorrent,103,512,26
+florent37/SingleDateAndTimePicker,Java,21799,You can now select a date and a time with only one widget !,,https://github.com/florent37/SingleDateAndTimePicker,134,510,44
+ozodrukh/RippleDrawable,Java,373,Ripple effect for Android 14+,,https://github.com/ozodrukh/RippleDrawable,89,508,9
+AdityaAnand1/Morphing-Material-Dialogs,Java,7801,Material dialog :heart: morphing animation,http://adityaanand.in,https://github.com/AdityaAnand1/Morphing-Material-Dialogs,37,507,1
+yayaa/LocationManager,Java,338,Simplify getting user's location for Android,None,https://github.com/yayaa/LocationManager,122,503,5
+tylersuehr7/chips-input-layout,Java,13255,A highly customizable Android ViewGroup for displaying Chips (specified in the Material Design Guide). ,,https://github.com/tylersuehr7/chips-input-layout,31,503,10
+goldze/MVVMHabit,Java,733,基于DataBinding框架，MVVM设计模式的一套快速开发库，整合Okhttp+RxJava+Retrofit+Glide等主流库，满足日常开发需求。使用该框架可以快速开发一个Android应用。,,https://github.com/goldze/MVVMHabit,114,503,14
+ZhongXiaoHong/superFileView,Java,38931,"基于腾讯浏览服务Tbs,使用X5Webkit内核,实现文件的展示功能，支持多种文件格式",,https://github.com/ZhongXiaoHong/superFileView,86,500,5
+Taishi-Y/InstagramLikeColorTransitionAndroid,Java,14928,How to create instagram like Gradient color transition in android.📸,,https://github.com/Taishi-Y/InstagramLikeColorTransitionAndroid,66,496,2
+felHR85/UsbSerial,Java,1674,Usb serial controller for Android,None,https://github.com/felHR85/UsbSerial,203,487,82
+GoodieBag/Pinview,Java,246,A pinview library for android. :sparkles:,,https://github.com/GoodieBag/Pinview,49,485,9
+klinker24/Android-3DTouch-PeekView,Java,3819,"Simple and powerful library to emulate iOS's ""3D Touch"" preview functionality on Android.",,https://github.com/klinker24/Android-3DTouch-PeekView,61,484,0
+0ximDigital/RxAnimations,Java,406,Repository for android animations Rx wrapper,None,https://github.com/0ximDigital/RxAnimations,24,483,1
+florent37/LongShadow,Java,632,Add a long shadow on any Android View,,https://github.com/florent37/LongShadow,50,482,0
+Suleiman19/Android-Material-Design-for-pre-Lollipop,Java,822,"Various UI implementations, animations & effects  based on Material Design compatible with pre Lollipop devices as well. (Work in progess)",http://blog.grafixartist.com,https://github.com/Suleiman19/Android-Material-Design-for-pre-Lollipop,297,481,0
+hugeterry/PloyFun,Java,6952,LowPoly image processing./导入图片生成Low Poly风格图片的app,,https://github.com/hugeterry/PloyFun,86,480,1
+RiccardoMoro/FreeDrawView,Java,3420,"A View on which you can freely draw, customizing paint width, alpha and color, and take a screenshot of the content. Useful for note apps, signatures or free hand writing.",,https://github.com/RiccardoMoro/FreeDrawView,78,478,5
+codechimp-org/AppRater,Java,1006,AppRater Library for Android,None,https://github.com/codechimp-org/AppRater,121,472,9
+passsy/CompositeAndroid,Java,1361,Composition over inheritance for Android components like Activity or Fragment,,https://github.com/passsy/CompositeAndroid,22,469,6
+androidstarters/android-starter,Java,1923,[Android Architecture] Android starter based on MVP/Dagger2/RxJava2/Robolectric/Espresso/Mockito. It provides a generator to fast create a Android template project.,https://git.io/v9UjE,https://github.com/androidstarters/android-starter,66,469,5
+erikcaffrey/People-MVVM,Java,672,Android Sample to explain Model View View Model and DataBinding in android applications,https://erikcaffrey.github.io/ANDROID-databinding-android/,https://github.com/erikcaffrey/People-MVVM,152,466,5
+rubengees/introduction,Java,24526,An Android library to show an intro to your users.,None,https://github.com/rubengees/introduction,61,465,0
+jaredrummler/HtmlBuilder,Java,330,Build valid HTML for Android TextView,None,https://github.com/jaredrummler/HtmlBuilder,55,465,4
+fengdai/AlertDialogPro,Java,4678,[Deprecated] This project can make it easy to theme and custom Android's dialog. Also provides Holo and Material themes for old devices.,,https://github.com/fengdai/AlertDialogPro,124,462,14
+MasayukiSuda/ExoPlayerFilter,Java,31252,This library uses OpenGL Shaders to apply effects on ExoPlayer video at Runtime,,https://github.com/MasayukiSuda/ExoPlayerFilter,62,461,4
+grandstaish/paperparcel,Java,16615,Auto-generate the fastest possible Parcelable implementations for Java and Kotlin,https://grandstaish.github.io/paperparcel/,https://github.com/grandstaish/paperparcel,21,458,12
+krishnarb3/Popview-Android,Java,287,Pop animation with circular dust effect for any view updation,,https://github.com/krishnarb3/Popview-Android,59,456,6
+jaychang0917/SimpleText,Java,6263,A simple spannable string helper,,https://github.com/jaychang0917/SimpleText,49,456,1
+pengwei1024/JsBridge,Java,682,"A simpler, extendable bidirectional communication Frame between Android WebView and Javascript",https://github.com/pengwei1024/JsBridge/wiki,https://github.com/pengwei1024/JsBridge,71,455,2
+Angads25/android-filepicker,Java,1102,Selecting directories/files made a lot easier.,,https://github.com/Angads25/android-filepicker,88,454,17
+h6ah4i/android-materialshadowninepatch,Java,741,Provides 9-patch based drop shadow for view elements. Works on API level 9 or later.,,https://github.com/h6ah4i/android-materialshadowninepatch,66,453,5
+aws/aws-sdk-android,Java,23686,"Official mirror of version 2 of the AWS Mobile SDK for Android. For more information, see our web site:",http://aws.amazon.com/mobile/sdk/,https://github.com/aws/aws-sdk-android,245,453,88
+AppLozic/Applozic-Android-SDK,Java,8206,Android Real Time Chat & Messaging SDK,https://www.applozic.com,https://github.com/AppLozic/Applozic-Android-SDK,208,452,47
+littleMeng/video-live,Java,68408,视频直播,None,https://github.com/littleMeng/video-live,188,452,4
+code-mc/linear-time-picker,Java,14760,Gorgeous Android Time and Date picker library inspired by the Timely app,None,https://github.com/code-mc/linear-time-picker,41,451,0
+anthonycr/Grant,Java,140,Simplifying Android Permissions,None,https://github.com/anthonycr/Grant,96,450,11
+tiann/epic,Java,589,"Dynamic java method AOP hook for Android(continution of Dexposed on ART), Supporting 4.0~8.1",,https://github.com/tiann/epic,105,450,10
+DmitriyZaitsev/RadarChartView,Java,9364,Android view (widget) for rendering radial diagrams,,https://github.com/DmitriyZaitsev/RadarChartView,69,450,2
+MaksTuev/ferro,Java,1668,Simple and powerful MVP library for Android,,https://github.com/MaksTuev/ferro,32,450,0
+vivchar/RendererRecyclerViewAdapter,Java,10643,A single adapter with multiple view types for the whole project,,https://github.com/vivchar/RendererRecyclerViewAdapter,62,450,0
+mwajeeh/AnimationsPlayground,Java,258,This repo is an attempt to implement a complex animation,https://medium.com/p/implementing-complex-animations-in-android-full-working-code-41979cc2369e,https://github.com/mwajeeh/AnimationsPlayground,61,447,1
+Floens/Clover,Java,44219,Clover - 4chan browser for Android,https://floens.github.io/Clover/,https://github.com/Floens/Clover,177,446,109
+Zhuinden/simple-stack,Java,1753,"[ACTIVE] Simple Stack, a backstack library for simpler navigation between views, fragments, or whatevers.",,https://github.com/Zhuinden/simple-stack,28,445,6
+alexzaitsev/freepager,Java,4387,ViewPagers library for Android,,https://github.com/alexzaitsev/freepager,91,444,0
+freecats/TextViewExpandableAnimation,Java,940,Expandable TextView With Smooth Transition Animation,None,https://github.com/freecats/TextViewExpandableAnimation,101,444,2
+nekocode/DividerDrawable,Java,348,Help to layout and draw dividers on existing views.,,https://github.com/nekocode/DividerDrawable,30,443,0
+yuliskov/SmartYouTubeTV,Java,4944,View YouTube videos on your Android TV box with comfort.,https://smartyoutubetv.github.io,https://github.com/yuliskov/SmartYouTubeTV,86,441,34
+crazysunj/MultiTypeRecyclerViewAdapter,Java,174826,一个专注于RecyclerView优雅刷新（接管资源和数据源）的MVP模式库，可配合大多数Adapter,http://crazysunj.com/2017/08/14/MTRVA%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6/,https://github.com/crazysunj/MultiTypeRecyclerViewAdapter,67,441,1
+yarolegovich/MaterialPreferences,Java,2622,A highly flexible set of lovely looking views that provides functionality of preferences.,,https://github.com/yarolegovich/MaterialPreferences,64,441,3
+florent37/RxRetroJsoup,Java,2491,"A simple API-like from html website (scrapper) for Android, RxJava2 ready !",,https://github.com/florent37/RxRetroJsoup,40,440,2
+pwittchen/NetworkEvents,Java,567,Android library listening network connection state and change of the WiFi signal strength with event bus,,https://github.com/pwittchen/NetworkEvents,78,440,0
+kongqw/OpenCVForAndroid,Java,229291,目标检测&目标追踪&人脸检测&人脸识别,http://kongqw.com/2016/09/09/2016-09-09-OpenCV-JavaCV实现人脸识别/,https://github.com/kongqw/OpenCVForAndroid,153,440,10
+miguelhincapie/CustomBottomSheetBehavior,Java,8178,Custom BottomSheetBehavior for Android that mimic Google Maps behavior,,https://github.com/miguelhincapie/CustomBottomSheetBehavior,112,439,20
+iamMehedi/Secured-Preference-Store,Java,158,A cryptography library and a SharedPreferences wrapper for Android that encrypts the content with 256 bit AES encryption. The Encryption key is securely stored in device's KeyStore. ,,https://github.com/iamMehedi/Secured-Preference-Store,70,439,12
+douglasjunior/android-simple-tooltip,Java,913,A simple library based on PopupWindow to create Tooltips on Android. 💚,,https://github.com/douglasjunior/android-simple-tooltip,120,437,6
+amphiaraus/Android-RatioLayout,Java,11990,"This is a specified proportion to the size of the Layout or View support library, with which you can easily set a fixed ratio of the size of the Layout or View, internal adaptive size calculation, completely abandon the code to calculate the size! If you have any questions in the course or suggestions, please send an e-mail to the following e-mail, thank you!",http://amphiaraus.org/Android-RatioLayout/,https://github.com/amphiaraus/Android-RatioLayout,73,437,0
+yydcdut/SlideAndDragListView,Java,33386,:curly_loop:SlideAndDragListView (SDLV) is an extension of the Android ListView that enables slide and drag-and-drop reordering of list items.,,https://github.com/yydcdut/SlideAndDragListView,181,437,11
+matrixxun/ImmersiveDetailSample,Java,13330,A sample application show how to realize immersive parallax effect header like Google Play Store,,https://github.com/matrixxun/ImmersiveDetailSample,53,436,0
+HITGIF/TextFieldBoxes,Java,1957,"Material Design text field that comes in a box, based on Google Material Design guidelines.",,https://github.com/HITGIF/TextFieldBoxes,65,435,7
+fourlastor/dante,Java,2134,A sane rich text parsing and styling library.,,https://github.com/fourlastor/dante,28,432,1
+myinnos/AppIconNameChanger,Java,2350,Library to change Android launcher App Icon and App Name programmatically !,,https://github.com/myinnos/AppIconNameChanger,48,429,1
+liuguangqiang/CookieBar,Java,419,CookieBar is a lightweight library for showing a brief message at the top or bottom of the screen.,,https://github.com/liuguangqiang/CookieBar,48,428,1
+kontalk/androidclient,Java,52203,Kontalk official Android client,https://www.kontalk.org,https://github.com/kontalk/androidclient,145,426,165
+florent37/BubbleTab,Java,1732,Put some bubble in your tabs and give your apps a supa fresh style !,,https://github.com/florent37/BubbleTab,72,425,1
+xiaohaibin/XBanner,Java,18511,【图片轮播】支持图片无限轮播，支持自定义指示点、显示提示文字、切换动画等,,https://github.com/xiaohaibin/XBanner,105,424,1
+Schinizer/RxUnfurl,Java,167,A reactive extension to generate URL previews.,None,https://github.com/Schinizer/RxUnfurl,41,423,0
+emmaguy/rxjava-mvp-giphy,Java,5164,Showcase of RxJava used with MVP and some other popular android libraries,None,https://github.com/emmaguy/rxjava-mvp-giphy,37,423,3
+maskarade/Android-Orma,Java,3570,A type-safe ORM for Android as a wrapper of SQLiteDatabase,,https://github.com/maskarade/Android-Orma,41,422,28
+fabiomsr/MoneyTextView,Java,381,A simple Android TextView to display amounts of money in different formats.,,https://github.com/fabiomsr/MoneyTextView,60,421,6
+kobakei/Android-RateThisApp,Java,1468,"Android library to show ""Rate this app"" dialog",None,https://github.com/kobakei/Android-RateThisApp,148,420,27
+beiliao-mobile/BadgeNumberManager,Java,1137,"An Android library supports badge notification like iOS in Huawei, Xiaomi, OPPO and vivo launchers.",,https://github.com/beiliao-mobile/BadgeNumberManager,46,418,4
+linroid/Sky31Radio,Java,27992,"湘潭大学三翼校园""四季电台"" Android客户端",http://linroid.com/2015/02/11/sky31radio/,https://github.com/linroid/Sky31Radio,120,418,1
+FabianTerhorst/FastLayout,Java,351,Generates a Java Object for your xml layout to reduce inflate time to zero,,https://github.com/FabianTerhorst/FastLayout,44,418,8
+tasomaniac/EmailAutoCompleteTextView,Java,556,An AutoCompleteTextView with builtin Adapter with the emails in the device.,None,https://github.com/tasomaniac/EmailAutoCompleteTextView,49,417,0
+Taishi-Y/MusicIndicator,Java,1854,Music indicator for Android. Easy to use. 🎧 ✨,,https://github.com/Taishi-Y/MusicIndicator,49,417,3
+vanniktech/OnActivityResult,Java,482,OnActivityResult annotation compiler for Android,http://vanniktech.com,https://github.com/vanniktech/OnActivityResult,30,416,0
+novoda/spikes,Java,87526,Where ideas & concepts are born & incubated,,https://github.com/novoda/spikes,92,416,10
+maksim88/PasswordEditText,Java,6965,A custom EditText with a switchable icon which shows or hides the password,http://maksim88.github.io/PasswordEditText/,https://github.com/maksim88/PasswordEditText,69,414,0
+Jomes/routerSDK,Java,1451,A mini and excellent Router Framwork一款小而美的路由框架。网页动态添加自定义参数启动应用。 https://github.com/Jomes/routerSDK,,https://github.com/Jomes/routerSDK,59,414,0
+material-motion/material-motion-android,Java,4778,Reactive motion for Android. In development.,,https://github.com/material-motion/material-motion-android,17,409,14
+shts/StoriesProgressView,Java,51913,show horizontal progress like instagram stories.,None,https://github.com/shts/StoriesProgressView,74,406,5
+OpenLauncherTeam/openlauncher,Java,8110,Your customizeable floss android launcher :),,https://github.com/OpenLauncherTeam/openlauncher,165,402,46
+bxiaopeng/AndroidStudio,Java,16835,AndroidStudio中文入门指南,http://yuedu.baidu.com/ebook/31beb61a9b6648d7c1c746e8,https://github.com/bxiaopeng/AndroidStudio,261,402,6
+AleBarreto/FirebaseAndroidChat,Java,414,Chat with features : Login with Google | Send Photo Camera | Send Photo Gallery | Send Location,,https://github.com/AleBarreto/FirebaseAndroidChat,166,401,15
+florent37/TutoShowcase,Java,2563,A simple and Elegant Showcase view for Android,,https://github.com/florent37/TutoShowcase,67,401,15
+florent37/MaterialImageLoading,Java,5050,Material image loading implementation,,https://github.com/florent37/MaterialImageLoading,57,400,0
+NikoYuwono/ToolbarPanel,Java,102,Toolbar that can be slided down to show a panel,,https://github.com/NikoYuwono/ToolbarPanel,58,396,3
+blundell/QuickSand,Java,8873,Automatically manipulates the duration of animations dependent on view count. Quicksand .. the more you struggle.,,https://github.com/blundell/QuickSand,43,396,0
+Cutta/TagView,Java,137,Android TagView-HashTagView,None,https://github.com/Cutta/TagView,83,395,23
+zhangke3016/ViewSpreadTranslationController,Java,48244,View Spread TranslationController for Android.,,https://github.com/zhangke3016/ViewSpreadTranslationController,50,393,2
+nntuyen/text-decorator,Java,1135,Decorate your TextView easily,None,https://github.com/nntuyen/text-decorator,41,391,1
+amitshekhariitbhu/GlideBitmapPool,Java,361,Glide Bitmap Pool is a memory management library for reusing the bitmap memory,https://mindorks.com/open-source-projects,https://github.com/amitshekhariitbhu/GlideBitmapPool,67,390,1
+android-notes/auto-scroll-capture,Java,8290,跟miui一样的自动滚动截屏,,https://github.com/android-notes/auto-scroll-capture,40,390,0
+PhilippC/keepass2android,Java,42214,Password manager app for Android,https://play.google.com/store/apps/details?id=keepass2android.keepass2android,https://github.com/PhilippC/keepass2android,37,388,149
+Jay-Goo/RangeSeekBar,Java,805," A beautiful SeekBar that supports bidirectional range selection and normal SeekBar mode, supports scale, negative numbers and a variety of powerful custom properties （ 一款漂亮美观的支持双向范围选择和普通SeekBar模式的SeekBar，支持刻度、负数以及多种强大的自定义属性)",,https://github.com/Jay-Goo/RangeSeekBar,77,388,8
+ThinkKeep/EvilsLive,Java,1887,This project is a  SDK about video stream live,,https://github.com/ThinkKeep/EvilsLive,90,384,4
+zhihu/RxLifecycle,Java,238,Bind observables to the lifecycle of Activity or Fragment in a non-invasive way.,,https://github.com/zhihu/RxLifecycle,34,384,2
+elevenetc/BadgeView,Java,1898,Badge view with animated effect which shows a bitmap or a text,,https://github.com/elevenetc/BadgeView,84,384,5
+hugeterry/UpdateFun,Java,365,Android APP update library./android app自动检测更新库,,https://github.com/hugeterry/UpdateFun,96,383,11
+andyiac/githot,Java,2754, GitHot is an Android App that will help you to find the world most popular project  and person,,https://github.com/andyiac/githot,104,383,0
+WangShuo1143368701/WSLiveDemo,Java,374,音视频，直播SDK，rtmp推流，录制视频，滤镜。百万用户，线上迭代半年，已经稳定。,,https://github.com/WangShuo1143368701/WSLiveDemo,67,383,8
+matecode/Snacky,Java,503,Snacky is a small library to help you adding a Snackbar to your android project.,None,https://github.com/matecode/Snacky,37,380,0
+mg6maciej/android-maps-extensions,Java,11099,Android Maps Extensions is a library extending capabilities of Google Maps Android API v2.,AndroidMapsExtensions.com,https://github.com/mg6maciej/android-maps-extensions,105,379,5
+codemybrainsout/smart-app-rate,Java,320,An Android library that encourages users to rate the app on the Google Play.,,https://github.com/codemybrainsout/smart-app-rate,96,378,0
+maxbbraun/mirror,Java,137,Smart Mirror,https://medium.com/@maxbraun/my-bathroom-mirror-is-smarter-than-yours-94b21c6671ba#.81sljnn80,https://github.com/maxbbraun/mirror,89,378,10
+airbnb/okreplay,Java,63102,📼 Record and replay OkHttp network interaction in your tests.,,https://github.com/airbnb/okreplay,24,377,9
+novoda/rxpresso,Java,128,Easy Espresso UI testing for Android applications using RxJava.,,https://github.com/novoda/rxpresso,24,377,3
+novoda/merlin,Java,2446,Observes network connection status & gives callbacks,,https://github.com/novoda/merlin,44,377,6
+DevAhamed/MultiViewAdapter,Java,16960,Recyclerview Adapter library to create composable view holders,,https://github.com/DevAhamed/MultiViewAdapter,56,376,14
+patloew/RxLocation,Java,213,🗺 Reactive Location APIs Library for Android and RxJava 2,,https://github.com/patloew/RxLocation,65,374,11
+andretietz/retroauth,Java,713,"A library build on top of retrofit, for simple handling of authenticated requests",,https://github.com/andretietz/retroauth,30,374,0
+leonHua/LFilePicker,Java,3301,"Android 检索手机目录方式的文件选择器，轻量且界面友好，定制性高。This is a lightweight file selector, it can select files by retrieve phone directory",,https://github.com/leonHua/LFilePicker,79,374,3
+miguelbcr/RxPaparazzo,Java,589,RxJava extension for Android to take images using camera and gallery and pick files up,,https://github.com/miguelbcr/RxPaparazzo,31,372,3
+Cutta/ContinuousScrollableImageView,Java,5317,Library for animating images with continuous scrolling effects,,https://github.com/Cutta/ContinuousScrollableImageView,36,372,0
+Team-Blox/TreeView,Java,409,Android TreeView is used to display data in tree structures.,None,https://github.com/Team-Blox/TreeView,31,372,1
+jiang111/IndicatorDialog,Java,8304,a dialog with arrow indicator in the location where you want,,https://github.com/jiang111/IndicatorDialog,52,370,0
+REBOOTERS/AndroidAnimationExercise,Java,76039,Android 动画各种实现，包括帧动画、补间动画和属性动画的总结分享,,https://github.com/REBOOTERS/AndroidAnimationExercise,103,368,0
+hypertrack/hyperlog-android,Java,3365,Utility logger library for storing logs into database and push them to remote server for debugging,,https://github.com/hypertrack/hyperlog-android,38,368,6
+orhanobut/tracklytics,Java,441,✔️ Annotation based tracking handler with aspect oriented programming,,https://github.com/orhanobut/tracklytics,35,367,4
+qyxxjd/CarAssistant,Java,21663,"汽车助手:消费信息的增删改查;消费记录、百分比统计表;百公里油耗曲线图,最低油耗/最高油耗信息",,https://github.com/qyxxjd/CarAssistant,83,367,0
+ShawnLin013/NumberPicker,Java,342,:slot_machine: The android library that provides a simple and customizable NumberPicker.,,https://github.com/ShawnLin013/NumberPicker,96,366,12
+GDGAhmedabad/Learning-Resources,Java,1407,"""Technology Gold mine"" to collect and share materials/resources",,https://github.com/GDGAhmedabad/Learning-Resources,233,365,7
+jrvansuita/GaussianBlur,Java,19185,An easy and fast library to apply gaussian blur filter on any images. 🎩 ,,https://github.com/jrvansuita/GaussianBlur,55,365,0
+DreaminginCodeZH/CustomTabsHelper,Java,832,"Custom tabs, made easy.",,https://github.com/DreaminginCodeZH/CustomTabsHelper,46,365,1
+qinci/AndroidEdit,Java,20976,Android EditText的撤销和恢复（反撤销）,,https://github.com/qinci/AndroidEdit,65,362,0
+MindorksOpenSource/AndroidTensorFlowMNISTExample,Java,16110,Android TensorFlow MachineLearning MNIST Example (Building Model with TensorFlow for Android),https://mindorks.com/open-source-projects,https://github.com/MindorksOpenSource/AndroidTensorFlowMNISTExample,79,361,1
+Bakumon/UGank,Java,23562,:meat_on_bone:「有干货」Gank.io 第三方客户端，分别使用MVP、Google-LiveData\Room(进行中)实现,https://bakumon.github.io/UGank/,https://github.com/Bakumon/UGank,85,361,0
+javonleee/DragPointView,Java,5602,A draggable PointView for Android.,,https://github.com/javonleee/DragPointView,44,360,1
+Gericop/Android-Support-Preference-V7-Fix,Java,1728,"Android preference-v7 support library has some issues, this lib tries to fix them.",,https://github.com/Gericop/Android-Support-Preference-V7-Fix,28,358,19
+skydoves/ColorPickerView,Java,441,The most standard and powerful colorpicker library.,,https://github.com/skydoves/ColorPickerView,53,358,3
+nextcloud/news-android,Java,195975,📱:newspaper: Android client for the Nextcloud news/feed reader app,https://play.google.com/store/apps/details?id=de.luhmer.owncloudnewsreader,https://github.com/nextcloud/news-android,180,357,68
+remychantenay/Firebucket,Java,892,"Glimpse into Firebase, with a simple TODO list app built around Dagger, RxJava 2, Clean architecture and of course, Firebase.",https://medium.com/@remy.chantenay/f1r3b4s3-13cf28def122,https://github.com/remychantenay/Firebucket,46,357,2
+miao1007/AnimeWallpaper,Java,7984,[Android] Konachan wallpaper downloader,http://www.jianshu.com/p/93475df308b8,https://github.com/miao1007/AnimeWallpaper,82,356,1
+hypeapps/Endoscope,Java,935,Endoscope lets you to stream live video between android devices over Wi-Fi! 📱📲,,https://github.com/hypeapps/Endoscope,115,355,17
+VEINHORN/ScrollGalleryView,Java,3681,:bridge_at_night: Android image gallery with bottom scroll view,,https://github.com/VEINHORN/ScrollGalleryView,111,354,18
+imageprocessor/cv4j,Java,11633,The target is to set up a high quality and real-time image process and machine learning library which is implemented in pure java. The framework can run application on java desktop and android platform.,,https://github.com/imageprocessor/cv4j,63,354,4
+pedroSG94/rtmp-rtsp-stream-client-java,Java,4204,Library to stream in rtmp and rtsp for Android. All code in Java,,https://github.com/pedroSG94/rtmp-rtsp-stream-client-java,99,352,13
+jeanboydev/Android-BitherCompress,Java,6680,Android图片压缩解决方案。,,https://github.com/jeanboydev/Android-BitherCompress,71,351,4
+hsllany/HtmlNative,Java,72356,":page_with_curl:Use HTML/CSS to render Android View, Lua to control its logic (Not Webview)",,https://github.com/hsllany/HtmlNative,45,351,6
+jshvarts/OfflineSampleApp,Java,881,"Sample Offline-First MVVM app that uses Android Priority Job Queue, Room, Retrofit2, LiveData, LifecycleObserver, RxJava2, Dagger Android",https://proandroiddev.com/offline-apps-its-easier-than-you-think-9ff97701a73f,https://github.com/jshvarts/OfflineSampleApp,72,350,0
+DavidPacioianu/InkPageIndicator,Java,150,InkPageIndicator created by @nickbutcher for Plaid https://github.com/nickbutcher/plaid and backported by me for API 14+ (4.0+),,https://github.com/DavidPacioianu/InkPageIndicator,63,349,9
+Yarikx/reductor,Java,309,Redux for Android. Predictable state container library for Java/Android,,https://github.com/Yarikx/reductor,18,348,10
+elevenetc/InteractiveCanvas,Java,6502,Library for distribution canvas animation over set of devices,,https://github.com/elevenetc/InteractiveCanvas,50,347,1
+ruzhan123/awaker,Java,10645,地理杂志阅读类Android App，项目采用 LiveData + Room + RXJava2 + Retrofit + OKHttp + Material Design + Base + Glide 构建,,https://github.com/ruzhan123/awaker,55,347,3
+osfans/trime,Java,25436,同文安卓輸入法平臺3.x/Android-rime/Rime Input Method Engine for Android,http://osfans.github.io/trime/,https://github.com/osfans/trime,77,345,50
+mukeshsolanki/photofilter,Java,11892,A simple easy to use library that lets you edit pictures on the fly with easy. Photo filter lets you apply a large number of filters all while maintaining maximum image quality. Supports Android 2.3 and higher.,,https://github.com/mukeshsolanki/photofilter,72,345,1
+realm/realm-android-adapters,Java,338,Adapters for combining Realm Java with Android UI components and framework classes,realm.io,https://github.com/realm/realm-android-adapters,102,345,19
+nekocode/ResourceInspector,Java,661,A debug tool to inspect used layout files of current Activity.,,https://github.com/nekocode/ResourceInspector,18,344,0
+vinaygaba/RubberStamp,Java,20749,RubberStamp is an Android library that makes it easy for you to add a watermark to your images. 📫,,https://github.com/vinaygaba/RubberStamp,47,342,2
+burhanrashid52/PhotoEditor,Java,3530,"A Photo Editor library with simple, easy support for image editing using paints,text,emoji and Sticker like stories.",,https://github.com/burhanrashid52/PhotoEditor,71,342,7
+zagum/SpeechRecognitionView,Java,749,"""Google Now"" style animation for Speech Recognizer.",,https://github.com/zagum/SpeechRecognitionView,65,341,0
+memfis19/Cadar,Java,7687,Android solution which represents month and list calendar views.,,https://github.com/memfis19/Cadar,43,340,6
+infinum/Android-Goldfinger,Java,179,Android library to simplify Fingerprint authentication implementation.,,https://github.com/infinum/Android-Goldfinger,29,340,2
+lewismcgeary/AndroidtoAppleVectorLogo,Java,130,An Android app demoing pathmorphing with AnimatedVectorDrawables,,https://github.com/lewismcgeary/AndroidtoAppleVectorLogo,55,338,2
+iSpring/GamePlane,Java,2437,基于Android的仿微信打飞机游戏,None,https://github.com/iSpring/GamePlane,172,337,2
+amanjeetsingh150/UberCarAnimation,Java,142,A demo app showing movement of car on map like in Uber.,,https://github.com/amanjeetsingh150/UberCarAnimation,111,337,2
+yale8848/RetrofitCache,Java,229,RetrofitCache让retrofit2+okhttp3+rxjava配置缓存如此简单。通过注解配置，可以针对每一个接口灵活配置缓存策略；同时让每一个接口方便支持数据模拟，可以代码减小侵入性，模拟数据可以从内存，Assets，url轻松获取。,,https://github.com/yale8848/RetrofitCache,38,337,1
+JohnnyShieh/Gank,Java,6230,干货集中营 app 的两种实现：android 版和 kotlin 版，基于 RxFlux 架构使用了 RxJava、Retrofit、Glide、Dagger 2等,,https://github.com/JohnnyShieh/Gank,66,335,0
+sangcomz/FishBun,Java,50493,FishBun is Image Picker for android.,,https://github.com/sangcomz/FishBun,71,332,29
+GoodieBag/HorizontalPicker,Java,330,"A HorizontalPicker view for android, which supports both text and icon. :sparkles:",,https://github.com/GoodieBag/HorizontalPicker,31,332,0
+qinci/EdgeTranslucent,Java,5241,Android 任意View边沿渐变透明,,https://github.com/qinci/EdgeTranslucent,42,332,0
+ajalt/reprint,Java,499,A unified fingerprint library for android.,None,https://github.com/ajalt/reprint,66,332,2
+hanuor/onyx,Java,5117,"An android library that uses technologies like artificial Intelligence, machine learning, and deep learning to make developers understand the content that they are displaying in their app.",,https://github.com/hanuor/onyx,53,331,1
+hujiaweibujidao/yava,Java,525,:monkey: yet another view animation ( a simple and elegant view animation helper library for Android),,https://github.com/hujiaweibujidao/yava,28,331,0
+h6ah4i/android-openslmediaplayer,Java,8543,Re-implementation of Android's MediaPlayer and audio effect classes based on OpenSL ES APIs.,https://openslmediaplayer.h6ah4i.com,https://github.com/h6ah4i/android-openslmediaplayer,78,329,30
+protyposis/MediaPlayer-Extended,Java,1128,Android MediaPlayer API-compatible media player library with exact seek and DASH support,,https://github.com/protyposis/MediaPlayer-Extended,98,328,9
+tuskyapp/Tusky,Java,9380,an android client for the microblogging server Mastodon,https://tuskyapp.github.io,https://github.com/tuskyapp/Tusky,91,328,79
+microg/android_packages_apps_UnifiedNlp,Java,547,"The next generation Network Location Provider, based on plugins.",,https://github.com/microg/android_packages_apps_UnifiedNlp,88,327,48
+florent37/Freezer,Java,3040,"A simple & fluent Android ORM, how can it be easier ? RxJava2 compatible ",,https://github.com/florent37/Freezer,46,327,15
+coomar2841/android-multipicker-library,Java,598,Android Multipicker Library,None,https://github.com/coomar2841/android-multipicker-library,66,325,51
+afollestad/polar-dashboard,Java,96977,Not maintained.,,https://github.com/afollestad/polar-dashboard,168,325,12
+kaelaela/OpenGraphView,Java,14044,Rich url link view for Android.,http://kaelae.la/OpenGraphView/,https://github.com/kaelaela/OpenGraphView,50,324,1
+dongjunkun/BannerLayout,Java,5112,一款简洁实用的android广告栏,http://www.jianshu.com/p/bf3bc1f2df5c,https://github.com/dongjunkun/BannerLayout,110,321,12
+zoonooz/simple-view-behavior,Java,10138,Simple and easy way to deal with CoordinatorLayout Behavior,None,https://github.com/zoonooz/simple-view-behavior,58,321,1
+beautifulSoup/RtmpRecoder,Java,99,直播安卓主播端解决方案 ,,https://github.com/beautifulSoup/RtmpRecoder,105,319,3
+pcevikogullari/AndroidShortcuts,Java,7995,Example app for shortcuts,,https://github.com/pcevikogullari/AndroidShortcuts,33,318,0
+cdflynn/crossview,Java,247,A Toggling Add/Remove button,None,https://github.com/cdflynn/crossview,49,317,2
+BlackBoxVision/material-calendar-view,Java,7606,:calendar: Material Design Calendar compatible with API 11+,,https://github.com/BlackBoxVision/material-calendar-view,74,317,17
+MarnoDev/GameNews,Java,27959,不再更新,,https://github.com/MarnoDev/GameNews,150,316,3
+santalu/emptyview,Java,361,"A view that displays state of screen like loading, error, empty",,https://github.com/santalu/emptyview,32,315,1
+consp1racy/android-support-preference,Java,2297,Android Preferences according to Material design specs,,https://github.com/consp1racy/android-support-preference,50,315,8
+AnyRTC/anyRTC-RTMPC-Android,Java,321582,基于RTMP和RTC混合引擎的在线视频连麦互动直播,None,https://github.com/AnyRTC/anyRTC-RTMPC-Android,200,314,3
+martykan/forecastie,Java,1881,"A simple, opensource weather app for Android.",,https://github.com/martykan/forecastie,153,314,56
+nekocode/Meepo,Java,222,"A router generator for Android, similar to retrofit.",,https://github.com/nekocode/Meepo,28,314,2
+jiang111/CProgressButton,Java,410,a circle progress button like iOS ,,https://github.com/jiang111/CProgressButton,40,314,0
+novoda/sqlite-provider,Java,6860,Extended SQLite functionality for Android,Http://novoda.com,https://github.com/novoda/sqlite-provider,75,311,8
+SchibstedSpain/Leku,Java,12846,:earth_africa: Map location picker component for Android.,https://schibstedspain.github.io/Leku/,https://github.com/SchibstedSpain/Leku,82,310,7
+vgrec/EspressoExamples,Java,494,A collection of examples demonstrating different techniques for automated testing with Espresso.,https://androidresearch.wordpress.com/2015/04/04/an-introduction-to-espresso/,https://github.com/vgrec/EspressoExamples,63,310,0
+ram-on/SkyTube,Java,14981,An open-source YouTube app for Android.,http://skytube-app.com,https://github.com/ram-on/SkyTube,129,308,50
+Devlight/TintLayout,Java,316,This library help you to achieve popular drop shadow effect from view.,,https://github.com/Devlight/TintLayout,56,308,2
+russelarms/OffsetAnimator,Java,2392,Animations driven by finger movement,,https://github.com/russelarms/OffsetAnimator,34,308,2
+canyinghao/CanRefresh,Java,7597, 可适配所有视图的下拉刷新上拉加载，并支持各种风格。,None,https://github.com/canyinghao/CanRefresh,82,306,22
+wasdennnoch/AndroidN-ify,Java,44693,[Xposed] Use features introduced in Android N on your LP+ Device!,,https://github.com/wasdennnoch/AndroidN-ify,124,305,100
+PrivacyApps/donations,Java,1491,"Donations library for Android. Supports Google Play Store, Flattr, PayPal, and Bitcoin",,https://github.com/PrivacyApps/donations,77,305,3
+geftimov/android-viewpager-transformers,Java,42049,A collection of view pager transformers ,None,https://github.com/geftimov/android-viewpager-transformers,89,305,8
+Saketme/Better-Link-Movement-Method,Java,958,A less buggy and customizable way to handle URLs in TextViews.,,https://github.com/Saketme/Better-Link-Movement-Method,22,304,2
+lawloretienne/MovieHub,Java,26023,"Showcases popular movies, tv shows, and people from The Movie Database",None,https://github.com/lawloretienne/MovieHub,52,303,1
+AllenCoder/SuperUtils,Java,233,The utils Project,None,https://github.com/AllenCoder/SuperUtils,73,302,1
+h6ah4i/android-verticalseekbar,Java,465,Vertical SeekBar class which supports Android 2.3 - 7.x.,,https://github.com/h6ah4i/android-verticalseekbar,71,301,7
+milosmns/circular-slider-android,Java,926,Circular Slider UI Control for Android,,https://github.com/milosmns/circular-slider-android,44,301,0
+Zhaoss/HintPopupWindow,Java,3270,仿QQ的选项弹窗动画,,https://github.com/Zhaoss/HintPopupWindow,69,300,4
+NielsMasdorp/Speculum-Android,Java,23149,Android application powering a magic mirror.,,https://github.com/NielsMasdorp/Speculum-Android,60,299,6
+TR4Android/AppCompat-Extension-Library,Java,2924,"A library that builds on the AppCompat Design Library and provides additional common components such as AccountHeaderView, FloatingActionMenu, CircleImageView, Picker Dialogs, FlexibleToolbarLayout, Delightful Detail Drawables and TypefaceCompat.",,https://github.com/TR4Android/AppCompat-Extension-Library,37,299,4
+jakubkinst/Android-ViewModelBinding,Java,569,A lightweight library aiming to speed up Android app development by leveraging the new Android Data Binding together with the Model-View-ViewModel design pattern.,,https://github.com/jakubkinst/Android-ViewModelBinding,31,299,7
+Esri/arcgis-runtime-samples-android,Java,86842,ArcGIS Runtime SDK for Android Samples,https://developers.arcgis.com/android/,https://github.com/Esri/arcgis-runtime-samples-android,842,296,24
+shazam/reflow-animator,Java,600,A library for easily transitioning between sibling TextViews.,,https://github.com/shazam/reflow-animator,26,296,0
+tananaev/traccar-client-android,Java,1124,Traccar Client for Android,https://www.traccar.org/client,https://github.com/tananaev/traccar-client-android,370,294,128
+IvBaranov/RxBluetooth,Java,325,Android reactive bluetooth,,https://github.com/IvBaranov/RxBluetooth,70,294,4
+FutureMind/recycler-fast-scroll,Java,245,Provides fast scroll and section idexer for recycler view,None,https://github.com/FutureMind/recycler-fast-scroll,70,293,30
+Mauin/RxFingerprint,Java,502,Android Fingerprint authentication and encryption with RxJava,,https://github.com/Mauin/RxFingerprint,62,292,13
+snatik/memory-game,Java,12209,Simple and beautiful memory game for kids,https://play.google.com/store/apps/details?id=com.snatik.matches,https://github.com/snatik/memory-game,218,291,5
+btkelly/gandalf,Java,354,"Easily notify a user with a simple alert, inform them of an optional update, and in dire situations block the user from accessing older versions of the application completely.",http://btkelly.github.io/gandalf,https://github.com/btkelly/gandalf,35,290,2
+TellH/RecyclerStickyHeaderView,Java,2407,Sticky header view or suspending view for RecyclerView.,,https://github.com/TellH/RecyclerStickyHeaderView,48,290,5
+michael-rapp/AndroidBottomSheet,Java,5008,Provides a bottom sheet as proposed by Android's Material design guidelines.,None,https://github.com/michael-rapp/AndroidBottomSheet,32,289,1
+noties/Markwon,Java,5470,Android library for rendering markdown as system-native Spannables,None,https://github.com/noties/Markwon,39,288,4
+mirrajabi/search-dialog,Java,176,A fast and customizable search dialog,http://mirrajabi.ir,https://github.com/mirrajabi/search-dialog,56,288,1
+hbb20/CountryCodePickerProject,Java,4442,Country Code Picker (CCP) is an android library which provides an easy way to search and select country or international phone code. ,,https://github.com/hbb20/CountryCodePickerProject,114,287,14
+sangmingming/StickerView,Java,371,a sticker view for android application,None,https://github.com/sangmingming/StickerView,80,286,5
+YiiGuxing/CompositionAvatar,Java,10179,Android composition avatar. 仿QQ讨论组头像,,https://github.com/YiiGuxing/CompositionAvatar,42,286,0
+QuickLyric/QuickLyric,Java,25896,Android app that instantly fetches your lyrics for you.,,https://github.com/QuickLyric/QuickLyric,95,285,24
+mari-linhares/mnist-android-tensorflow,Java,54779,Handwritten digits classification from MNIST with TensorFlow on Android; Featuring Tutorial!,,https://github.com/mari-linhares/mnist-android-tensorflow,54,285,2
+CarGuo/RickText,Java,3142,类似微博的emoji表情、@人、话题等的EdiText，优化了编辑框中的光标点击和删除处理。TextView支持emoji表情、话题、链接、电话和@某人特殊显示的文本。,,https://github.com/CarGuo/RickText,53,285,1
+michelelacorte/ElasticProgressBar,Java,133,Elastic Progress Bar Renew!,,https://github.com/michelelacorte/ElasticProgressBar,37,285,3
+iammert/dagger-android-injection,Java,146,Sample project explains Dependency Injection in Android using dagger-android framework. ,None,https://github.com/iammert/dagger-android-injection,64,283,8
+Assassinss/Interessant,Java,46736,Unofficial Android client of Eyepetizer(开眼视频).,None,https://github.com/Assassinss/Interessant,75,283,0
+Someonewow/SubmitButton,Java,560,A submit button with a fun animation for Android.,,https://github.com/Someonewow/SubmitButton,38,282,2
+liangzhitao/ComponentizationApp,Java,1213,A Componentization App.,None,https://github.com/liangzhitao/ComponentizationApp,38,282,4
+pocmo/Yaaic,Java,5749,Yaaic (Yet Another Android IRC Client) is as the name already says an Internet Relay Chat (IRC) client for Android devices.,http://www.yaaic.org,https://github.com/pocmo/Yaaic,115,282,113
+yingLanNull/HideKeyboard,Java,3160,仿iOS输入法点击输入框以外区域 自动隐藏软键盘轻量级库 ， Imitation iOS automatic hidden soft keyboard,,https://github.com/yingLanNull/HideKeyboard,44,281,1
+iluhcm/QrCodeScanner,Java,1033,An optimized qr code scan tool forked from zxing.,None,https://github.com/iluhcm/QrCodeScanner,85,279,7
+googlesamples/android-AutofillFramework,Java,9823,"This sample demonstrates the use of the Autofill Framework. It includes implementations of client Activities with views that should be autofilled, and a Service that can provide autofill data to client Activities.",,https://github.com/googlesamples/android-AutofillFramework,152,277,2
+PrivacyApps/document-viewer,Java,43366,Document Viewer is a highly customizable document viewer for Android.,,https://github.com/PrivacyApps/document-viewer,100,276,84
+bkhezry/ExtraMapUtils,Java,9695,:earth_africa: the simple utility for google maps in android,,https://github.com/bkhezry/ExtraMapUtils,33,274,1
+Devlight/PulseView,Java,127,Widget that generates pulsation relative to your icons. Tinder search like.,,https://github.com/Devlight/PulseView,54,273,2
+HarinTrivedi/FABRevealMenu-master,Java,730,A general purpose android UI library to show a user show menu in accordance of Floating action button with material design guidelines.,https://harintrivedi.github.io/FABRevealMenu-master/,https://github.com/HarinTrivedi/FABRevealMenu-master,59,272,11
+Devlight/ShadowLayout,Java,203,This library allows you to create a shadow effect for your layout based on your child.,None,https://github.com/Devlight/ShadowLayout,59,271,12
+cdflynn/touchdemo,Java,5347,Custom touch handling in Android,None,https://github.com/cdflynn/touchdemo,13,271,0
+MatteoBattilana/WeatherView,Java,42081,WeatherView is an Android Library that helps you make a cool weather animation for your app,,https://github.com/MatteoBattilana/WeatherView,56,271,0
+nukc/StateView,Java,2184,":sparkles: StateView is an invisible, zero-sized View that can be used to lazily inflate loadingView/emptyView/retryView at runtime.",,https://github.com/nukc/StateView,49,271,0
+TangoAgency/android-data-binding-rxjava,Java,112,Demo that shows how to use RxJava with Android Data Binding ObservableFields,,https://github.com/TangoAgency/android-data-binding-rxjava,33,271,1
+gdg-x/frisbee,Java,12470,Android application for GDG members and organizers,https://play.google.com/store/apps/details?id=org.gdg.frisbee.android,https://github.com/gdg-x/frisbee,183,270,38
+Ilhasoft/data-binding-validator,Java,840,Android fields validation library based on data binding adapters.,None,https://github.com/Ilhasoft/data-binding-validator,27,270,9
+w568w/fuckView,Java,13101,"Well,an app which can block anything you want to block in any app.It's experimental and has many bugs.",,https://github.com/w568w/fuckView,11,269,0
+justasm/WindowView,Java,2605,Android ImageView you pan by tilting your device.,,https://github.com/justasm/WindowView,44,268,1
+klinker24/Android-SlidingEmojiKeyboard,Java,16471,Our Sliding Emoji Keyboard app. ,,https://github.com/klinker24/Android-SlidingEmojiKeyboard,58,267,5
+lostzen/lost,Java,1904,A drop-in replacement for Google Play services location APIs for Android,http://mapzen.github.io/lost/,https://github.com/lostzen/lost,55,266,43
+qiugang/EditTag,Java,266,A view to edit tag just like EditText edit text.,http://qiugang.github.io/edit-tag-view,https://github.com/qiugang/EditTag,48,266,2
+aykuttasil/CallRecorder,Java,151,Android Phone Call Recorder,,https://github.com/aykuttasil/CallRecorder,71,266,12
+songixan/Wallpaper,Java,17838,透明屏幕,None,https://github.com/songixan/Wallpaper,76,265,8
+PierfrancescoSoffritti/SlidingDrawer,Java,2369,Android custom View implementing the bottom sheet pattern.,,https://github.com/PierfrancescoSoffritti/SlidingDrawer,46,263,0
+imgly/pesdk-android-demo,Java,25429,A fully customizable photo editor for your app.,https://www.photoeditorsdk.com/,https://github.com/imgly/pesdk-android-demo,104,262,1
+delight-im/Android-DDP,Java,3775,Meteor's Distributed Data Protocol (DDP) for clients on Android,,https://github.com/delight-im/Android-DDP,56,262,21
+Rukey7/DragSlopLayout,Java,44545,A UI library for Android,http://blog.csdn.net/github_35180164/article/details/52606923,https://github.com/Rukey7/DragSlopLayout,32,262,1
+zhihu/mirror,Java,215,Yet another Sketch Mirror App for Android. ,None,https://github.com/zhihu/mirror,24,262,1
+mmBs/NavigationDrawerSI,Java,712,Navigation Drawer Simple Implementation,None,https://github.com/mmBs/NavigationDrawerSI,106,262,0
+hujiaweibujidao/wava,Java,663,":whale: Wow, Android View Animation!",,https://github.com/hujiaweibujidao/wava,35,261,1
+andOTP/andOTP,Java,10064,Open source two-factor authentication for Android,,https://github.com/andOTP/andOTP,25,261,17
+maoruibin/OneDrawable,Java,162,:pencil2: Use only one image to set a background with a click effect for the View,,https://github.com/maoruibin/OneDrawable,27,261,3
+fabian7593/MagicalCamera,Java,46513,"A library to take picture easy, transform your data in different format and save photos in your device",,https://github.com/fabian7593/MagicalCamera,60,260,14
+sakebook/Reachability,Java,1770,You can easily access the top of the screen in Android. Like a iPhone 6 & 6 Plus. ,,https://github.com/sakebook/Reachability,51,259,1
+maskarade/gradle-android-ribbonizer-plugin,Java,405,Modifies launcher icons on debug build,https://bintray.com/gfx/maven/ribbonizer-plugin,https://github.com/maskarade/gradle-android-ribbonizer-plugin,35,259,2
+simplezhli/ChangeTabLayout,Java,8936,一款炫酷的TabLayout,None,https://github.com/simplezhli/ChangeTabLayout,32,259,0
+nisrulz/qreader,Java,525,":white_square_button: [Android Library] Read QR codes using google's mobile vision api, but without the hassle",http://nisrulz.github.io/qreader,https://github.com/nisrulz/qreader,69,259,24
+OneBusAway/onebusaway-android,Java,13251,The official Android/Fire Phone app for OneBusAway,http://www.onebusaway.org/,https://github.com/OneBusAway/onebusaway-android,179,259,153
+mgouline/android-samples,Java,748,Sample Android code for the tutorials.,None,https://github.com/mgouline/android-samples,90,259,0
+myinnos/AlphabetIndex-Fast-Scroll-RecyclerView,Java,1889,A Powerful AlphabetIndex FastScroller Library for Android's RecyclerView! ,https://myinnos.github.io/AlphabetIndex-Fast-Scroll-RecyclerView/,https://github.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView,47,259,21
+MyLifeMyTravel/CircleProgress,Java,5810,Android自定义圆形进度条,http://www.littlejie.com/2017/03/02/Android-%E8%87%AA%E5%AE%9A%E4%B9%89View%E4%B9%8B%E5%9C%86%E5%BD%A2%E8%BF%9B%E5%BA%A6%E6%9D%A1%E6%80%BB%E7%BB%93/,https://github.com/MyLifeMyTravel/CircleProgress,62,258,4
+CarGuo/FrescoUtils,Java,10233,Fresco 的封装，快速上手，图像后处理，超大图高清预览，缩小放大，双击放大等一一俱全。简书 http://www.jianshu.com/p/cd058a924288,,https://github.com/CarGuo/FrescoUtils,82,258,0
+Even201314/NumberMorphView4Android,Java,488,None,None,https://github.com/Even201314/NumberMorphView4Android,27,257,1
+maksim-m/Popular-Movies-App,Java,28548,"A simple Android app, that helps you discover most popular and most rated movies. Project 1 & 2 of Udacity Android Developer Nanodegree.",,https://github.com/maksim-m/Popular-Movies-App,88,256,0
+fashare2015/MVVM-JueJin,Java,6147,"高仿""掘金Android App"": databinding + kotlin + rx 的优雅实践。(持续打磨中~)",,https://github.com/fashare2015/MVVM-JueJin,35,255,6
+santalu/mask-edittext,Java,217,A simple edittext with mask,None,https://github.com/santalu/mask-edittext,20,253,1
+ApplikeySolutions/OrionPreview,Java,11399,🅾️ OrionPreview is a simple animation with tanslation or scale views written in Java.,https://applikeysolutions.com,https://github.com/ApplikeySolutions/OrionPreview,42,253,0
+JoaquimLey/avenging,Java,16975,MVP pattern - Android no Dagger or RxJava example,http://joaquimley.com/blog/avenging/,https://github.com/JoaquimLey/avenging,64,252,6
+saschpe/android-customtabs,Java,5072,Chrome CustomTabs for Android demystified. Simplifies development and provides higher level classes including fallback in case Chrome isn't available on device.,,https://github.com/saschpe/android-customtabs,24,252,5
+jahirfiquitiva/FABsMenu,Java,987,A simple library to use a menu of FloatingActionButtons from Design Support Library that follow Material Design Guidelines,,https://github.com/jahirfiquitiva/FABsMenu,20,252,5
+lizhangqu/Camera,Java,87,二代身份证信息识别,None,https://github.com/lizhangqu/Camera,117,252,0
+Karumi/KataScreenshotAndroid,Java,5609,Screenshot Kata for Android Developers. The main goal is to practice UI Testing.,None,https://github.com/Karumi/KataScreenshotAndroid,85,250,2
+chiehmin/MinMinGuard,Java,9850,The best advertisement blocker on Android!,http://fatminmin.com/pages/minminguard.html,https://github.com/chiehmin/MinMinGuard,102,249,69
+ar-android/DrawRouteMaps,Java,1023,Library for draw route maps between two point LatLng,,https://github.com/ar-android/DrawRouteMaps,90,249,10
+esafirm/android-image-picker,Java,592,Image Picker for Android 🤖,,https://github.com/esafirm/android-image-picker,85,248,15
+avianey/androidsvgdrawable-plugin,Java,497,"Gradle plugin that generates qualified, density specific PNG drawables from SVG files at build time for your Android projects.",,https://github.com/avianey/androidsvgdrawable-plugin,26,248,19
+lukaspili/Reactive-Billing,Java,143,Lightweight reactive wrapper around In App Billing API v3 for Android,https://play.google.com/store/apps/details?id=com.github.lukaspili.reactivebilling.sample,https://github.com/lukaspili/Reactive-Billing,32,248,17
+florent37/RxGps,Java,160,Finding current location cannot be easier on Android !,,https://github.com/florent37/RxGps,23,247,3
+woxingxiao/XEditText,Java,7200,"XEditText: clear contents easily; show/hide password; separeta contents automatically, such as credit card number; disable Emoji inputs; 带删除功能的EditText；显示或者隐藏密码；可设置自动添加分隔符分割电话号码、银行卡号等；支持禁止Emoji表情符号输入。",,https://github.com/woxingxiao/XEditText,68,247,3
+hani-momanii/SuperNova-Emoji,Java,8127,library to implement and render emojis For Android,,https://github.com/hani-momanii/SuperNova-Emoji,81,246,19
+florent37/Android-NoSql,Java,154,"Lightweight, simple structured NoSQL database for Android",,https://github.com/florent37/Android-NoSql,32,246,3
+Ramotion/direct-select-android,Java,6266,":octocat: ≡ DirectSelect is a selection widget with an ethereal, full-screen modal popup displaying the available choices when the widget is interact with.",https://dev.ramotion.com,https://github.com/Ramotion/direct-select-android,19,246,0
+daquexian/FlexibleRichTextView,Java,1278,"A view showing LaTeX, images, codes... You can customize tags as you want",,https://github.com/daquexian/FlexibleRichTextView,31,246,7
+jakebonk/BoardView,Java,144,A draggable boardview for java android (Kanban style),,https://github.com/jakebonk/BoardView,23,246,1
+BurnieLau/Time-Selector,Java,1502,Android Time Selector Library,,https://github.com/BurnieLau/Time-Selector,74,245,13
+markusfisch/ShaderEditor,Java,5829,Android app to create GLSL shaders and use them as live wallpaper,https://play.google.com/store/apps/details?id=de.markusfisch.android.shadereditor,https://github.com/markusfisch/ShaderEditor,67,245,29
+magiepooh/RecyclerItemDecoration,Java,7865,ItemDecoration for RecyclerView using LinearLayoutManager for Android,,https://github.com/magiepooh/RecyclerItemDecoration,55,245,1
+Airsaid/AccountBook,Java,6269,一个数据存储使用的 Leancloud、架构采用 MVP 的记账本 APP。（目前正在不断完善中）,,https://github.com/Airsaid/AccountBook,57,245,2
+ImangazalievM/Scripto,Java,230,Android bridge for sending messages between Java and JavaScript in WebView.,,https://github.com/ImangazalievM/Scripto,26,245,0
+Sottti/Material-Design-Nav-Drawer,Java,4242,Sample app showcasing the Navigation Drawer according Material Design guidelines. Check out the article to further explanation.,http://goo.gl/Zc3kMT,https://github.com/Sottti/Material-Design-Nav-Drawer,71,244,4
+sprylab/texturevideoview,Java,1522,A VideoView based on the official Android 7.1.1_r13 sources using a TextureView instead of a SurfaceView by sprylab technologies GmbH.,,https://github.com/sprylab/texturevideoview,73,243,4
+TangoAgency/avatar-view,Java,1287,Avatar ImageView with user's name first letter Drawable placeholder,,https://github.com/TangoAgency/avatar-view,36,243,13
+PierfrancescoSoffritti/Android-YouTube-Player,Java,15524,"YouTube Player library for Android, stable and customizable.",https://pierfrancescosoffritti.github.io/Android-YouTube-Player/,https://github.com/PierfrancescoSoffritti/Android-YouTube-Player,80,241,11
+Yalantis/Watchface-Constructor,Java,556,This is simple watchface constructor demo,https://yalantis.com,https://github.com/Yalantis/Watchface-Constructor,56,241,0
+yangchaojiang/DemoLoadView,Java,14957,"切换加载中，加载失败，加载成功布局，定义一个LoadViewHelper所有界面通用，通同时也支持单个自定义无需添加布局中view, 大大降低耦合性",,https://github.com/yangchaojiang/DemoLoadView,9,241,0
+MasayukiSuda/CountAnimationTextView,Java,278,A tiny Android library makes very easier count animation of TextView.,None,https://github.com/MasayukiSuda/CountAnimationTextView,41,241,2
+Commit451/ElasticDragDismissLayout,Java,7510,Standard ViewGroups which responds to nested scrolls to create drag-dismissable layouts.,,https://github.com/Commit451/ElasticDragDismissLayout,30,240,1
+joyrun/MixPush,Java,2429,Android融合推送MixPush集成多家推送平台，共享系统级推送，杀死APP也能收到推送,,https://github.com/joyrun/MixPush,32,239,7
+mthli/Mount,Java,141,"mount/umount apps that you don't like on Android, without root.",,https://github.com/mthli/Mount,28,239,4
+xiaohaibin/DMGameApp,Java,17363,【游戏资讯】一款游戏资讯应用,,https://github.com/xiaohaibin/DMGameApp,88,239,2
+StomHong/CustomizeKeyboard,Java,1180,完全自定义的Android安全键盘,,https://github.com/StomHong/CustomizeKeyboard,103,238,3
+ChillingVan/AndroidInstantVideo,Java,501,"展现Android硬编码下的视频数据流动，可以对视频做处理，例如加滤镜，加水印等，做直播推流（用RTMP）。  Show the stream of Android video hardware encode, including video processing and video publishing by RTMP.",,https://github.com/ChillingVan/AndroidInstantVideo,69,238,6
+kizitonwose/colorpreference,Java,8155,A custom preference item for easy implementation of a color picker in Android's preference screen.,,https://github.com/kizitonwose/colorpreference,26,238,1
+googlesamples/android-WatchFace,Java,2903,A simple sample that demonstrates watch faces and complications for Wear 2.0.,,https://github.com/googlesamples/android-WatchFace,127,234,0
+imshyam/mintube,Java,6136,Minimized / Floating YouTube for Android,http://imshyam.github.io/mintube,https://github.com/imshyam/mintube,58,234,19
+7heaven/GestureLock,Java,7524,a GestureLock that can customize length and style,,https://github.com/7heaven/GestureLock,72,234,0
+ChillingVan/android-openGL-canvas,Java,1736,An Android library that provides views using openGL canvas to draw things on SurfaceView or TextureView.,,https://github.com/ChillingVan/android-openGL-canvas,63,233,3
+Sottti/OkHttp-Volley-Gson,Java,799,"Sample app showcasing Android Networking with OkHttp, Volley and Gson. Check out the article to further explanation.",https://goo.gl/nl2DfN,https://github.com/Sottti/OkHttp-Volley-Gson,89,232,5
+CaMnter/AndroidLife,Java,82590,Android Life,,https://github.com/CaMnter/AndroidLife,57,232,0
+YangShaoXiong/LikeSinaSportProgress,Java,369,仿新浪体育客户端的进度条,,https://github.com/YangShaoXiong/LikeSinaSportProgress,40,231,0
+commonsguy/cwac-security,Java,1406,CWAC-Security: Helping You Help Your Users Defend Their Data,,https://github.com/commonsguy/cwac-security,33,231,7
+steelkiwi/SeparateShapesView,Java,882,Simple custom ViewGroup with two shapes inside and simple scale animation,http://steelkiwi.com/,https://github.com/steelkiwi/SeparateShapesView,33,231,0
+nowandfurure/richeditor,Java,119469,"RichEditor is a Editor base on Android WebView and JavaScript,which one can be easily taken to your Android project",,https://github.com/nowandfurure/richeditor,6,230,7
+MasayukiSuda/AnimateHorizontalProgressBar,Java,478,A tiny customView makes very easier ProgressBar anitmation horizontal. ,,https://github.com/MasayukiSuda/AnimateHorizontalProgressBar,46,229,1
+thyrlian/ScreenshotsNanny,Java,8388,Android library helps take screenshots for publishing on Google Play Store.,,https://github.com/thyrlian/ScreenshotsNanny,32,229,0
+yayaa/Rotatable,Java,2084,Helper class to make any view rotatable,None,https://github.com/yayaa/Rotatable,53,229,1
+tzutalin/Android-Object-Detection,Java,21910, :coffee: Fast-RCNN and Scene Recognition using Caffe,,https://github.com/tzutalin/Android-Object-Detection,112,228,8
+adityagohad/HorizontalPicker,Java,997,"A simple, customizable and easy to use picker where centre view is scaled up",None,https://github.com/adityagohad/HorizontalPicker,24,228,6
+thiagokimo/Faker,Java,1521,Provides fake data to your Android apps :),,https://github.com/thiagokimo/Faker,27,228,1
+XiqingLiu/JesMVP,Java,184,Android MVP框架,,https://github.com/XiqingLiu/JesMVP,1,228,0
+acomminos/Plumble,Java,1621,A full-featured implementation of Mumble for Android devices.,None,https://github.com/acomminos/Plumble,95,227,103
+dhhAndroid/RxWebSocket,Java,294,An auto reconnection-webSocket build with okhttp and rxJava,http://blog.csdn.net/huiAndroid/article/details/78071703,https://github.com/dhhAndroid/RxWebSocket,29,227,4
+Commit451/NativeStackBlur,Java,191,Android StackBlur with gradle support (only for the native method) https://github.com/kikoso/android-stackblur,None,https://github.com/Commit451/NativeStackBlur,32,227,0
+AAkira/CompoundIconTextView,Java,216,An android library that is able to set a vector drawable at text view pre-Lollipop.,None,https://github.com/AAkira/CompoundIconTextView,22,226,2
+sdsmdg/trianglify,Java,4955,Highly customizable library to generate beautiful triangle art views for android.,,https://github.com/sdsmdg/trianglify,27,225,5
+danimahardhika/candybar-library,Java,8946,Android icon pack material dashboard,,https://github.com/danimahardhika/candybar-library,85,224,16

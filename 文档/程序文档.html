@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>程序文档</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///C:\Users\Administrator\.atom\packages\markdown-preview-enhanced\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <ul>
+<li><a href="#">程序文档：</a>
+<ul>
+<li><a href="#githubrepo">GithubRepo</a>
+<ul>
+<li><a href="#-1">字段</a></li>
+<li><a href="#__initselfuserrepo__">__init(self,user,repo)__方法</a></li>
+</ul>
+</li>
+<li><a href="#crawlgithub">CrawlGithub</a>
+<ul>
+<li><a href="#commits_urlhttpsapigithubcomreposowncloudandroidcommits">爬取commits_url：https://api.github.com/repos/owncloud/android/commits</a></li>
+<li><a href="#commit_url">爬取commit_url:</a></li>
+<li><a href="#-2">小总结</a></li>
+<li><a href="#issues_url">爬取issues_url</a></li>
+<li><a href="#-events_url">爬取 events_url</a></li>
+<li><a href="#event">event事件类型</a></li>
+<li><a href="#-pull_url">爬取 pull_url</a></li>
+<li><a href="#comments_url">爬取comments_url</a></li>
+</ul>
+</li>
+<li><a href="#crawlgithub-">CrawlGithub 总结</a>
+<ul>
+<li><a href="#-3">成分</a></li>
+<li><a href="#issue">issue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#print-results">print results</a>
+<ul>
+<li><a href="#api-of-github">梳理API of GitHub</a></li>
+</ul>
+</li>
+</ul>
+<h1 class="mume-header" id="%E7%A8%8B%E5%BA%8F%E6%96%87%E6%A1%A3">程序文档：</h1>
+
+<h2 class="mume-header" id="githubrepo">GithubRepo</h2>
+
+<p>GithubRepo：github数据仓库。一个GithubRepo对象实例对应一个代爬取的Android项目。</p>
+<h3 class="mume-header" id="%E5%AD%97%E6%AE%B5">字段</h3>
+
+<p>user：仓库的用户<br>
+repo：仓库的名称<br>
+根据这两个即可确定Github获取信息的地址：<br>
+如 user = owncloud，repo=android，则：<br>
+项目访问地址（浏览器） <a href="https://github.com/owncloud/android">https://github.com/owncloud/android</a></p>
+<h4 class="mume-header" id="name">name</h4>
+
+<p>owncloud_android</p>
+<h4 class="mume-header" id="data_dir">data_dir</h4>
+
+<p>F:/LM/A_Android_bug模式匹配挖掘/AndroidBugMutator/data/owncloud_android</p>
+<p><img src="assets/markdown-img-paste-20180313201017110.png" alt=""></p>
+<h4 class="mume-header" id="url">url</h4>
+
+<p><a href="https://api.github.com/repos/owncloud/android/issues">https://api.github.com/repos/owncloud/android/issues</a><br>
+<a href="https://api.github.com/repos/owncloud/android/commits">https://api.github.com/repos/owncloud/android/commits</a></p>
+<p>{'Authorization': 'token ef373502bf40d0705e70a73d4935390bde7aebf8', 'Accept': 'application/vnd.github.v3+json', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36'}</p>
+<h4 class="mume-header" id="mongodb">mongodb</h4>
+
+<ul>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'comments')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'issues')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'commits')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'commitsinfo')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'commentsinfo')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'issuesinfo')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'issuesinfo2')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'],document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'issuesinfo3')</li>
+<li>Collection(Database(MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, connect=True), u'owncloud_android'), u'diffinfo')</li>
+</ul>
+<h3 class="mume-header" id="__initselfuserrepo__%E6%96%B9%E6%B3%95">__init(self,user,repo)__方法</h3>
+
+<p>初始化以上字段</p>
+<ul>
+<li>self.init_url()：  初始化爬取url</li>
+<li>self.init_filepath()：初始化数据存储路径</li>
+<li>self.init_mongodb_coll()： 初始化数据库集合</li>
+</ul>
+<h2 class="mume-header" id="crawlgithub">CrawlGithub</h2>
+
+<p>API url</p>
+<h3 class="mume-header" id="%E7%88%AC%E5%8F%96commits_urlhttpsapigithubcomreposowncloudandroidcommits">爬取commits_url：<a href="https://api.github.com/repos/owncloud/android/commits">https://api.github.com/repos/owncloud/android/commits</a></h3>
+
+<p>返回结果：</p>
+<pre data-role="codeBlock" data-info="json" class="language-json">results = <span class="token punctuation">[</span><span class="token punctuation">{</span>
+    <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"ecf9dd20227152cbc6db915800694b1a215e95dc"</span><span class="token punctuation">,</span>
+    <span class="token property">"commit"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"author"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"David González Verdugo"</span><span class="token punctuation">,</span>
+        <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"davigonz@users.noreply.github.com"</span><span class="token punctuation">,</span>
+        <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2018-03-13T10:15:22Z"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"committer"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"GitHub"</span><span class="token punctuation">,</span>
+        <span class="token property">"email"</span><span class="token operator">:</span> <span class="token string">"noreply@github.com"</span><span class="token punctuation">,</span>
+        <span class="token property">"date"</span><span class="token operator">:</span> <span class="token string">"2018-03-13T10:15:22Z"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"Merge pull request #2142 from sd1998/Fix-2141\n\nFix to Issue #2141"</span><span class="token punctuation">,</span>
+      <span class="token property">"tree"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"a0b7bf175790d72dfc2d1577e027710e5b6fdeb1"</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/trees/a0b7bf175790d72dfc2d1577e027710e5b6fdeb1"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/commits/ecf9dd20227152cbc6db915800694b1a215e95dc"</span><span class="token punctuation">,</span>
+      <span class="token property">"comment_count"</span><span class="token operator">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+      <span class="token property">"verification"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"verified"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"reason"</span><span class="token operator">:</span> <span class="token string">"valid"</span><span class="token punctuation">,</span>
+        <span class="token property">"signature"</span><span class="token operator">:</span> <span class="token string">"-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJap6S6CRBK7hj4Ov3rIwAAdHIIAARhfYJecuiS7SkfQurKGb94\nwsEuUxZBudyMA70KZnIuLyplhwkqtisVNP1+AucPlxgKRdmgTHpDwPUWFQa+jZA/\nHI8iqtSoXFkxdeaov653+f6lGWZOt3ntbhMlHLxXwcWLB1TVV0CwSjcJSL8uHpav\n5Tx/ErnQRTyQTtPXaX/kKyOf5juHDPbLGrLRNRPtPbgPkr6gLvB8r655lddcPrvP\nV0QQOz+yBagI0HjfXneE0x7UZdyUYzb40fRR6cjqfoU2F6VKcj8y4VhK/yRgNnWj\nFftLNN1eKGG1VkUXsO5KwW5OgmFE8q5YHEQDcq8frdSWy2dwCogJFsKSymd4NLA=\n=Tb3C\n-----END PGP SIGNATURE-----\n"</span><span class="token punctuation">,</span>
+        <span class="token property">"payload"</span><span class="token operator">:</span> <span class="token string">"tree a0b7bf175790d72dfc2d1577e027710e5b6fdeb1\nparent 2e667f0002b89c41cb67bb0095d39aa3f100fb47\nparent 38e54e1bf5c93aed86ca1ac5cdddb287fd7ce602\nauthor David González Verdugo &lt;davigonz@users.noreply.github.com> 1520936122 +0100\ncommitter GitHub &lt;noreply@github.com> 1520936122 +0100\n\nMerge pull request #2142 from sd1998/Fix-2141\n\nFix to Issue #2141"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits/ecf9dd20227152cbc6db915800694b1a215e95dc"</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/commit/ecf9dd20227152cbc6db915800694b1a215e95dc"</span><span class="token punctuation">,</span>
+    <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits/ecf9dd20227152cbc6db915800694b1a215e95dc/comments"</span><span class="token punctuation">,</span>
+    <span class="token property">"author"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"committer"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"web-flow"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">19864447</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/19864447?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/web-flow"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/web-flow/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"parents"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"2e667f0002b89c41cb67bb0095d39aa3f100fb47"</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits/2e667f0002b89c41cb67bb0095d39aa3f100fb47"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/commit/2e667f0002b89c41cb67bb0095d39aa3f100fb47"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"38e54e1bf5c93aed86ca1ac5cdddb287fd7ce602"</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits/38e54e1bf5c93aed86ca1ac5cdddb287fd7ce602"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/commit/38e54e1bf5c93aed86ca1ac5cdddb287fd7ce602"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">]</span>
+</pre><pre data-role="codeBlock" data-info="Python" class="language-python"><span class="token keyword">for</span> result <span class="token keyword">in</span> results<span class="token punctuation">:</span>
+  保留
+  sha：result<span class="token punctuation">[</span>sha<span class="token punctuation">]</span>
+
+  url<span class="token punctuation">:</span> result<span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+  commit_url<span class="token punctuation">:</span> result<span class="token punctuation">[</span>commit<span class="token punctuation">]</span><span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+  comment_count<span class="token punctuation">:</span>
+  comment_url<span class="token punctuation">:</span> result<span class="token punctuation">[</span>comments_url<span class="token punctuation">]</span>
+
+  commit： result<span class="token punctuation">[</span>commit<span class="token punctuation">]</span><span class="token punctuation">[</span>author<span class="token punctuation">]</span><span class="token punctuation">[</span>name<span class="token punctuation">]</span><span class="token punctuation">,</span> result<span class="token punctuation">[</span>commit<span class="token punctuation">]</span><span class="token punctuation">[</span>committer<span class="token punctuation">]</span><span class="token punctuation">[</span>name<span class="token punctuation">]</span>
+  message<span class="token punctuation">:</span> result<span class="token punctuation">[</span>commit<span class="token punctuation">]</span><span class="token punctuation">[</span>message<span class="token punctuation">]</span>
+  tree<span class="token punctuation">:</span> result<span class="token punctuation">[</span>commit<span class="token punctuation">]</span><span class="token punctuation">[</span>tree<span class="token punctuation">]</span><span class="token punctuation">,</span> 含 sha 和 url
+  parents<span class="token punctuation">:</span> <span class="token punctuation">[</span>result<span class="token punctuation">[</span>parents<span class="token punctuation">]</span><span class="token punctuation">[</span>$i<span class="token punctuation">]</span><span class="token punctuation">[</span>sha<span class="token punctuation">]</span><span class="token punctuation">]</span>， 含sha 和 url
+
+</pre><p>web_url: <a href="https://github.com/owncloud/android/">https://github.com/owncloud/android/</a><br>
+commits_url : <a href="https://api.github.com/repos/owncloud/android/commits">https://api.github.com/repos/owncloud/android/commits</a><br>
+repos_url: <a href="https://api.github.com/repos/owncloud/android/">https://api.github.com/repos/owncloud/android/</a></p>
+<p>root_url:<a href="https://github.com">https://github.com</a><br>
+api_url: <a href="https://api.github.com">https://api.github.com</a></p>
+<p>web_url:root_url+&quot;/&quot;+user+&quot;/&quot;+repo<br>
+repo_url:api_url+&quot;/repos/&quot;+user+&quot;/&quot;+repo<br>
+commits_url：repos_url+&quot;/commits&quot;<br>
+commit_url: commits_url+&quot;/&quot;,适配 commit_sha<br>
+parent_url: commits_url+&quot;/&quot;,适配 parent_sha<br>
+commit_comments_url: commit_url+&quot;/comments&quot;</p>
+<p>git_commit_url=repos+&quot;/git/commits/&quot;, 适配 commit_sha<br>
+git_tree_url=repos+&quot;/git/trees/&quot;, 适配 commit_tree_sha<br>
+git_blob_ url= repos+&quot;/git/blobs/&quot;，适配 file_change_sha</p>
+<ul>
+<li>
+<p>url : commits_url+&quot;/&quot;+sha</p>
+</li>
+<li>
+<p>comments_url : commits_url+&quot;/&quot;+sha+&quot;/comments&quot;</p>
+</li>
+<li>
+<p>parent_urls: [commits_url+&quot;/&quot;+parent_$i_sha]</p>
+</li>
+<li>
+<p>commit_url: repos_root+&quot;/git/commits/&quot;+sha</p>
+</li>
+<li>
+<p>tree_url: repos_root+&quot;/git/trees/&quot;+tree_sha</p>
+</li>
+</ul>
+<p><img src="assets/markdown-img-paste-20180313211743641.png" alt=""><br>
+所以进一步需要使用的内容为：</p>
+<ul>
+<li>commit_sha：result[sha]</li>
+<li></li>
+<li>tree_sha: result[commit][tree][sha]</li>
+<li>parents_sha: [result[parents][$i][sha]]</li>
+<li>comment_count: result[comments_count]</li>
+<li>commiter: result[commit][author][name], result[commit][committer][name]</li>
+<li>message: result[commit][message] 可能和issue相关</li>
+</ul>
+<h3 class="mume-header" id="%E7%88%AC%E5%8F%96commit_url">爬取commit_url:</h3>
+
+<p>结果增加了</p>
+<pre data-role="codeBlock" data-info="json" class="language-json"><span class="token property">"stats"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"total"</span><span class="token operator">:</span> <span class="token number">86</span><span class="token punctuation">,</span>
+    <span class="token property">"additions"</span><span class="token operator">:</span> <span class="token number">43</span><span class="token punctuation">,</span>
+    <span class="token property">"deletions"</span><span class="token operator">:</span> <span class="token number">43</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"files"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"581b0aaee29474f678aec91a3cb4771d9e7eb88b"</span><span class="token punctuation">,</span>
+      <span class="token property">"filename"</span><span class="token operator">:</span> <span class="token string">"src/com/owncloud/android/ui/activity/UploadFilesActivity.java"</span><span class="token punctuation">,</span>
+      <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"modified"</span><span class="token punctuation">,</span>
+      <span class="token property">"additions"</span><span class="token operator">:</span> <span class="token number">43</span><span class="token punctuation">,</span>
+      <span class="token property">"deletions"</span><span class="token operator">:</span> <span class="token number">43</span><span class="token punctuation">,</span>
+      <span class="token property">"changes"</span><span class="token operator">:</span> <span class="token number">86</span><span class="token punctuation">,</span>
+      <span class="token property">"blob_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/blob/ecf9dd20227152cbc6db915800694b1a215e95dc/src/com/owncloud/android/ui/activity/UploadFilesActivity.java"</span><span class="token punctuation">,</span>
+      <span class="token property">"raw_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/raw/ecf9dd20227152cbc6db915800694b1a215e95dc/src/com/owncloud/android/ui/activity/UploadFilesActivity.java"</span><span class="token punctuation">,</span>
+      <span class="token property">"contents_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/contents/src/com/owncloud/android/ui/activity/UploadFilesActivity.java?ref=ecf9dd20227152cbc6db915800694b1a215e95dc"</span><span class="token punctuation">,</span>
+      <span class="token property">"patch"</span><span class="token operator">:</span> <span class="token string">"@@ -2,7 +2,8 @@\n  *   ownCloud Android client application\n  *\n  *   @author David A. Velasco\n- *   Copyright (C) 2016 ownCloud GmbH.\n+ *   @author Shashvat Kedia\n+ *   Copyright (C) 2018 ownCloud GmbH.\n  *\n  *   This program is free software: you can redistribute it and/or modify\n  *   it under the terms of the GNU General Public License version 2,\n@@ -22,18 +23,16 @@\n \n import android.accounts.Account;\n import android.app.Activity;\n-import android.content.Context;\n import android.content.Intent;\n import android.content.SharedPreferences;\n-import android.database.Cursor;\n-import android.graphics.Bitmap;\n import android.net.Uri;\n import android.os.AsyncTask;\n import android.os.Bundle;\n import android.os.Environment;\n import android.preference.PreferenceManager;\n import android.provider.MediaStore;\n import android.support.v4.app.DialogFragment;\n+import android.support.v4.content.FileProvider;\n import android.support.v7.app.ActionBar;\n import android.view.MenuItem;\n import android.view.View;\n@@ -53,8 +52,8 @@\n import com.owncloud.android.ui.fragment.LocalFileListFragment;\n import com.owncloud.android.utils.FileStorageUtils;\n \n-import java.io.ByteArrayOutputStream;\n import java.io.File;\n+import java.io.IOException;\n import java.util.Calendar;\n \n \n@@ -89,6 +88,8 @@\n     private Button mUploadBtn;\n     private Account mAccountOnCreation;\n     private DialogFragment mCurrentDialog;\n+    private String capturedPhotoPath;\n+    private File image = null;\n \n     private RadioButton mRadioBtnCopyFiles;\n     private RadioButton mRadioBtnMoveFiles;\n@@ -194,11 +195,38 @@ public static void startUploadActivityForResult(Activity activity, Account accou\n      * */\n     private void uploadFromCamera(){\n         Intent pictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);\n+        File photoFile = createImageFile();\n+        if(photoFile != null){\n+            Uri photoUri = FileProvider.getUriForFile(getApplicationContext(),\n+                    getResources().getString(R.string.file_provider_authority),photoFile);\n+            pictureIntent.putExtra(MediaStore.EXTRA_OUTPUT,photoUri);\n+        }\n         if (pictureIntent.resolveActivity(getPackageManager()) != null) {\n             startActivityForResult(pictureIntent, REQUEST_IMAGE_CAPTURE);\n         }\n     }\n \n+    private File createImageFile(){\n+        try {\n+            File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);\n+            image = File.createTempFile(getCapturedImageName(), \".jpg\", storageDir);\n+            capturedPhotoPath = image.getAbsolutePath();\n+        } catch(IOException exception){\n+            Log_OC.d(TAG,exception.toString());\n+        }\n+        return image;\n+    }\n+\n+    private File getCapturedImageFile(){\n+        File capturedImage = new File(capturedPhotoPath);\n+        File parent = capturedImage.getParentFile();\n+        File newImage = new File(parent,getCapturedImageName() + \".jpg\");\n+        capturedImage.renameTo(newImage);\n+        capturedImage.delete();\n+        capturedPhotoPath = newImage.getAbsolutePath();\n+        return newImage;\n+    }\n+\n     private String getCapturedImageName(){\n         Calendar calendar = Calendar.getInstance();\n         String year = \"\" + calendar.get(Calendar.YEAR);\n@@ -212,55 +240,27 @@ private String getCapturedImageName(){\n         hour = hour.length() == 3 ? hour.substring(1,hour.length()) : hour;\n         minute = minute.length() == 3 ? minute.substring(1,minute.length()) : minute;\n         second = second.length() == 3 ? second.substring(1,second.length()) : second;\n-        String newImageName = \"IMG_\" + year + month + day + \"_\" + hour + minute + second + \".jpg\";\n+        String newImageName = \"IMG_\" + year + month + day + \"_\" + hour + minute + second;\n         return newImageName;\n     }\n \n     @Override\n     protected void onActivityResult(int requestCode,int resultCode,Intent capturedData){\n         if(requestCode == REQUEST_IMAGE_CAPTURE &amp;&amp; resultCode == RESULT_OK){\n-            Bundle capturedImageData = capturedData.getExtras();\n-            Bitmap capturedImage = (Bitmap) capturedImageData.get(\"data\");\n-            Uri capturedImageUri = getImageUri(getApplicationContext(),capturedImage);\n-            String capturedImagePath = getRealPathFromUri(capturedImageUri);\n-            File capturedImageFile = new File(capturedImagePath);\n-            File parent = capturedImageFile.getParentFile();\n-            File newImage = new File(parent,getCapturedImageName());\n-            capturedImageFile.renameTo(newImage);\n-            capturedImageFile.delete();\n-            new CheckAvailableSpaceTask(newImage.getAbsolutePath()).execute();\n-        }\n-        else if(resultCode == RESULT_CANCELED){\n+            new CheckAvailableSpaceTask(getCapturedImageFile().getAbsolutePath()).execute();\n+        } else if(requestCode == REQUEST_IMAGE_CAPTURE &amp;&amp; resultCode == RESULT_CANCELED){\n+            if(image != null){\n+                image.delete();\n+                Log_OC.d(TAG,\"File deleted\");\n+            }\n+            setResult(RESULT_CANCELED);\n+            finish();\n+        } else if(resultCode == RESULT_CANCELED){\n             setResult(RESULT_CANCELED);\n             finish();\n         }\n     }\n \n-    /**\n-     *Compressing the image to JPEG format and using the MediaStore to Uri of the Image\n-     * @param context Context of current state of the application\n-     * @param capturedImage Bitmap of the Image captured\n-     * @return Uri of the image that has been captured using the device's camera\n-     */\n-    private Uri getImageUri(Context context, Bitmap capturedImage){\n-        ByteArrayOutputStream bytes = new ByteArrayOutputStream();\n-        capturedImage.compress(Bitmap.CompressFormat.JPEG, 100, bytes);\n-        String path = MediaStore.Images.Media.insertImage(context.getContentResolver(),capturedImage,\"Captured Image\",null);\n-        return Uri.parse(path);\n-    }\n-\n-    /**\n-     *Using the content provider to obtain the path of the image\n-     * @param capturedPictureUri The Uri of the captured Image obtained from calling getImageUri() function.\n-     * @return Actual Uri of the captured Image\n-     */\n-    private String getRealPathFromUri(Uri capturedPictureUri){\n-        Cursor cursor = getContentResolver().query(capturedPictureUri,null,null,null,null);\n-        cursor.moveToFirst();\n-        int index = cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATA);\n-        return cursor.getString(index);\n-    }\n-\n     @Override\n     public boolean onOptionsItemSelected(MenuItem item) {\n         boolean retval = true;"</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+
+
+</pre><pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">for</span> result <span class="token keyword">in</span> results<span class="token punctuation">:</span>
+  stats：result<span class="token punctuation">[</span>stats<span class="token punctuation">]</span>
+  file_changes_sha<span class="token punctuation">:</span><span class="token punctuation">[</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>$i<span class="token punctuation">]</span><span class="token punctuation">[</span>sha<span class="token punctuation">]</span><span class="token punctuation">]</span>
+
+  <span class="token keyword">for</span> file <span class="token keyword">in</span> files<span class="token punctuation">:</span>
+    file_change_sha<span class="token punctuation">:</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>sha<span class="token punctuation">]</span>
+    changes<span class="token punctuation">:</span><span class="token punctuation">(</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>additions<span class="token punctuation">]</span><span class="token punctuation">,</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>deletions<span class="token punctuation">]</span><span class="token punctuation">,</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>changes<span class="token punctuation">]</span><span class="token punctuation">)</span>
+    filename<span class="token punctuation">:</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>filename<span class="token punctuation">]</span>
+    patch<span class="token punctuation">:</span>result<span class="token punctuation">[</span>files<span class="token punctuation">]</span><span class="token punctuation">[</span>patch<span class="token punctuation">]</span>
+<span class="token operator">+</span> <span class="token punctuation">]</span>
+</pre><ul>
+<li>commits_url: result[sha]</li>
+<li>blob_url: web+&quot;/blob/&quot;+commit_sha+&quot;/&quot;+filename，blob上的文件</li>
+<li>raw_url: web+&quot;/raw/&quot;+commit_sha+&quot;/&quot;+filename, 原始文件,这个是有用的，可以获取源文件</li>
+<li>contents_url: <a href="https://api.github.com/repos/">https://api.github.com/repos/</a>
+<ul>
+<li>git_url：repos+&quot;/git/blobs/&quot;+file_change_$i_sha</li>
+<li>download_url: 略</li>
+</ul>
+</li>
+</ul>
+<h3 class="mume-header" id="%E5%B0%8F%E6%80%BB%E7%BB%93">小总结</h3>
+
+<p><img src="assets\markdown-img-paste-20180314084601916.png" alt=""></p>
+<h3 class="mume-header" id="%E7%88%AC%E5%8F%96issues_url">爬取issues_url</h3>
+
+<pre data-role="codeBlock" data-info="json" class="language-json">  <span class="token punctuation">{</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151"</span><span class="token punctuation">,</span>
+    <span class="token property">"repository_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android"</span><span class="token punctuation">,</span>
+    <span class="token property">"labels_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/labels{/name}"</span><span class="token punctuation">,</span>
+    <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/comments"</span><span class="token punctuation">,</span>
+    <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/events"</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151"</span><span class="token punctuation">,</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">305537440</span><span class="token punctuation">,</span>
+    <span class="token property">"number"</span><span class="token operator">:</span> <span class="token number">2151</span><span class="token punctuation">,</span>
+    <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Release 2.7.0 beta v1"</span><span class="token punctuation">,</span>
+    <span class="token property">"user"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"labels"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"open"</span><span class="token punctuation">,</span>
+    <span class="token property">"locked"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">"assignee"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"assignees"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+        <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+        <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+        <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+        <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+        <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+        <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+        <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"milestone"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"comments"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T12:43:48Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T13:55:01Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"closed_at"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"author_association"</span><span class="token operator">:</span> <span class="token string">"CONTRIBUTOR"</span><span class="token punctuation">,</span>
+    <span class="token property">"pull_request"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2151"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151"</span><span class="token punctuation">,</span>
+      <span class="token property">"diff_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151.diff"</span><span class="token punctuation">,</span>
+      <span class="token property">"patch_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151.patch"</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"body"</span><span class="token operator">:</span> <span class="token string">"Implements #2147 "</span>
+  <span class="token punctuation">}</span>
+</pre><p>issues_url:<br>
+[issue]</p>
+<ul>
+<li>id</li>
+<li>number</li>
+<li>title</li>
+<li>body</li>
+<li>comments</li>
+<li>labels : [result[labels][$i][name]]</li>
+<li>state ：</li>
+<li>locked ：</li>
+<li>user :</li>
+<li>assignees :</li>
+<li>created updated closed</li>
+<li>author_association</li>
+</ul>
+<p>转移URL：<br>
+&quot;issue_url&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/issues/2151%22,repo_url+%22/issues">https://api.github.com/repos/owncloud/android/issues/2151&quot;,repo_url+&quot;/issues</a>&quot;+ issue_number<br>
+&quot;labels_url&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/issues/2151/labels%7B/name%7D">https://api.github.com/repos/owncloud/android/issues/2151/labels{/name}</a>&quot;, 即label<br>
+&quot;comments_url&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/issues/2151/comments">https://api.github.com/repos/owncloud/android/issues/2151/comments</a>&quot;,  issue_url+&quot;/comments&quot;<br>
+[comment]<br>
+comment id body   issues_url+&quot;/comments/&quot;+commnent_id<br>
+&quot;events_url&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/issues/2151/events">https://api.github.com/repos/owncloud/android/issues/2151/events</a>&quot;,<br>
+issue_url+&quot;/events&quot;<br>
+发生的事件<br>
+id event body<br>
+events+&quot;/&quot;+events_id</p>
+<p>&quot;html_url&quot;: &quot;<a href="https://github.com/owncloud/android/pull/2151">https://github.com/owncloud/android/pull/2151</a>&quot;, web_url+&quot;/pull/&quot;+issue_number<br>
+或 web_url+&quot;/issues/&quot;+issue_number</p>
+<ul>
+<li>issue_url</li>
+</ul>
+<pre data-role="codeBlock" data-info="json" class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151"</span><span class="token punctuation">,</span>
+  <span class="token property">"repository_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android"</span><span class="token punctuation">,</span>
+  <span class="token property">"labels_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/labels{/name}"</span><span class="token punctuation">,</span>
+  <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/comments"</span><span class="token punctuation">,</span>
+  <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2151/events"</span><span class="token punctuation">,</span>
+  <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151"</span><span class="token punctuation">,</span>
+  <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">305537440</span><span class="token punctuation">,</span>
+  <span class="token property">"number"</span><span class="token operator">:</span> <span class="token number">2151</span><span class="token punctuation">,</span>
+  <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"Release 2.7.0 beta v1"</span><span class="token punctuation">,</span>
+  <span class="token property">"user"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+    <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+    <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+    <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+    <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+    <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+    <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+    <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+    <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+    <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+    <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+    <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"labels"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"open"</span><span class="token punctuation">,</span>
+  <span class="token property">"locked"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token property">"assignee"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+    <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+    <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+    <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+    <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+    <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+    <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+    <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+    <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+    <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+    <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+    <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+    <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"assignees"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"milestone"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+  <span class="token property">"comments"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+  <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T12:43:48Z"</span><span class="token punctuation">,</span>
+  <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T13:55:01Z"</span><span class="token punctuation">,</span>
+  <span class="token property">"closed_at"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+  <span class="token property">"author_association"</span><span class="token operator">:</span> <span class="token string">"CONTRIBUTOR"</span><span class="token punctuation">,</span>
+  <span class="token property">"pull_request"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2151"</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151"</span><span class="token punctuation">,</span>
+    <span class="token property">"diff_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151.diff"</span><span class="token punctuation">,</span>
+    <span class="token property">"patch_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2151.patch"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"body"</span><span class="token operator">:</span> <span class="token string">"Implements #2147 "</span><span class="token punctuation">,</span>
+  <span class="token property">"closed_by"</span><span class="token operator">:</span> <span class="token null">null</span>
+<span class="token punctuation">}</span>
+</pre><p>新增 pull_request</p>
+<ul>
+<li>url : web_url+&quot;/pulls/&quot;+issue_number</li>
+<li>html_url: is issue_html_url</li>
+<li>diff_url: issue_number.diff</li>
+<li>patch_url: issue_number.patch</li>
+</ul>
+<h3 class="mume-header" id="%E7%88%AC%E5%8F%96-events_url">爬取 events_url</h3>
+
+<p>id actor  repo</p>
+<ul>
+<li>payload-
+<ul>
+<li>commit</li>
+<li>pull_request</li>
+</ul>
+</li>
+</ul>
+<h3 class="mume-header" id="event%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B">event事件类型</h3>
+
+<ul>
+<li>PullRequestEvent<br>
+Triggered when a pull request is assigned, unassigned, labeled, unlabeled, opened, edited, closed, reopened, or synchronized. Also triggered when a pull request review is requested, or when a review request is removed.</li>
+<li>issuesEvent<br>
+Triggered when an issue is assigned, unassigned, labeled, unlabeled, opened, edited, milestoned, demilestoned, closed, or reopened.</li>
+</ul>
+<pre data-role="codeBlock" data-info="json" class="language-json">CommitCommentEvent
+CreateEvent
+DeleteEvent
+DeploymentEvent
+DeploymentStatusEvent
+DownloadEvent
+FollowEvent
+ForkEvent
+ForkApplyEvent
+GistEvent
+GollumEvent
+InstallationEvent
+InstallationRepositoriesEvent
+IssueCommentEvent
+IssuesEvent
+LabelEvent
+MarketplacePurchaseEvent
+MemberEvent
+MembershipEvent
+MilestoneEvent
+OrganizationEvent
+OrgBlockEvent
+PageBuildEvent
+ProjectCardEvent
+ProjectColumnEvent
+ProjectEvent
+PublicEvent
+PullRequestEvent
+PullRequestReviewEvent
+PullRequestReviewCommentEvent
+PushEvent
+ReleaseEvent
+RepositoryEvent
+StatusEvent
+TeamEvent
+TeamAddEvent
+WatchEvent
+</pre><h3 class="mume-header" id="%E7%88%AC%E5%8F%96-pull_url">爬取 pull_url</h3>
+
+<pre data-role="codeBlock" data-info="json" class="language-json"><span class="token punctuation">{</span>
+    <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152"</span><span class="token punctuation">,</span>
+    <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">175267245</span><span class="token punctuation">,</span>
+    <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2152"</span><span class="token punctuation">,</span>
+    <span class="token property">"diff_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2152.diff"</span><span class="token punctuation">,</span>
+    <span class="token property">"patch_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2152.patch"</span><span class="token punctuation">,</span>
+    <span class="token property">"issue_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2152"</span><span class="token punctuation">,</span>
+    <span class="token property">"number"</span><span class="token operator">:</span> <span class="token number">2152</span><span class="token punctuation">,</span>
+    <span class="token property">"state"</span><span class="token operator">:</span> <span class="token string">"open"</span><span class="token punctuation">,</span>
+    <span class="token property">"locked"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"fix download/available offline icons"</span><span class="token punctuation">,</span>
+    <span class="token property">"user"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"theScrabi"</span><span class="token punctuation">,</span>
+      <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1891273</span><span class="token punctuation">,</span>
+      <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/1891273?v=4"</span><span class="token punctuation">,</span>
+      <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi"</span><span class="token punctuation">,</span>
+      <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/theScrabi"</span><span class="token punctuation">,</span>
+      <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/followers"</span><span class="token punctuation">,</span>
+      <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/following{/other_user}"</span><span class="token punctuation">,</span>
+      <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/gists{/gist_id}"</span><span class="token punctuation">,</span>
+      <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+      <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/subscriptions"</span><span class="token punctuation">,</span>
+      <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/orgs"</span><span class="token punctuation">,</span>
+      <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/repos"</span><span class="token punctuation">,</span>
+      <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/events{/privacy}"</span><span class="token punctuation">,</span>
+      <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/theScrabi/received_events"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+      <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"body"</span><span class="token operator">:</span> <span class="token string">"fixes https://github.com/owncloud/android/issues/2145 and https://github.com/owncloud/android/issues/2081"</span><span class="token punctuation">,</span>
+    <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T14:26:32Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-15T14:30:30Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"closed_at"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"merged_at"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"merge_commit_sha"</span><span class="token operator">:</span> <span class="token string">"89afd53c96a5cbf9f0d6f473dda305c2c3f407fd"</span><span class="token punctuation">,</span>
+    <span class="token property">"assignee"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"assignees"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"requested_reviewers"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">15261363</span><span class="token punctuation">,</span>
+        <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars0.githubusercontent.com/u/15261363?v=4"</span><span class="token punctuation">,</span>
+        <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/davigonz"</span><span class="token punctuation">,</span>
+        <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/followers"</span><span class="token punctuation">,</span>
+        <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/following{/other_user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/gists{/gist_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/subscriptions"</span><span class="token punctuation">,</span>
+        <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/orgs"</span><span class="token punctuation">,</span>
+        <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/repos"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/events{/privacy}"</span><span class="token punctuation">,</span>
+        <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/davigonz/received_events"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"User"</span><span class="token punctuation">,</span>
+        <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"requested_teams"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"labels"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token property">"milestone"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+    <span class="token property">"commits_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152/commits"</span><span class="token punctuation">,</span>
+    <span class="token property">"review_comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152/comments"</span><span class="token punctuation">,</span>
+    <span class="token property">"review_comment_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/comments{/number}"</span><span class="token punctuation">,</span>
+    <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2152/comments"</span><span class="token punctuation">,</span>
+    <span class="token property">"statuses_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/statuses/a2b2adbaa8b581606388bc35282ef7b3b373f914"</span><span class="token punctuation">,</span>
+    <span class="token property">"head"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"owncloud:downicon"</span><span class="token punctuation">,</span>
+      <span class="token property">"ref"</span><span class="token operator">:</span> <span class="token string">"downicon"</span><span class="token punctuation">,</span>
+      <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"a2b2adbaa8b581606388bc35282ef7b3b373f914"</span><span class="token punctuation">,</span>
+      <span class="token property">"user"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1645051</span><span class="token punctuation">,</span>
+        <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/1645051?v=4"</span><span class="token punctuation">,</span>
+        <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/followers"</span><span class="token punctuation">,</span>
+        <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/following{/other_user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/gists{/gist_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/subscriptions"</span><span class="token punctuation">,</span>
+        <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/orgs"</span><span class="token punctuation">,</span>
+        <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/repos"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/events{/privacy}"</span><span class="token punctuation">,</span>
+        <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/received_events"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Organization"</span><span class="token punctuation">,</span>
+        <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"repo"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">5550567</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"android"</span><span class="token punctuation">,</span>
+        <span class="token property">"full_name"</span><span class="token operator">:</span> <span class="token string">"owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"owner"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1645051</span><span class="token punctuation">,</span>
+          <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/1645051?v=4"</span><span class="token punctuation">,</span>
+          <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/followers"</span><span class="token punctuation">,</span>
+          <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/following{/other_user}"</span><span class="token punctuation">,</span>
+          <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/gists{/gist_id}"</span><span class="token punctuation">,</span>
+          <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+          <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/subscriptions"</span><span class="token punctuation">,</span>
+          <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/orgs"</span><span class="token punctuation">,</span>
+          <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/repos"</span><span class="token punctuation">,</span>
+          <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/events{/privacy}"</span><span class="token punctuation">,</span>
+          <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/received_events"</span><span class="token punctuation">,</span>
+          <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Organization"</span><span class="token punctuation">,</span>
+          <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"private"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"description"</span><span class="token operator">:</span> "<span class="token operator">:</span>phone<span class="token operator">:</span> The ownCloud Android App"<span class="token punctuation">,</span>
+        <span class="token property">"fork"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"forks_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/forks"</span><span class="token punctuation">,</span>
+        <span class="token property">"keys_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/keys{/key_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"collaborators_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/collaborators{/collaborator}"</span><span class="token punctuation">,</span>
+        <span class="token property">"teams_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/teams"</span><span class="token punctuation">,</span>
+        <span class="token property">"hooks_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/hooks"</span><span class="token punctuation">,</span>
+        <span class="token property">"issue_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/events{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/events"</span><span class="token punctuation">,</span>
+        <span class="token property">"assignees_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/assignees{/user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"branches_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/branches{/branch}"</span><span class="token punctuation">,</span>
+        <span class="token property">"tags_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/tags"</span><span class="token punctuation">,</span>
+        <span class="token property">"blobs_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/blobs{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_tags_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/tags{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_refs_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/refs{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"trees_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/trees{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"statuses_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/statuses/{sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"languages_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/languages"</span><span class="token punctuation">,</span>
+        <span class="token property">"stargazers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/stargazers"</span><span class="token punctuation">,</span>
+        <span class="token property">"contributors_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/contributors"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscribers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/subscribers"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscription_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/subscription"</span><span class="token punctuation">,</span>
+        <span class="token property">"commits_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_commits_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/commits{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/comments{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"issue_comment_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/comments{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"contents_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/contents/{+path}"</span><span class="token punctuation">,</span>
+        <span class="token property">"compare_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/compare/{base}...{head}"</span><span class="token punctuation">,</span>
+        <span class="token property">"merges_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/merges"</span><span class="token punctuation">,</span>
+        <span class="token property">"archive_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/{archive_format}{/ref}"</span><span class="token punctuation">,</span>
+        <span class="token property">"downloads_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/downloads"</span><span class="token punctuation">,</span>
+        <span class="token property">"issues_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"pulls_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"milestones_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/milestones{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"notifications_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/notifications{?since,all,participating}"</span><span class="token punctuation">,</span>
+        <span class="token property">"labels_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/labels{/name}"</span><span class="token punctuation">,</span>
+        <span class="token property">"releases_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/releases{/id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"deployments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/deployments"</span><span class="token punctuation">,</span>
+        <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2012-08-25T10:35:56Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-16T12:02:58Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"pushed_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-16T12:02:54Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_url"</span><span class="token operator">:</span> <span class="token string">"git://github.com/owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"ssh_url"</span><span class="token operator">:</span> <span class="token string">"git@github.com:owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"clone_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"svn_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"homepage"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"size"</span><span class="token operator">:</span> <span class="token number">177089</span><span class="token punctuation">,</span>
+        <span class="token property">"stargazers_count"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"watchers_count"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"language"</span><span class="token operator">:</span> <span class="token string">"Java"</span><span class="token punctuation">,</span>
+        <span class="token property">"has_issues"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_projects"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_downloads"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_wiki"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_pages"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"forks_count"</span><span class="token operator">:</span> <span class="token number">2636</span><span class="token punctuation">,</span>
+        <span class="token property">"mirror_url"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+        <span class="token property">"archived"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"open_issues_count"</span><span class="token operator">:</span> <span class="token number">369</span><span class="token punctuation">,</span>
+        <span class="token property">"license"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"gpl-2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"GNU General Public License v2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"spdx_id"</span><span class="token operator">:</span> <span class="token string">"GPL-2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/licenses/gpl-2.0"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"forks"</span><span class="token operator">:</span> <span class="token number">2636</span><span class="token punctuation">,</span>
+        <span class="token property">"open_issues"</span><span class="token operator">:</span> <span class="token number">369</span><span class="token punctuation">,</span>
+        <span class="token property">"watchers"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"default_branch"</span><span class="token operator">:</span> <span class="token string">"master"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"base"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"label"</span><span class="token operator">:</span> <span class="token string">"owncloud:master"</span><span class="token punctuation">,</span>
+      <span class="token property">"ref"</span><span class="token operator">:</span> <span class="token string">"master"</span><span class="token punctuation">,</span>
+      <span class="token property">"sha"</span><span class="token operator">:</span> <span class="token string">"cbc34f7d097f447a1bc60464c98e371762b62b1d"</span><span class="token punctuation">,</span>
+      <span class="token property">"user"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1645051</span><span class="token punctuation">,</span>
+        <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/1645051?v=4"</span><span class="token punctuation">,</span>
+        <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud"</span><span class="token punctuation">,</span>
+        <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/followers"</span><span class="token punctuation">,</span>
+        <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/following{/other_user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/gists{/gist_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/subscriptions"</span><span class="token punctuation">,</span>
+        <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/orgs"</span><span class="token punctuation">,</span>
+        <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/repos"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/events{/privacy}"</span><span class="token punctuation">,</span>
+        <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/received_events"</span><span class="token punctuation">,</span>
+        <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Organization"</span><span class="token punctuation">,</span>
+        <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"repo"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">5550567</span><span class="token punctuation">,</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"android"</span><span class="token punctuation">,</span>
+        <span class="token property">"full_name"</span><span class="token operator">:</span> <span class="token string">"owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"owner"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"login"</span><span class="token operator">:</span> <span class="token string">"owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"id"</span><span class="token operator">:</span> <span class="token number">1645051</span><span class="token punctuation">,</span>
+          <span class="token property">"avatar_url"</span><span class="token operator">:</span> <span class="token string">"https://avatars3.githubusercontent.com/u/1645051?v=4"</span><span class="token punctuation">,</span>
+          <span class="token property">"gravatar_id"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+          <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud"</span><span class="token punctuation">,</span>
+          <span class="token property">"followers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/followers"</span><span class="token punctuation">,</span>
+          <span class="token property">"following_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/following{/other_user}"</span><span class="token punctuation">,</span>
+          <span class="token property">"gists_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/gists{/gist_id}"</span><span class="token punctuation">,</span>
+          <span class="token property">"starred_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/starred{/owner}{/repo}"</span><span class="token punctuation">,</span>
+          <span class="token property">"subscriptions_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/subscriptions"</span><span class="token punctuation">,</span>
+          <span class="token property">"organizations_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/orgs"</span><span class="token punctuation">,</span>
+          <span class="token property">"repos_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/repos"</span><span class="token punctuation">,</span>
+          <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/events{/privacy}"</span><span class="token punctuation">,</span>
+          <span class="token property">"received_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/users/owncloud/received_events"</span><span class="token punctuation">,</span>
+          <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"Organization"</span><span class="token punctuation">,</span>
+          <span class="token property">"site_admin"</span><span class="token operator">:</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"private"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"html_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"description"</span><span class="token operator">:</span> "<span class="token operator">:</span>phone<span class="token operator">:</span> The ownCloud Android App"<span class="token punctuation">,</span>
+        <span class="token property">"fork"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"forks_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/forks"</span><span class="token punctuation">,</span>
+        <span class="token property">"keys_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/keys{/key_id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"collaborators_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/collaborators{/collaborator}"</span><span class="token punctuation">,</span>
+        <span class="token property">"teams_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/teams"</span><span class="token punctuation">,</span>
+        <span class="token property">"hooks_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/hooks"</span><span class="token punctuation">,</span>
+        <span class="token property">"issue_events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/events{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"events_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/events"</span><span class="token punctuation">,</span>
+        <span class="token property">"assignees_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/assignees{/user}"</span><span class="token punctuation">,</span>
+        <span class="token property">"branches_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/branches{/branch}"</span><span class="token punctuation">,</span>
+        <span class="token property">"tags_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/tags"</span><span class="token punctuation">,</span>
+        <span class="token property">"blobs_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/blobs{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_tags_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/tags{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_refs_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/refs{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"trees_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/trees{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"statuses_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/statuses/{sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"languages_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/languages"</span><span class="token punctuation">,</span>
+        <span class="token property">"stargazers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/stargazers"</span><span class="token punctuation">,</span>
+        <span class="token property">"contributors_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/contributors"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscribers_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/subscribers"</span><span class="token punctuation">,</span>
+        <span class="token property">"subscription_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/subscription"</span><span class="token punctuation">,</span>
+        <span class="token property">"commits_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/commits{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_commits_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/git/commits{/sha}"</span><span class="token punctuation">,</span>
+        <span class="token property">"comments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/comments{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"issue_comment_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/comments{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"contents_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/contents/{+path}"</span><span class="token punctuation">,</span>
+        <span class="token property">"compare_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/compare/{base}...{head}"</span><span class="token punctuation">,</span>
+        <span class="token property">"merges_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/merges"</span><span class="token punctuation">,</span>
+        <span class="token property">"archive_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/{archive_format}{/ref}"</span><span class="token punctuation">,</span>
+        <span class="token property">"downloads_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/downloads"</span><span class="token punctuation">,</span>
+        <span class="token property">"issues_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"pulls_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"milestones_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/milestones{/number}"</span><span class="token punctuation">,</span>
+        <span class="token property">"notifications_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/notifications{?since,all,participating}"</span><span class="token punctuation">,</span>
+        <span class="token property">"labels_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/labels{/name}"</span><span class="token punctuation">,</span>
+        <span class="token property">"releases_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/releases{/id}"</span><span class="token punctuation">,</span>
+        <span class="token property">"deployments_url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/deployments"</span><span class="token punctuation">,</span>
+        <span class="token property">"created_at"</span><span class="token operator">:</span> <span class="token string">"2012-08-25T10:35:56Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"updated_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-16T12:02:58Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"pushed_at"</span><span class="token operator">:</span> <span class="token string">"2018-03-16T12:02:54Z"</span><span class="token punctuation">,</span>
+        <span class="token property">"git_url"</span><span class="token operator">:</span> <span class="token string">"git://github.com/owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"ssh_url"</span><span class="token operator">:</span> <span class="token string">"git@github.com:owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"clone_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android.git"</span><span class="token punctuation">,</span>
+        <span class="token property">"svn_url"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android"</span><span class="token punctuation">,</span>
+        <span class="token property">"homepage"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+        <span class="token property">"size"</span><span class="token operator">:</span> <span class="token number">177089</span><span class="token punctuation">,</span>
+        <span class="token property">"stargazers_count"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"watchers_count"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"language"</span><span class="token operator">:</span> <span class="token string">"Java"</span><span class="token punctuation">,</span>
+        <span class="token property">"has_issues"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_projects"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_downloads"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_wiki"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token property">"has_pages"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"forks_count"</span><span class="token operator">:</span> <span class="token number">2636</span><span class="token punctuation">,</span>
+        <span class="token property">"mirror_url"</span><span class="token operator">:</span> <span class="token null">null</span><span class="token punctuation">,</span>
+        <span class="token property">"archived"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+        <span class="token property">"open_issues_count"</span><span class="token operator">:</span> <span class="token number">369</span><span class="token punctuation">,</span>
+        <span class="token property">"license"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"key"</span><span class="token operator">:</span> <span class="token string">"gpl-2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"GNU General Public License v2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"spdx_id"</span><span class="token operator">:</span> <span class="token string">"GPL-2.0"</span><span class="token punctuation">,</span>
+          <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/licenses/gpl-2.0"</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token property">"forks"</span><span class="token operator">:</span> <span class="token number">2636</span><span class="token punctuation">,</span>
+        <span class="token property">"open_issues"</span><span class="token operator">:</span> <span class="token number">369</span><span class="token punctuation">,</span>
+        <span class="token property">"watchers"</span><span class="token operator">:</span> <span class="token number">2434</span><span class="token punctuation">,</span>
+        <span class="token property">"default_branch"</span><span class="token operator">:</span> <span class="token string">"master"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"_links"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"self"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"html"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://github.com/owncloud/android/pull/2152"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"issue"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2152"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"comments"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/issues/2152/comments"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"review_comments"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152/comments"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"review_comment"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/comments{/number}"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"commits"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/pulls/2152/commits"</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token property">"statuses"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"href"</span><span class="token operator">:</span> <span class="token string">"https://api.github.com/repos/owncloud/android/statuses/a2b2adbaa8b581606388bc35282ef7b3b373f914"</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"author_association"</span><span class="token operator">:</span> <span class="token string">"NONE"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+</pre><p>我尝试用类比的方法来解释一下 pull reqeust。想想我们中学考试，老师改卷的场景吧。你做的试卷就像仓库，你的试卷肯定会有很多错误，就相当于程序里的 bug。老师把你的试卷拿过来，相当于先 fork。在你的卷子上做一些修改批注，相当于 git commit。最后把改好的试卷给你，相当于发 pull request，你拿到试卷重新改正错误，相当于 merge。当你想更正别人仓库里的错误时，要走一个流程：</p>
+<ul>
+<li>先 fork 别人的仓库，相当于拷贝一份，相信我，不会有人直接让你改修原仓库的</li>
+<li>clone 到本地分支，做一些 bug fix</li>
+<li>发起 pull request 给原仓库，让他看到你修改的 bug</li>
+<li>原仓库 review 这个 bug，如果是正确的话，就会 merge 到他自己的项目中<br>
+至此，整个 pull request 的过程就结束了。理解了 pull request 的含义和流程，具体操作也就简单了</li>
+</ul>
+<p>&quot;html_url&quot;: &quot;<a href="https://github.com/owncloud/android/pull/2152">https://github.com/owncloud/android/pull/2152</a>&quot;,<br>
+&quot;diff_url&quot;: &quot;<a href="https://github.com/owncloud/android/pull/2152.diff">https://github.com/owncloud/android/pull/2152.diff</a>&quot;,<br>
+&quot;patch_url&quot;: &quot;<a href="https://github.com/owncloud/android/pull/2152.patch">https://github.com/owncloud/android/pull/2152.patch</a>&quot;,<br>
+&quot;issue_url&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/issues/2152">https://api.github.com/repos/owncloud/android/issues/2152</a>&quot;,<br>
+&quot;review_comments&quot;: {<br>
+&quot;href&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/pulls/2152/comments">https://api.github.com/repos/owncloud/android/pulls/2152/comments</a>&quot;<br>
+},<br>
+&quot;commits&quot;: {<br>
+&quot;href&quot;: &quot;<a href="https://api.github.com/repos/owncloud/android/pulls/2152/commits">https://api.github.com/repos/owncloud/android/pulls/2152/commits</a>&quot;<br>
+},<br>
+&quot;merge_commit_sha&quot;: &quot;89afd53c96a5cbf9f0d6f473dda305c2c3f407fd&quot;,</p>
+<h3 class="mume-header" id="%E7%88%AC%E5%8F%96comments_url">爬取comments_url</h3>
+
+<p>&quot;position&quot;: 11,<br>
+&quot;line&quot;: 247,<br>
+&quot;path&quot;: &quot;src/com/owncloud/android/ui/fragment/FileDetailFragment.java&quot;,<br>
+&quot;commit_id&quot;: &quot;76ba00b2b23f5c2079a6635dc5e661850c3c5dfb&quot;,<br>
+body&quot;: &quot;please comment in english\n&quot;</p>
+<h2 class="mume-header" id="crawlgithub-%E6%80%BB%E7%BB%93">CrawlGithub 总结</h2>
+
+<h3 class="mume-header" id="%E6%88%90%E5%88%86">成分</h3>
+
+<h3 class="mume-header" id="issue">issue</h3>
+
+<p>议题（Issue）是 github 中管理任务的有效方法，它能保存任务的进度、跟踪任务的管理和追溯项目的bugs。它有点像可以用来跟团队分享和讨论的邮件。大多数的软件项目都有各自 bugs 追溯系统，GitHub的追溯系统就叫做议题，它在 github 的仓库中发挥着独特的作用。<br>
+因为 GitHub 的运作机制更关注团队的协作、关联和高效沟通，所以 issue 的追溯会设置得比较特别。一个典型 GitHub 的 issue 应具备以下要素：</p>
+<ul>
+<li>标题和说明，来解释 issue 的目的；</li>
+<li>彩色标签（Color-coded labels），方便日后对 issue 进行分类；</li>
+<li>里程碑（milestone），用里程碑来汇总相关的 issue，表示要实现的阶段性目标。例如（一周冲刺 9/5-9/16 或 Shipping 1.0)</li>
+<li>对接人（assignee），希望对接人能够在某时间段对 issue 负责；</li>
+<li>评论（comment），这样才能接收到别人对仓库的反馈。</li>
+</ul>
+<p>爬取所有issues<br>
+属性：</p>
+<ul>
+<li>
+<p>issue_number: 编号</p>
+</li>
+<li>
+<p>title：题目</p>
+</li>
+<li>
+<p>body：主体</p>
+</li>
+<li>
+<p>labels : [result[labels][$i][name]]</p>
+</li>
+<li>
+<p>state ：</p>
+</li>
+<li>
+<p>locked ：</p>
+</li>
+<li>
+<p>user :</p>
+</li>
+<li>
+<p>assignees :</p>
+</li>
+<li>
+<p>created updated closed</p>
+</li>
+<li>
+<p>author_association</p>
+</li>
+<li>
+<p>comments：int<br>
+关联：</p>
+</li>
+<li>
+<p>comments: 可能有评论</p>
+</li>
+<li>
+<p>events：可能有事件</p>
+</li>
+<li>
+<p>pull：可能有pull request</p>
+</li>
+</ul>
+<h1 class="mume-header" id="print-results">print results</h1>
+
+<pre class="language-text">        for result in results:
+            dealdata={}
+
+            # for k,v in result.items():
+            #     print k,
+            print {"issue_number":result["number"], "body": result["body"], "label":[label["name"] for label in result["labels"] if len(label)>0]
+            print "comments", result["comments"]
+            print "html",result["html_url"]
+            print "state", result["state"]
+            if "pull_request" in result.keys():
+                print "pull",result["pull_request"]
+</pre>
+<h3 class="mume-header" id="%E6%A2%B3%E7%90%86api-of-github">梳理API of GitHub</h3>
+
+<p>按以下结构梳理</p>
+<ul>
+<li>类型：</li>
+<li>关联：<br>
+<img src="foo.png" alt=""></li>
+</ul>
+
+      </div>
+      <div class="md-sidebar-toc"><ul>
+<li><a href="#%E7%A8%8B%E5%BA%8F%E6%96%87%E6%A1%A3">程序文档：</a>
+<ul>
+<li><a href="#githubrepo">GithubRepo</a>
+<ul>
+<li><a href="#%E5%AD%97%E6%AE%B5">字段</a>
+<ul>
+<li><a href="#name">name</a></li>
+<li><a href="#data_dir">data_dir</a></li>
+<li><a href="#url">url</a></li>
+<li><a href="#mongodb">mongodb</a></li>
+</ul>
+</li>
+<li><a href="#__initselfuserrepo__%E6%96%B9%E6%B3%95">__init(self,user,repo)__方法</a></li>
+</ul>
+</li>
+<li><a href="#crawlgithub">CrawlGithub</a>
+<ul>
+<li><a href="#%E7%88%AC%E5%8F%96commits_urlhttpsapigithubcomreposowncloudandroidcommits">爬取commits_url：https://api.github.com/repos/owncloud/android/commits</a></li>
+<li><a href="#%E7%88%AC%E5%8F%96commit_url">爬取commit_url:</a></li>
+<li><a href="#%E5%B0%8F%E6%80%BB%E7%BB%93">小总结</a></li>
+<li><a href="#%E7%88%AC%E5%8F%96issues_url">爬取issues_url</a></li>
+<li><a href="#%E7%88%AC%E5%8F%96-events_url">爬取 events_url</a></li>
+<li><a href="#event%E4%BA%8B%E4%BB%B6%E7%B1%BB%E5%9E%8B">event事件类型</a></li>
+<li><a href="#%E7%88%AC%E5%8F%96-pull_url">爬取 pull_url</a></li>
+<li><a href="#%E7%88%AC%E5%8F%96comments_url">爬取comments_url</a></li>
+</ul>
+</li>
+<li><a href="#crawlgithub-%E6%80%BB%E7%BB%93">CrawlGithub 总结</a>
+<ul>
+<li><a href="#%E6%88%90%E5%88%86">成分</a></li>
+<li><a href="#issue">issue</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#print-results">print results</a><br>
+* <a href="#%E6%A2%B3%E7%90%86api-of-github">梳理API of GitHub</a></li>
+</ul>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    </body>
+    
+    
+    
+    
+    
+    <script>
+(function bindTaskListEvent() {
+  var taskListItemCheckboxes = document.body.getElementsByClassName('task-list-item-checkbox')
+  for (var i = 0; i < taskListItemCheckboxes.length; i++) {
+    var checkbox = taskListItemCheckboxes[i]
+    var li = checkbox.parentElement
+    if (li.tagName !== 'LI') li = li.parentElement
+    if (li.tagName === 'LI') {
+      li.classList.add('task-list-item')
+    }
+  }
+}())    
+</script>
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  </html>

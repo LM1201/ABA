@@ -1,0 +1,20 @@
+strict digraph  {
+	graph [epsilon=0.0001];
+	"change_Intent_intent=( $change_Intent_intent1|$change_Intent_intent2)" -> "change_Intent_intent1=($add_Intent_intent,$$,$sub_Intent_intent)";
+	"change_Intent_intent=( $change_Intent_intent1|$change_Intent_intent2)" -> "change_Intent_intent2=($sub_Intent_intent,$$,$add_Intent_intent)";
+	"change_Intent_intent1=($add_Intent_intent,$$,$sub_Intent_intent)" -> "add_Intent_intent=($add,$Intent_intent)";
+	"change_Intent_intent1=($add_Intent_intent,$$,$sub_Intent_intent)" -> "$";
+	"change_Intent_intent1=($add_Intent_intent,$$,$sub_Intent_intent)" -> "sub_Intent_intent=($sub,$Intent_intent)";
+	"add_Intent_intent=($add,$Intent_intent)" -> "add=(/\s*\+\s*/)";
+	"add_Intent_intent=($add,$Intent_intent)" -> "Intent_intent=($Intent_obj,$equal,$Intent_init)";
+	"Intent_intent=($Intent_obj,$equal,$Intent_init)" -> "Intent_obj=($intent,$obj)";
+	"Intent_intent=($Intent_obj,$equal,$Intent_init)" -> "equal=(/\s*=\s*/)";
+	"Intent_intent=($Intent_obj,$equal,$Intent_init)" -> "Intent_init =(/new\s+Intent\s*\((.*)\)\s*;/)";
+	"Intent_obj=($intent,$obj)" -> "intent=(\"Intent\")";
+	"Intent_obj=($intent,$obj)" -> "obj=(/[^\.\(\)=]\w+/)";
+	"sub_Intent_intent=($sub,$Intent_intent)" -> "Intent_intent=($Intent_obj,$equal,$Intent_init)";
+	"sub_Intent_intent=($sub,$Intent_intent)" -> "sub=(/\s*-\s*/)";
+	"change_Intent_intent2=($sub_Intent_intent,$$,$add_Intent_intent)" -> "add_Intent_intent=($add,$Intent_intent)";
+	"change_Intent_intent2=($sub_Intent_intent,$$,$add_Intent_intent)" -> "$";
+	"change_Intent_intent2=($sub_Intent_intent,$$,$add_Intent_intent)" -> "sub_Intent_intent=($sub,$Intent_intent)";
+}

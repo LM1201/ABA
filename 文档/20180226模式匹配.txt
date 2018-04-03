@@ -1,0 +1,53 @@
+# 2018年3月6号
+编写实体类
+1. entities
+    存储所有实体
+2. entity 基类
+    Name：匹配命名
+    Match：匹配字符
+    Rule：匹配规则
+    Core：
+    子类：
+        stringentity：基本模式1，匹配字符串
+        regexentity：基本模式2，匹配正则表达式
+        sequenceentity：复合模式1，匹配具有序列关系的基本模式组合
+        mixentity：复合模式2：交
+        tableentity：复合模式3：并
+        repeatentity： 复合模式4：重复多次
+3. main函数
+    if __name__=="__main__":
+        ets= Entities()
+        input="qwerthellotwhello1231234Hellohello"
+        
+        et=stringentity("h=(\"hello\")")
+        ets.append(et)
+        print et.match(input)
+        et=regexentity("H=(/[Hh]ello*/)")
+        print et.match(input)
+        ets.append(et)
+        et = stringentity("123=(\"123\")")
+        ets.append(et)
+        et=sequenceentity("h3=($h ,$123 , $H)",ets)
+        print et.match(input)
+        et = mixentity("h4=($h & $123 & $H)", ets)
+        print et.match(input)
+        et = tableentity("h4=($h | $123 | $H)", ets)
+        print et.match(input)
+        et = repeatentity("h4=($H{4,100})", ets)
+        print et.match(input)
+编写引擎类
+    编译流程：
+        1. 解析文件
+        2. 构建模式树
+        3. 构建模式实体
+        4. 解析文件
+    主要函数：
+        __init__:  
+            self.string 等：匹配正则
+            self.list: 存储加载顺序
+        InitRule: 
+            初始化规则
+        check： 检测规则
+        match： 匹配函数
+        
+每种实体entity返回的数据格式整理：
