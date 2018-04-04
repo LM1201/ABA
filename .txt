@@ -1,0 +1,877 @@
+卷 文档 的文件夹 PATH 列表
+卷序列号为 B2C2-3A88
+F:.
+│  .gitignore
+│  .txt
+│  __init__.py
+│  强制删除数据库操作，威力巨大，谨慎使用.py
+│  生成目录.bat
+│  
+├─AnalysisInformation
+│      AnalysisInformation.py
+│      GenPic.py
+│      GetResults.py
+│      __init__.py
+│      
+├─GetInformation
+│      AndroidRepos.csv
+│      CrawlGithub.py
+│      DealMongo.py
+│      FindAndroidRepos.py
+│      GetFilePathRoot.py
+│      GithubRepo.py
+│      ZGetAllAndroidRepos.py
+│      ZGetPullsForAllRepos.py
+│      __init__.py
+│      
+├─GetToken
+│  │  GetFilePathRoot.py
+│  │  GetJDKToken.py
+│  │  GetSDKToken.py
+│  │  ReadMe.txt
+│  │  __init__.py
+│  │  
+│  ├─jdk_docs_txt
+│  │      1.txt
+│  │      10.txt
+│  │      100.txt
+│  │      101.txt
+│  │      102.txt
+│  │      103.txt
+│  │      104.txt
+│  │      105.txt
+│  │      106.txt
+│  │      107.txt
+│  │      108.txt
+│  │      109.txt
+│  │      11.txt
+│  │      110.txt
+│  │      111.txt
+│  │      112.txt
+│  │      113.txt
+│  │      114.txt
+│  │      115.txt
+│  │      116.txt
+│  │      117.txt
+│  │      118.txt
+│  │      119.txt
+│  │      12.txt
+│  │      120.txt
+│  │      121.txt
+│  │      122.txt
+│  │      123.txt
+│  │      124.txt
+│  │      125.txt
+│  │      126.txt
+│  │      127.txt
+│  │      128.txt
+│  │      129.txt
+│  │      13.txt
+│  │      130.txt
+│  │      131.txt
+│  │      132.txt
+│  │      133.txt
+│  │      134.txt
+│  │      135.txt
+│  │      136.txt
+│  │      137.txt
+│  │      138.txt
+│  │      139.txt
+│  │      14.txt
+│  │      140.txt
+│  │      141.txt
+│  │      142.txt
+│  │      143.txt
+│  │      144.txt
+│  │      145.txt
+│  │      146.txt
+│  │      147.txt
+│  │      148.txt
+│  │      149.txt
+│  │      15.txt
+│  │      150.txt
+│  │      151.txt
+│  │      152.txt
+│  │      153.txt
+│  │      154.txt
+│  │      155.txt
+│  │      156.txt
+│  │      157.txt
+│  │      158.txt
+│  │      159.txt
+│  │      16.txt
+│  │      160.txt
+│  │      161.txt
+│  │      162.txt
+│  │      163.txt
+│  │      164.txt
+│  │      165.txt
+│  │      166.txt
+│  │      167.txt
+│  │      168.txt
+│  │      169.txt
+│  │      17.txt
+│  │      170.txt
+│  │      171.txt
+│  │      172.txt
+│  │      173.txt
+│  │      174.txt
+│  │      175.txt
+│  │      176.txt
+│  │      177.txt
+│  │      178.txt
+│  │      179.txt
+│  │      18.txt
+│  │      180.txt
+│  │      181.txt
+│  │      182.txt
+│  │      183.txt
+│  │      184.txt
+│  │      185.txt
+│  │      186.txt
+│  │      187.txt
+│  │      188.txt
+│  │      189.txt
+│  │      19.txt
+│  │      190.txt
+│  │      191.txt
+│  │      192.txt
+│  │      193.txt
+│  │      194.txt
+│  │      195.txt
+│  │      196.txt
+│  │      197.txt
+│  │      198.txt
+│  │      199.txt
+│  │      2.txt
+│  │      20.txt
+│  │      200.txt
+│  │      201.txt
+│  │      202.txt
+│  │      203.txt
+│  │      204.txt
+│  │      205.txt
+│  │      206.txt
+│  │      207.txt
+│  │      208.txt
+│  │      209.txt
+│  │      21.txt
+│  │      210.txt
+│  │      211.txt
+│  │      212.txt
+│  │      213.txt
+│  │      214.txt
+│  │      215.txt
+│  │      216.txt
+│  │      217.txt
+│  │      22.txt
+│  │      23.txt
+│  │      24.txt
+│  │      25.txt
+│  │      26.txt
+│  │      27.txt
+│  │      28.txt
+│  │      29.txt
+│  │      3.txt
+│  │      30.txt
+│  │      31.txt
+│  │      32.txt
+│  │      33.txt
+│  │      34.txt
+│  │      35.txt
+│  │      36.txt
+│  │      37.txt
+│  │      38.txt
+│  │      39.txt
+│  │      4.txt
+│  │      40.txt
+│  │      41.txt
+│  │      42.txt
+│  │      43.txt
+│  │      44.txt
+│  │      45.txt
+│  │      46.txt
+│  │      47.txt
+│  │      48.txt
+│  │      49.txt
+│  │      5.txt
+│  │      50.txt
+│  │      51.txt
+│  │      52.txt
+│  │      53.txt
+│  │      54.txt
+│  │      55.txt
+│  │      56.txt
+│  │      57.txt
+│  │      58.txt
+│  │      59.txt
+│  │      6.txt
+│  │      60.txt
+│  │      61.txt
+│  │      62.txt
+│  │      63.txt
+│  │      64.txt
+│  │      65.txt
+│  │      66.txt
+│  │      67.txt
+│  │      68.txt
+│  │      69.txt
+│  │      7.txt
+│  │      70.txt
+│  │      71.txt
+│  │      72.txt
+│  │      73.txt
+│  │      74.txt
+│  │      75.txt
+│  │      76.txt
+│  │      77.txt
+│  │      78.txt
+│  │      79.txt
+│  │      8.txt
+│  │      80.txt
+│  │      81.txt
+│  │      82.txt
+│  │      83.txt
+│  │      84.txt
+│  │      85.txt
+│  │      86.txt
+│  │      87.txt
+│  │      88.txt
+│  │      89.txt
+│  │      9.txt
+│  │      90.txt
+│  │      91.txt
+│  │      92.txt
+│  │      93.txt
+│  │      94.txt
+│  │      95.txt
+│  │      96.txt
+│  │      97.txt
+│  │      98.txt
+│  │      99.txt
+│  │      
+│  ├─output
+│  │      GetJDK.txt
+│  │      GetJDKOutput.txt
+│  │      GetSDK.txt
+│  │      GetSDKOutput.txt
+│  │      jdk_class_summry.txt
+│  │      jdk_method_summry.txt
+│  │      sdk_class_summry.txt
+│  │      sdk_method_summry.txt
+│  │      
+│  └─sdk_docs_txt
+│          1.txt
+│          10.txt
+│          100.txt
+│          101.txt
+│          102.txt
+│          103.txt
+│          104.txt
+│          105.txt
+│          106.txt
+│          107.txt
+│          108.txt
+│          109.txt
+│          11.txt
+│          110.txt
+│          111.txt
+│          112.txt
+│          113.txt
+│          114.txt
+│          115.txt
+│          116.txt
+│          117.txt
+│          118.txt
+│          119.txt
+│          12.txt
+│          120.txt
+│          121.txt
+│          122.txt
+│          123.txt
+│          124.txt
+│          125.txt
+│          126.txt
+│          127.txt
+│          128.txt
+│          129.txt
+│          13.txt
+│          130.txt
+│          131.txt
+│          132.txt
+│          133.txt
+│          134.txt
+│          135.txt
+│          136.txt
+│          137.txt
+│          138.txt
+│          139.txt
+│          14.txt
+│          140.txt
+│          141.txt
+│          142.txt
+│          143.txt
+│          144.txt
+│          145.txt
+│          146.txt
+│          147.txt
+│          148.txt
+│          149.txt
+│          15.txt
+│          150.txt
+│          151.txt
+│          152.txt
+│          153.txt
+│          154.txt
+│          155.txt
+│          156.txt
+│          157.txt
+│          158.txt
+│          159.txt
+│          16.txt
+│          160.txt
+│          161.txt
+│          162.txt
+│          163.txt
+│          164.txt
+│          165.txt
+│          166.txt
+│          167.txt
+│          168.txt
+│          169.txt
+│          17.txt
+│          170.txt
+│          171.txt
+│          172.txt
+│          173.txt
+│          174.txt
+│          175.txt
+│          176.txt
+│          177.txt
+│          178.txt
+│          179.txt
+│          18.txt
+│          180.txt
+│          181.txt
+│          182.txt
+│          183.txt
+│          184.txt
+│          185.txt
+│          186.txt
+│          187.txt
+│          188.txt
+│          189.txt
+│          19.txt
+│          190.txt
+│          191.txt
+│          192.txt
+│          193.txt
+│          194.txt
+│          195.txt
+│          196.txt
+│          197.txt
+│          198.txt
+│          199.txt
+│          2.txt
+│          20.txt
+│          200.txt
+│          201.txt
+│          202.txt
+│          203.txt
+│          204.txt
+│          205.txt
+│          206.txt
+│          207.txt
+│          208.txt
+│          209.txt
+│          21.txt
+│          210.txt
+│          211.txt
+│          212.txt
+│          213.txt
+│          214.txt
+│          215.txt
+│          216.txt
+│          217.txt
+│          218.txt
+│          219.txt
+│          22.txt
+│          220.txt
+│          221.txt
+│          222.txt
+│          223.txt
+│          224.txt
+│          225.txt
+│          226.txt
+│          227.txt
+│          228.txt
+│          229.txt
+│          23.txt
+│          230.txt
+│          231.txt
+│          232.txt
+│          233.txt
+│          234.txt
+│          235.txt
+│          236.txt
+│          237.txt
+│          238.txt
+│          239.txt
+│          24.txt
+│          240.txt
+│          241.txt
+│          242.txt
+│          243.txt
+│          244.txt
+│          245.txt
+│          246.txt
+│          247.txt
+│          248.txt
+│          249.txt
+│          25.txt
+│          250.txt
+│          251.txt
+│          252.txt
+│          253.txt
+│          254.txt
+│          255.txt
+│          256.txt
+│          257.txt
+│          258.txt
+│          259.txt
+│          26.txt
+│          260.txt
+│          261.txt
+│          262.txt
+│          263.txt
+│          264.txt
+│          265.txt
+│          266.txt
+│          267.txt
+│          268.txt
+│          269.txt
+│          27.txt
+│          270.txt
+│          271.txt
+│          272.txt
+│          273.txt
+│          274.txt
+│          275.txt
+│          276.txt
+│          277.txt
+│          278.txt
+│          279.txt
+│          28.txt
+│          280.txt
+│          281.txt
+│          282.txt
+│          283.txt
+│          284.txt
+│          285.txt
+│          286.txt
+│          287.txt
+│          288.txt
+│          289.txt
+│          29.txt
+│          290.txt
+│          291.txt
+│          292.txt
+│          293.txt
+│          294.txt
+│          295.txt
+│          296.txt
+│          297.txt
+│          298.txt
+│          299.txt
+│          3.txt
+│          30.txt
+│          300.txt
+│          301.txt
+│          302.txt
+│          303.txt
+│          304.txt
+│          305.txt
+│          306.txt
+│          307.txt
+│          308.txt
+│          309.txt
+│          31.txt
+│          310.txt
+│          311.txt
+│          312.txt
+│          313.txt
+│          314.txt
+│          315.txt
+│          316.txt
+│          317.txt
+│          318.txt
+│          319.txt
+│          32.txt
+│          320.txt
+│          321.txt
+│          322.txt
+│          323.txt
+│          324.txt
+│          325.txt
+│          326.txt
+│          327.txt
+│          328.txt
+│          329.txt
+│          33.txt
+│          34.txt
+│          35.txt
+│          36.txt
+│          37.txt
+│          38.txt
+│          39.txt
+│          4.txt
+│          40.txt
+│          41.txt
+│          42.txt
+│          43.txt
+│          44.txt
+│          45.txt
+│          46.txt
+│          47.txt
+│          48.txt
+│          49.txt
+│          5.txt
+│          50.txt
+│          51.txt
+│          52.txt
+│          53.txt
+│          54.txt
+│          55.txt
+│          56.txt
+│          57.txt
+│          58.txt
+│          59.txt
+│          6.txt
+│          60.txt
+│          61.txt
+│          62.txt
+│          63.txt
+│          64.txt
+│          65.txt
+│          66.txt
+│          67.txt
+│          68.txt
+│          69.txt
+│          7.txt
+│          70.txt
+│          71.txt
+│          72.txt
+│          73.txt
+│          74.txt
+│          75.txt
+│          76.txt
+│          77.txt
+│          78.txt
+│          79.txt
+│          8.txt
+│          80.txt
+│          81.txt
+│          82.txt
+│          83.txt
+│          84.txt
+│          85.txt
+│          86.txt
+│          87.txt
+│          88.txt
+│          89.txt
+│          9.txt
+│          90.txt
+│          91.txt
+│          92.txt
+│          93.txt
+│          94.txt
+│          95.txt
+│          96.txt
+│          97.txt
+│          98.txt
+│          99.txt
+│          
+├─ModeExtraction
+│      DrawGraph.py
+│      Engine.py
+│      ExcateMode.py
+│      ModeExtraction_previous.py
+│      test
+│      __init__.py
+│      
+├─ProcessingCorpus
+│      DealCorpus.py
+│      GetCorpus.py
+│      GetPatches.py
+│      ProcessingCorpus(previous and not use for reference).py
+│      __init__.py
+│      
+└─文档
+    │  20180226模式匹配.txt
+    │  diffiDR.docx
+    │  代码解释.md
+    │  变异算子.md
+    │  工作报告+20171020.pptx
+    │  工作进展汇报+20170419.pptx
+    │  生成目录.bat
+    │  目录.md
+    │  程序文档.html
+    │  程序文档.md
+    │  程序文档2.html
+    │  程序文档2.md
+    │  
+    ├─0.安装Mongodb
+    │      start service.bat
+    │      安装mongdb.docx
+    │      
+    ├─1.git相关知识
+    │  │  git.md
+    │  │  github.md
+    │  │  流程_git.md
+    │  │  知识_Git.md
+    │  │  
+    │  ├─assets
+    │  │      markdown-img-paste-20180314095005713.png
+    │  │      markdown-img-paste-20180314102556317.png
+    │  │      markdown-img-paste-2018031410280274.png
+    │  │      markdown-img-paste-20180314102910395.png
+    │  │      markdown-img-paste-20180314103135766.png
+    │  │      markdown-img-paste-20180314103257437.png
+    │  │      markdown-img-paste-20180314103342406.png
+    │  │      markdown-img-paste-20180314103933285.png
+    │  │      markdown-img-paste-20180314104445594.png
+    │  │      markdown-img-paste-20180314112612560.png
+    │  │      markdown-img-paste-20180314112644666.png
+    │  │      markdown-img-paste-20180314112721848.png
+    │  │      
+    │  └─book
+    │          Git Community Book.pdf
+    │          网站
+    │          
+    ├─2.restfulapi构造
+    │  │  restful接口规范.md
+    │  │  rest博士论文要点笔记.md
+    │  │  进一步学习
+    │  │  
+    │  ├─assets
+    │  │      markdown-img-paste-20180315212210391.png
+    │  │      
+    │  └─book
+    │          REST 博士论文.pdf
+    │          
+    ├─3.模型构造
+    │      有限状态机.md
+    │      
+    ├─4.graphize
+    │      graphize.md
+    │      
+    ├─5.变异算子
+    │      The Java? LanguageSpecification.pdf
+    │      变异算子.md
+    │      
+    ├─6.相关文献
+    │      A spreading activation theory of semantic processing.pdf
+    │      Are Mutants a Valid Substitutefor Real Faults in Software Testing.pdf
+    │      Ask the Mutants Mutating Faulty Programs for Fault Localization.pdf
+    │      Automatic Model Generation from Documentation for JavaAPI Functions.pdf
+    │      Automatic Patch Generation Learned fromHuman-Written Patches.pdf
+    │      Diagnosing new faults using mutants and prior faults.pdf
+    │      R-Droid Leveraging Android App Analysiswith Static Slice Optimization.pdf
+    │      RRR+usenumpy+设计模式+图相似性计算.py
+    │      Understanding Android Fragmentation with TopicAnalysis of Vendor-Specific Bugs.pdf
+    │      Using Mutants to Locate “Unknown” Faults .pdf
+    │      [10]+变异算子+MuJava  An Automated Class Mutation System.pdf
+    │      [11]+Android变异测试+μDroid-An Energy-Aware Mutation Testing Framework for Android.pdf
+    │      [12]+Android变异测试+Is Mutation Analysis Effective at Testing Android Apps.pdf
+    │      [13]+Android变异测试+Mutation operators for testing Android apps.pdf
+    │      [14]+模型提取+Automatic Model Generation from Documentation for JavaAPI Functions.pdf
+    │      [1]+设计模式+Design Pattern DetectionUsing Similarity Scoring.pdf
+    │      [2]+设计模式+Application of Graph Theory to OO Software Engineering.pdf
+    │      [3]+词向量+Combining Word2Vec with Revised Vector SpaceModel for Better Code Retrieval.pdf
+    │      [4]+词向量+Where Should the Bugs Be Fixed  More Accurate Information Retrieval-Based Bug Localization Based on Bug Reports .pdf
+    │      [5]+词向量+From Word Embeddings To Document Similarities forImproved Information Retrieval in Software Engineering.pdf
+    │      [6]+代码检索+A Search Engine For Finding Highly Relevant Applications.pdf
+    │      [7]+代码检索+Portfolio Finding Relevant Functions and Their Usages.pdf
+    │      [8]+变异算子+Inter-Class Mutation Operators for Java.pdf
+    │      [9]+变异算子+The Class-Level Mutants of MuJava.pdf
+    │      [ppt]+中文信息检索专题Chinese Information Retrieval.ppt
+    │      [ppt]+变异算子+ppt+A Fault Model for Subtype Inheritance and Polymorphism.pdf
+    │      [ppt]+模型生成+Automatic Model Generation from Documentation for JavaAPI Functions.pptx
+    │      会议.txt
+    │      文献整理+20171106.docx
+    │      
+    ├─7.词向量
+    │      词向量原理pdf +20171014.pdf
+    │      
+    ├─assets
+    │      figure_1.png
+    │      markdown-img-paste-20180313201017110.png
+    │      markdown-img-paste-20180313211743641.png
+    │      markdown-img-paste-20180314084601916.png
+    │      markdown-img-paste-20180314095005713.png
+    │      markdown-img-paste-20180314102556317.png
+    │      markdown-img-paste-2018031410280274.png
+    │      markdown-img-paste-20180314102910395.png
+    │      markdown-img-paste-20180314103135766.png
+    │      markdown-img-paste-20180314103257437.png
+    │      markdown-img-paste-20180314103342406.png
+    │      markdown-img-paste-20180314103933285.png
+    │      markdown-img-paste-20180314104445594.png
+    │      markdown-img-paste-20180314112612560.png
+    │      markdown-img-paste-20180314112644666.png
+    │      markdown-img-paste-20180314112721848.png
+    │      markdown-img-paste-2018032309122275.png
+    │      markdown-img-paste-20180323091227175.png
+    │      markdown-img-paste-20180323091232310.png
+    │      markdown-img-paste-20180323091337196.png
+    │      markdown-img-paste-20180323091438521.png
+    │      markdown-img-paste-2018032309213839.png
+    │      markdown-img-paste-20180323092412487.png
+    │      markdown-img-paste-20180323092848774.png
+    │      markdown-img-paste-20180323093220737.png
+    │      markdown-img-paste-2018032313473381.png
+    │      markdown-img-paste-20180323135009620.png
+    │      markdown-img-paste-20180323135024543.png
+    │      markdown-img-paste-20180323203935436.png
+    │      markdown-img-paste-20180323211059933.png
+    │      markdown-img-paste-20180323211512942.png
+    │      markdown-img-paste-20180323211924811.png
+    │      markdown-img-paste-2018032321234777.png
+    │      markdown-img-paste-20180323212353458.png
+    │      markdown-img-paste-20180323214112140.png
+    │      markdown-img-paste-20180323214139381.png
+    │      markdown-img-paste-20180323214336525.png
+    │      markdown-img-paste-20180323214905917.png
+    │      markdown-img-paste-20180323214938392.png
+    │      markdown-img-paste-20180325174212936.png
+    │      markdown-img-paste-20180325180359208.png
+    │      markdown-img-paste-20180325180433836.png
+    │      markdown-img-paste-20180327154246342.png
+    │      markdown-img-paste-20180327154525202.png
+    │      markdown-img-paste-20180327155714486.png
+    │      markdown-img-paste-20180327160755801.png
+    │      markdown-img-paste-20180327161547812.png
+    │      markdown-img-paste-20180327161631451.png
+    │      markdown-img-paste-20180327161814412.png
+    │      markdown-img-paste-20180327161900176.png
+    │      markdown-img-paste-20180327205037865.png
+    │      markdown-img-paste-20180327205122857.png
+    │      markdown-img-paste-20180327205141396.png
+    │      markdown-img-paste-2018032720531949.png
+    │      markdown-img-paste-20180327205557531.png
+    │      markdown-img-paste-20180327210342160.png
+    │      markdown-img-paste-20180327210832870.png
+    │      
+    ├─csv
+    │      java_1.csv
+    │      java_2.csv
+    │      name.csv
+    │      number.csv
+    │      otherjavas.csv
+    │      othertype.csv
+    │      otherxmls.csv
+    │      type.csv
+    │      typenumber .csv
+    │      xml_1.csv
+    │      xml_2.csv
+    │      xml_3.csv
+    │      xml_4.csv
+    │      
+    ├─Python解析Java源码例子+github
+    │  │  javalang-master.zip
+    │  │  plyj-master.zip
+    │  │  
+    │  ├─javalang-master
+    │  │  └─javalang-master
+    │  │      │  .gitignore
+    │  │      │  .travis.yml
+    │  │      │  LICENSE.txt
+    │  │      │  MANIFEST.in
+    │  │      │  README.rst
+    │  │      │  requirements.txt
+    │  │      │  setup.py
+    │  │      │  
+    │  │      └─javalang
+    │  │          │  ast.py
+    │  │          │  javadoc.py
+    │  │          │  parse.py
+    │  │          │  parser.py
+    │  │          │  tokenizer.py
+    │  │          │  tree.py
+    │  │          │  util.py
+    │  │          │  __init__.py
+    │  │          │  
+    │  │          └─test
+    │  │              │  test_javadoc.py
+    │  │              │  test_java_8_syntax.py
+    │  │              │  test_package_declaration.py
+    │  │              │  test_tokenizer.py
+    │  │              │  test_util.py
+    │  │              │  __init__.py
+    │  │              │  
+    │  │              └─source
+    │  │                  └─package-info
+    │  │                          AnnotationJavadoc.java
+    │  │                          AnnotationOnly.java
+    │  │                          JavadocAnnotation.java
+    │  │                          JavadocOnly.java
+    │  │                          NoAnnotationNoJavadoc.java
+    │  │                          
+    │  └─plyj-master
+    │      └─plyj-master
+    │          │  .gitignore
+    │          │  .travis.yml
+    │          │  COPYING
+    │          │  MANIFEST.in
+    │          │  README.md
+    │          │  setup.py
+    │          │  
+    │          ├─example
+    │          │      parse_expr.py
+    │          │      symbols.py
+    │          │      symbols_visitor.py
+    │          │      
+    │          ├─plyj
+    │          │      model.py
+    │          │      parser.py
+    │          │      __init__.py
+    │          │      
+    │          └─test
+    │                  compilation_unit.py
+    │                  expressions.py
+    │                  statements.py
+    │                  type_declaration.py
+    │                  __init__.py
+    │                  
+    ├─visio
+    │      Android bug挖掘结构.vsdx
+    │      bug挖掘处理流程.png
+    │      bug挖掘处理流程.vsdx
+    │      Git对象模型.png
+    │      信息获取+基本.png
+    │      信息获取+基本.vsdx
+    │      信息获取.vsdx
+    │      修改分类.png
+    │      修改分类.vsdx
+    │      变异算子.png
+    │      变异算子.vsdx
+    │      变异算子推广.png
+    │      变异算子推广.vsdx
+    │      方法概述.png
+    │      方法概述.vsdx
+    │      自然语言处理+前后信息变化.png
+    │      自然语言处理+前后信息变化.vsdx
+    │      
+    └─xls
+            filechanges.xls
+            java_1.xls
+            java_2.xls
+            name.xls
+            number.xls
+            pulls.xls
+            type.xls
+            typenumber .xls
+            xml_1.xls
+            xml_3.xls
+            xml_4.xls
+            
